@@ -1,0 +1,48 @@
+{
+  "locale": "es-ES",
+  "strings": {
+    "quest": {
+      "quest_burger_order": "Toma pedidos de hamburguesas",
+      "quest_customer_happy": "Haz clientes felices",
+      "quest_customer_amount": "Consigue clientes",
+      "quest_drink_order": "Toma pedidos de bebidas",
+      "quest_drink_order_green": "Pedidos de bebidas verdes",
+      "quest_drink_order_yellow": "Pedidos de bebidas amarillas",
+      "quest_drink_order_blue": "Pedidos de bebidas azules",
+      "quest_drink_order_light_blue": "Pedidos de bebidas claras",
+      "quest_burger_order_in_single_game": "Hamburguesas en un juego",
+      "quest_drink_order_in_single_game": "Bebidas en un juego"
+    },
+    "skill": {
+      "gameTime": {
+        "name": "Tiempo de juego",
+        "desc": "Aumenta el tiempo inicial del juego"
+      },
+      "customerTime": {
+        "name": "Tiempo del cliente",
+        "desc": "Aumenta la paciencia de los clientes"
+      },
+      "bonusTimePerCustomer": {
+        "name": "Tiempo extra por cliente",
+        "desc": "Obtén tiempo extra por cliente"
+      },
+      "bonusMoney": {
+        "name": "Dinero extra",
+        "desc": "Gana más dinero por pedido"
+      }
+    },
+    "ui": {
+      "shop": "Tienda",
+      "setting": "Configuración",
+      "back": "Atrás",
+      "play": "JUGAR",
+      "quest": "MISIÓN"
+    },
+    "confirmation": {
+      "no": "NO",
+      "yes": "SÍ",
+      "ok": "OK",
+      "erase_data": "¿Estás seguro de que deseas restablecer los datos?"
+    }
+  }
+}

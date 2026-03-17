@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "assetId": "Page1",
+      "scaleX": 1,
+      "childIndex": 0,
+      "x": 0,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 0,
+      "visible": true,
+      "name": "page1"
+    },
+    {
+      "assetId": "Page2_Mobile",
+      "scaleX": 1,
+      "childIndex": 1,
+      "x": 0,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 0,
+      "visible": true,
+      "name": "page2_mobile"
+    },
+    {
+      "assetId": "Page2_PC",
+      "scaleX": 1,
+      "childIndex": 2,
+      "x": 0,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 0,
+      "visible": true,
+      "name": "page2_pc"
+    },
+    {
+      "assetId": "page3",
+      "scaleX": 1,
+      "childIndex": 3,
+      "x": 0,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 0,
+      "visible": true,
+      "name": "page3"
+    },
+    {
+      "assetId": "BtnPrevious",
+      "scaleX": 1,
+      "childIndex": 4,
+      "x": 493.95,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 462,
+      "visible": true,
+      "name": "btnPrevious"
+    },
+    {
+      "assetId": "BtnSkip",
+      "scaleX": 1,
+      "childIndex": 5,
+      "x": 627.65,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 462,
+      "visible": true,
+      "name": "btnResume"
+    },
+    {
+      "assetId": "BtnNext",
+      "scaleX": 1,
+      "childIndex": 6,
+      "x": 529.95,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 462,
+      "visible": true,
+      "name": "btnNext"
+    }
+  ],
+  "name": "HowToPlay"
+}

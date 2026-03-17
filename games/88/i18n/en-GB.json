@@ -1,0 +1,48 @@
+{
+  "locale": "en-GB",
+  "strings": {
+    "quest": {
+      "quest_burger_order": "Get Burger Order",
+      "quest_customer_happy": "Get Happy Customer",
+      "quest_customer_amount": "Get Customer",
+      "quest_drink_order": "Get Drink Order",
+      "quest_drink_order_green": "Get Green Drink Order",
+      "quest_drink_order_yellow": "Get Yellow Drink Order",
+      "quest_drink_order_blue": "Get Blue Drink Order",
+      "quest_drink_order_light_blue": "Get Light Blue Drink Order",
+      "quest_burger_order_in_single_game": "Get Burger Order In Single Game",
+      "quest_drink_order_in_single_game": "Get Drink Order In Single Game"
+    },
+    "skill": {
+      "gameTime": {
+        "name": "Game Time",
+        "desc": "Increase initial game time"
+      },
+      "customerTime": {
+        "name": "Customer time",
+        "desc": "Increase customer patience"
+      },
+      "bonusTimePerCustomer": {
+        "name": "Bonus Time Per Customer",
+        "desc": "Get extra time per customer"
+      },
+      "bonusMoney": {
+        "name": "Bonus Money",
+        "desc": "Earn more money per order"
+      }
+    },
+    "ui": {
+      "shop": "Shop",
+      "setting": "Setting",
+      "back": "Back",
+      "play": "PLAY",
+      "quest": "QUEST"
+    },
+    "confirmation": {
+      "no": "NO",
+      "yes": "YES",
+      "ok": "OK",
+      "erase_data": "Are you sure want to reset data ?"
+    }
+  }
+}

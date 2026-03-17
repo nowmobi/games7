@@ -1,0 +1,435 @@
+{
+  "frames": {
+    "paper0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 126,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 39,
+        "y": 22,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper1": {
+      "frame": {
+        "x": 126,
+        "y": 0,
+        "w": 192,
+        "h": 202
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 1,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper2": {
+      "frame": {
+        "x": 318,
+        "y": 0,
+        "w": 197,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 11,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper3": {
+      "frame": {
+        "x": 515,
+        "y": 0,
+        "w": 178,
+        "h": 149
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 26,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper4": {
+      "frame": {
+        "x": 693,
+        "y": 0,
+        "w": 203,
+        "h": 200
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper5": {
+      "frame": {
+        "x": 896,
+        "y": 0,
+        "w": 203,
+        "h": 200
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper6": {
+      "frame": {
+        "x": 1099,
+        "y": 0,
+        "w": 203,
+        "h": 200
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper7": {
+      "frame": {
+        "x": 0,
+        "y": 202,
+        "w": 203,
+        "h": 200
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper8": {
+      "frame": {
+        "x": 203,
+        "y": 202,
+        "w": 203,
+        "h": 200
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper9": {
+      "frame": {
+        "x": 406,
+        "y": 202,
+        "w": 206,
+        "h": 204
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper10": {
+      "frame": {
+        "x": 612,
+        "y": 202,
+        "w": 218,
+        "h": 216
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper11": {
+      "frame": {
+        "x": 830,
+        "y": 202,
+        "w": 237,
+        "h": 220
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper12": {
+      "frame": {
+        "x": 1067,
+        "y": 202,
+        "w": 246,
+        "h": 239
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper13": {
+      "frame": {
+        "x": 0,
+        "y": 441,
+        "w": 246,
+        "h": 239
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper14": {
+      "frame": {
+        "x": 246,
+        "y": 441,
+        "w": 253,
+        "h": 243
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper15": {
+      "frame": {
+        "x": 499,
+        "y": 441,
+        "w": 260,
+        "h": 248
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper16": {
+      "frame": {
+        "x": 759,
+        "y": 441,
+        "w": 203,
+        "h": 200
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper17": {
+      "frame": {
+        "x": 962,
+        "y": 441,
+        "w": 178,
+        "h": 149
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 26,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper18": {
+      "frame": {
+        "x": 1140,
+        "y": 441,
+        "w": 197,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 11,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper19": {
+      "frame": {
+        "x": 0,
+        "y": 689,
+        "w": 192,
+        "h": 202
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 1,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    },
+    "paper20": {
+      "frame": {
+        "x": 192,
+        "y": 689,
+        "w": 126,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 39,
+        "y": 22,
+        "w": 260,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 248
+      }
+    }
+  },
+  "meta": {
+    "app": "Adobe Animate",
+    "version": "20.5.0.29329",
+    "image": "paper.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1500,
+      "h": 954
+    },
+    "scale": "1"
+  }
+}

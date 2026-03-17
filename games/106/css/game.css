@@ -1,0 +1,20 @@
+@font-face {
+	font-family: "SFSlapstickComic";
+	src: 
+		url('../fonts/SFSlapstickComic.woff2') format('woff2'),
+		url('../fonts/SFSlapstickComic.woff') format('woff'),
+		url('../fonts/SFSlapstickComic.ttf') format('truetype');
+}
+@font-face {
+	font-family: "ErasDemi";
+	src: 
+		url('../fonts/ErasDemi.woff2') format('woff2'),
+		url('../fonts/ErasDemi.woff') format('woff'),
+		url('../fonts/ErasDemi.ttf') format('truetype');
+}
+		
+body {
+	background  : #000000;
+	padding     : 0px;
+	margin      : 0px;
+}

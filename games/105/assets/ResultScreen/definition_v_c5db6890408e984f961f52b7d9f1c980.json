@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "assetId": "resultBG",
+      "scaleX": 1,
+      "childIndex": 0,
+      "x": 0,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 0,
+      "visible": true,
+      "name": "instance21"
+    },
+    {
+      "assetId": "Comptoir",
+      "scaleX": 1,
+      "childIndex": 1,
+      "x": -0.5,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 100.3,
+      "visible": true,
+      "name": "instance23"
+    },
+    {
+      "assetId": "resultPaper",
+      "scaleX": 1,
+      "childIndex": 2,
+      "x": 312.5,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": -30.65,
+      "visible": true,
+      "name": "resultPaper"
+    },
+    {
+      "assetId": "BtnQuit",
+      "scaleX": 1,
+      "childIndex": 3,
+      "x": 750.35,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 435,
+      "visible": true,
+      "name": "btnQuit"
+    },
+    {
+      "assetId": "BtnContinue",
+      "scaleX": 1,
+      "childIndex": 4,
+      "x": 618,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 435,
+      "visible": true,
+      "name": "btnContinue"
+    },
+    {
+      "assetId": "Anchor",
+      "scaleX": 1,
+      "childIndex": 5,
+      "x": 686,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 345,
+      "visible": true,
+      "name": "pizzaSuccess"
+    },
+    {
+      "assetId": "Anchor",
+      "scaleX": 1,
+      "childIndex": 6,
+      "x": 182,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 345,
+      "visible": true,
+      "name": "pizzaFail"
+    },
+    {
+      "assetId": "Anchor",
+      "scaleX": 1,
+      "childIndex": 7,
+      "x": 452,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 153,
+      "visible": true,
+      "name": "timeLeft"
+    },
+    {
+      "assetId": "Anchor",
+      "scaleX": 1,
+      "childIndex": 8,
+      "x": 452,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 187,
+      "visible": true,
+      "name": "timeBonus"
+    },
+    {
+      "assetId": "Anchor",
+      "scaleX": 1,
+      "childIndex": 9,
+      "x": 452,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 237,
+      "visible": true,
+      "name": "newTimeLeft"
+    }
+  ],
+  "name": "ResultScreen"
+}

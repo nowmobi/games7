@@ -1,0 +1,7 @@
+<config>
+	<services>
+		<service type="eventReporting" enabled="false" showGameTitle="Show Title: Lemonade Stand" />
+		<service type="voiceOverAudio" enabled="true" />
+		<service type="cutScenesWithVoiceOverAudio" enabled="true" />
+	</services>
+</config>

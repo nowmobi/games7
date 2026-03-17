@@ -1,0 +1,407 @@
+<data dir="mp3/">
+	<!-- 
+		Soundfiles are listed below in three sections, music for BG music loops and stings, sfx for sound effects and vo for Voice Overs
+		
+		Each group is a sound channel.  Music will stop any music playing when triggered, voice over does the same.  SFX will allow any number of SFX files to play concurrently.
+		
+		Each soundfile has a file attribute for the file name (no  file type ending!), optional id, volume 0-100, optional loops and packName
+		
+		EAch soundfile can have an optional platform attribute of mobile or desktop to play only on those platforms
+		
+		Asset packs listed should have folders labeled music, sfx and vo and match groupings.
+		
+		The sound files can be played by file name or id.  If using id, all files with ID will play in listed order when calling SoundPlayerRemote.play().
+		Use the SoundplayerRemote.playRandom or .playSequential to play only one file in the group
+	-->
+	<music channel="music" volume="50">
+		
+		<sound file="nls_splashscreen_loop2" id="titleLoop" volume="30" loops="1" packName="titleandintro"/>
+		<sound file="nls_splashscreen_endstinger2" id="titleSting" volume="30" loops="0" packName="titleandintro"/>
+		
+		<sound file="nls_lemonstand_loop1" id="designerLoop" volume="30" loops="1" packName="designer"/>
+		<sound file="nls_lemonstand_endstinger2a" id="designerSting" volume="30" loops="0" packName="designer"/>
+		
+		<sound file="nls_gamemusic_loop3" id="gameLoop" volume="30" loops="1" packName="primary"/>
+		<sound file="nls_gamemusic_endstinger3" id="gameSting" volume="30" loops="0" packName="primary"/>
+
+		<sound file="nls_mathmusic_loop1" id="ticketsLoop" volume="30" loops="1" packName="serveandsell"/>
+		<sound file="nls_mathmusic_endstinger1" id="ticketsSting" volume="30" loops="0" packName="serveandsell"/>
+		
+		<sound file="nls_parkambient_loop1" id="ambientLoop" volume="15" loops="1" packName="primary"/>
+	</music>
+	
+	<sfx channel="sfx" volume="50" muteable="true">
+		<!-- !do not erase the silence track! -->
+		<sound file="silence" id="silence"  volume="50" packName="primary" />
+		
+		<sound file="click1" id="playBtnClick"  volume="20" packName="primary" />
+		<sound file="ro1" id="playBtnRO" volume="20" packName="primary" />
+		<sound file="click1" id="nextBtnClick"  volume="20" packName="primary" />
+		<sound file="ro1" id="nextBtnRO" volume="20" packName="primary" />
+		<sound file="click1" id="skipBtnClick"  volume="20" packName="primary" />
+		<sound file="ro1" id="skipBtnRO" volume="20" packName="primary" />
+		
+		<sound file="clickArrow" id="scrollBtnClick" volume="20" packName="designer" />
+		<sound file="roArrow" id="scrollBtnRO" volume="20" packName="designer" />
+		
+		<sound file="click1" id="nextDesignerBtnClick" volume="20" packName="primary" />
+		<sound file="ro1" id="nextDesignerBtnRO" volume="20" packName="primary" />
+		
+		<sound file="click2" id="tableBtnClick" volume="20" packName="primary" />
+		<sound file="ro2" id="tableBtnRO" volume="20" packName="primary" />
+		<sound file="click2" id="awningBtnClick" volume="20" packName="primary" />
+		<sound file="ro2" id="awningBtnRO" volume="20" packName="primary" />
+		<sound file="click2" id="wheelBtnClick" volume="20" packName="primary" />
+		<sound file="ro2" id="wheelBtnRO" volume="20" packName="primary" />
+		<sound file="click2" id="glassBtnClick" volume="20" packName="primary" />
+		<sound file="ro2" id="glassBtnRO" volume="20" packName="primary" />
+		
+		<sound file="click2" id="tabTableBtnClick" volume="20" packName="primary" />
+		<sound file="ro2" id="tabTableBtnRO" volume="20" packName="primary" />
+		<sound file="click2" id="tabAwningBtnClick" volume="20" packName="primary" />
+		<sound file="ro2" id="tabAwningBtnRO" volume="20" packName="primary" />
+		<sound file="click2" id="tabWheelBtnClick" volume="20" packName="primary" />
+		<sound file="ro2" id="tabWheelBtnRO" volume="20" packName="primary" />
+		<sound file="click2" id="tabGlassBtnClick" volume="20" packName="primary" />
+		<sound file="ro2" id="tabGlassBtnRO" volume="20" packName="primary" />
+		
+		<sound file="drop_01" id="drop" volume="50" packName="designer" />
+		<sound file="drop_02" id="drop" volume="50" packName="designer" />
+		<sound file="drop_03" id="drop" volume="50" packName="designer" />
+		<sound file="drop_04" id="drop" volume="50" packName="designer" />
+		<sound file="drop_05" id="drop" volume="50" packName="designer" />
+		<sound file="drop_06" id="drop" volume="50" packName="designer" />
+		<sound file="drop_07" id="drop" volume="50" packName="designer" />
+		<sound file="drop_08" id="drop" volume="50" packName="designer" />
+		<sound file="drop_09" id="drop" volume="50" packName="designer" />
+		<sound file="drop_10" id="drop" volume="50" packName="designer" />
+		<sound file="drop_11" id="drop" volume="50" packName="designer" />
+		
+		<sound file="click1" id="recipeSelectBtnClick" volume="20" packName="primary" />
+		<sound file="ro1" id="recipeSelectBtnRO" volume="20" packName="primary" />
+		
+		<sound file="WA" id="WA" volume="50" packName="primary" />
+		<sound file="CA" id="CA" volume="50" packName="primary" />
+		
+		<sound file="slice" id="slice" volume="50" packName="game" />
+		<sound file="squeezeLemon1" id="squeezeLemon1" volume="50" packName="game" />
+		<sound file="squeezeLemon2" id="squeezeLemon2" volume="50" packName="game" />
+		<sound file="bellyHighLight" id="bellyHighLight" volume="40" packName="game" />
+		<sound file="pour" id="pour" volume="30" packName="game" />
+		<sound file="stir" id="stir" volume="40" packName="game" />
+		<sound file="wipe" id="wipe" volume="30" packName="game" />
+		<sound file="crusher" id="crusher" volume="40" packName="game" />
+		<sound file="crusher1" id="crusher1" volume="40" packName="game" />
+		<sound file="crusher2" id="crusher2" volume="40" packName="game" />
+		<sound file="crusher3" id="crusher3" volume="40" packName="game" />
+		<sound file="addSugar" id="addSugar" volume="40" packName="game" />
+		<sound file="dropIceCubes" id="dropIceCubes" volume="40" packName="game" />
+		<sound file="scoopWatermellon_01" id="scoopWatermelon1" volume="40" packName="game" />
+		<sound file="scoopWatermellon_02" id="scoopWatermelon2" volume="40" packName="game" />
+		<sound file="squeezeCucumber2" id="squeezeCucumber2" volume="40" packName="game" />
+		<sound file="squeezePickle2" id="squeezePickle2" volume="40" packName="game" />
+		
+		<sound file="click3" id="squeezeBtnClick" volume="20" packName="primary" />
+		<sound file="ro3" id="squeezeBtnRO" volume="20" packName="primary" />
+		<sound file="click3" id="waterMeasureCupBtnClick" volume="20" packName="primary" />
+		<sound file="ro3" id="waterMeasureCupBtnRO" volume="20" packName="primary" />
+		<sound file="click3" id="sugarCubesBtnClick" volume="20" packName="primary" />
+		<sound file="ro3" id="sugarCubesBtnRO" volume="20" packName="primary" />
+		<sound file="click3" id="pestleCrushBtnClick" volume="20" packName="primary" />
+		<sound file="ro3" id="pestleCrushBtnRO" volume="20" packName="primary" />
+		<sound file="click3" id="iceCubesBtnClick" volume="20" packName="primary" />
+		<sound file="ro3" id="iceCubesBtnRO" volume="20" packName="primary" />
+		<sound file="click3" id="lavenderBtnClick" volume="20" packName="primary" />
+		<sound file="ro3" id="lavenderBtnRO" volume="20" packName="primary" />
+		<sound file="click3" id="blueberriesBtnClick" volume="20" packName="primary" />
+		<sound file="ro3" id="blueberriesBtnRO" volume="20" packName="primary" />
+		<sound file="click3" id="cherryBtnClick" volume="20" packName="primary" />
+		<sound file="ro3" id="cherryBtnRO" volume="20" packName="primary" />
+		<sound file="click3" id="carrotBtnClick" volume="20" packName="primary" />
+		<sound file="ro3" id="carrotBtnRO" volume="20" packName="primary" />
+		<sound file="click3" id="chocolateBtnClick" volume="20" packName="primary" />
+		<sound file="ro3" id="chocolateBtnRO" volume="20" packName="primary" />
+		<sound file="click3" id="mixedfruitBtnClick" volume="20" packName="primary" />
+		<sound file="ro3" id="mixedfruitBtnRO" volume="20" packName="primary" />
+		<sound file="click3" id="stirAnimBtnClick" volume="20" packName="primary" />
+		<sound file="ro3" id="stirAnimBtnRO" volume="20" packName="primary" />		
+		
+		<sound file="click3" id="ticketTotalBtnClick" volume="20" packName="primary" />
+		<sound file="ro3" id="ticketTotalBtnRO" volume="20" packName="primary" />
+		
+		<sound file="pitcherFun_01" id="pitcherFun" volume="40" packName="serveandsell" />
+		<sound file="pitcherFun_02" id="pitcherFun" volume="40" packName="serveandsell" />
+		<sound file="pitcherFun_03" id="pitcherFun" volume="40" packName="serveandsell" />
+		<sound file="pitcherFun_04" id="pitcherFun" volume="40" packName="serveandsell" />
+		
+		<sound file="endScreenReveal" id="endScreenReveal" volume="50" packName="designer" />
+		
+		<sound file="click1" id="playAgainBtnClick" volume="20" packName="primary" />
+		<sound file="ro1" id="playAgainBtnRO" volume="20" packName="primary" />
+	</sfx>
+	
+	<vo channel="vo" volume="100">
+		<!-- TITLE -->
+		<sound file="LS_2" id="titleVOMobile" volume="100" packName="titleandintro" />
+		<sound file="LS_3" id="titleVOMobile" volume="100" packName="titleandintro" />
+		<sound file="LS_3" id="titleDelayMobile" volume="100" packName="titleandintro" />
+		<sound file="LS_2" id="titleVODesktop" volume="100" packName="titleandintro" />
+		<sound file="LS_3a" id="titleVODesktop" volume="100" packName="titleandintro" />
+		<sound file="LS_3a" id="titleDelayDesktop" volume="100" packName="titleandintro" />
+		<sound file="LS_4" id="titleOutroVO" volume="100" packName="titleandintro" />
+		<sound file="LS_5" id="skipVO" volume="100" packName="primary" />
+		<sound file="LS_6" id="homeBtn" volume="100" packName="primary" />
+		
+		<!-- INTRO -->
+		<sound file="LS_7" id="LS_7" volume="100" packName="titleandintro" />
+		<sound file="LS_8" id="LS_8" volume="100" packName="titleandintro" />
+		<sound file="LS_8a" id="LS_8a" volume="100" packName="titleandintro" />
+		<sound file="LS_8b" id="LS_8b" volume="100" packName="titleandintro" />
+		<sound file="LS_9" id="LS_9" volume="100" packName="titleandintro" />
+		
+		<!-- DESIGNER -->
+		<sound file="LS_10" id="LS_10" volume="100" packName="designer" />
+		<sound file="LS_11" id="LS_11" volume="100" packName="designer" />
+		<sound file="LS_12" id="LS_12" volume="100" packName="designer" />
+		<sound file="LS_12a" id="LS_12a" volume="100" packName="designer" />
+		<sound file="LS_12b" id="LS_12b" volume="100" packName="designer" />
+		<sound file="LS_13" id="LS_13" volume="100" packName="designer" />
+		<sound file="LS_14" id="LS_14" volume="100" packName="designer" />
+		<sound file="LS_15a" id="LS_15a" volume="100" packName="designer" />
+		<sound file="LS_16" id="LS_16" volume="100" packName="designer" />
+		<sound file="LS_17" id="LS_17" volume="100" packName="designer" />
+		<sound file="LS_26" id="LS_26" volume="100" packName="designer" />
+		<sound file="LS_18" id="tabAwningBtn" volume="100" packName="designer" />
+		<sound file="LS_19" id="tabTableBtn" volume="100" packName="designer" />
+		<sound file="LS_20" id="tabWheelBtn" volume="100" packName="designer" />
+		<sound file="LS_21" id="tabGlassBtn" volume="100" packName="designer" />
+		<sound file="LS_22" id="designerEncVO" volume="100" packName="designer" />
+		<sound file="LS_23" id="designerEncVO" volume="100" packName="designer" />
+		<sound file="LS_24" id="designerEncVO" volume="100" packName="designer" />
+		<sound file="LS_25" id="designerEncVO" volume="100" packName="designer" />
+		<sound file="LS_14a" id="designerEncVO" volume="100" packName="designer" />
+		<sound file="LS_27" id="LS_27" volume="100" packName="designer" />
+		
+		<!-- RECIPES -->
+		<sound file="LS_28" id="recipeSelectVO" volume="100" packName="game" />
+		<sound file="LS_28a" id="recipeSelect2VO" volume="100" packName="game" />
+		<sound file="LS_28b" id="recipeSelect3VO" volume="100" packName="game" />
+		<sound file="LS_29" id="pickleLemonadeVO" volume="100" packName="game" />
+		<sound file="LS_30" id="cherryLemonadeVO" volume="100" packName="game" />
+		<sound file="LS_31" id="lavenderLemonadeVO" volume="100" packName="game" />
+		<sound file="LS_32" id="cucumberLemonadeVO" volume="100" packName="game" />
+		<sound file="LS_33" id="blueberriesLemonadeVO" volume="100" packName="game" />
+		<sound file="LS_34" id="bananaLemonadeVO" volume="100" packName="game" />
+		<sound file="LS_35" id="watermelonLemonadeVO" volume="100" packName="game" />
+		<sound file="LS_36" id="chocolateLemonadeVO" volume="100" packName="game" />
+		<sound file="LS_37" id="carrotLemonadeVO" volume="100" packName="game" />
+		<sound file="LS_38" id="rainbowLemonadeVO" volume="100" packName="game" />
+		<sound file="LS_39" id="lemonadeSelectVO" volume="100" packName="game" />
+		<sound file="LS_40" id="lemonadeSelectVO" volume="100" packName="game" />
+		<sound file="LS_40a" id="lemonadeSelectVO" volume="100" packName="game" />
+		<sound file="LS_40b" id="lemonadeSelectVO" volume="100" packName="game" />
+		<sound file="LS_41" id="lemonSliceVO" volume="100" packName="game" />
+		<sound file="LS_42" id="lemonHalfVO" volume="100" packName="game" />
+		<sound file="LS_43" id="LS_43" volume="100" packName="game" />
+		<sound file="LS_43a" id="LS_43a" volume="100" packName="game" />
+		<sound file="LS_43c" id="LS_43c" volume="100" packName="game" />
+		<sound file="LS_44" id="halfIncorrectVO" volume="100" packName="game" />
+		<sound file="LS_45" id="lemonCorrectVO" volume="100" packName="game" />
+		<sound file="LS_45a" id="pickleCorrectVO" volume="100" packName="game" />
+		<sound file="LS_45b" id="cucumberCorrectVO" volume="100" packName="game" />
+		<sound file="LS_45c" id="bananaCorrectVO" volume="100" packName="game" />
+		<sound file="LS_45d" id="pickleHalfVO" volume="100" packName="game" />
+		<sound file="LS_45e" id="cucumberHalfVO" volume="100" packName="game" />
+		<sound file="LS_45f" id="bananaHalfVO" volume="100" packName="game" />
+		<sound file="LS_45g" id="watermelonHalfVO" volume="100" packName="game" />
+		<sound file="LS_45h" id="watermelonCorrectVO" volume="100" packName="game" />
+		<sound file="LS_45i" id="LS_45i" volume="100" packName="game" />
+		<sound file="LS_45j" id="LS_45j" volume="100" packName="game" />
+		<sound file="LS_45k" id="LS_45k" volume="100" packName="game" />
+		<sound file="LS_45l" id="LS_45l" volume="100" packName="game" />
+		<sound file="LS_45m" id="LS_45m" volume="100" packName="game" />
+		<sound file="LS_46" id="LS_46" volume="100" packName="game" />
+		<sound file="LS_47" id="LS_47" volume="100" packName="game" />
+		<sound file="LS_49" id="lemonEncVO" volume="100" packName="game" />
+		<sound file="LS_49a" id="bananaEncVO" volume="100" packName="game" />
+		<sound file="LS_49b" id="pickleEncVO" volume="100" packName="game" />
+		<sound file="LS_49c" id="cucumberEncVO" volume="100" packName="game" />
+		<sound file="LS_49d" id="watermelonEncVO" volume="100" packName="game" />
+		<sound file="LS_49e" id="lemonTapVO" volume="100" packName="game" />
+		<sound file="LS_49f" id="pickleTapVO" volume="100" packName="game" />
+		<sound file="LS_49g" id="cucumberTapVO" volume="100" packName="game" />
+		<sound file="LS_49h" id="watermelonTapVO" volume="100" packName="game" />
+		<sound file="LS_49i" id="bananaTapVO" volume="100" packName="game" />
+		<sound file="LS_50" id="waterVO" volume="100" packName="game" />
+		<sound file="LS_51" id="recipeVO" volume="100" packName="game" />
+		<sound file="LS_51a" id="recipe3VO" volume="100" packName="game" />
+		<sound file="LS_51b" id="recipe4VO" volume="100" packName="game" />
+		<sound file="LS_52" id="water2VO" volume="100" packName="game" />
+		<sound file="LS_53" id="water3VO" volume="100" packName="game" />
+		<sound file="LS_54" id="water4VO" volume="100" packName="game" />
+		<sound file="LS_55" id="water5VO" volume="100" packName="game" />
+		<sound file="LS_56" id="water6VO" volume="100" packName="game" />
+		<sound file="LS_57" id="water7VO" volume="100" packName="game" />
+		<sound file="LS_135" id="water8VO" volume="100" packName="game" />
+		<sound file="LS_136" id="water9VO" volume="100" packName="game" />
+		<sound file="LS_137" id="water10VO" volume="100" packName="game" />
+		<sound file="LS_138" id="cherry2VO" volume="100" packName="game" />
+		<sound file="LS_139" id="cherry3VO" volume="100" packName="game" />
+		<sound file="LS_140" id="cherry4VO" volume="100" packName="game" />
+		<sound file="LS_141" id="cherry5VO" volume="100" packName="game" />
+		<sound file="LS_142" id="cherry6VO" volume="100" packName="game" />
+		<sound file="LS_143" id="cherry7VO" volume="100" packName="game" />
+		<sound file="LS_144" id="cherry8VO" volume="100" packName="game" />
+		<sound file="LS_145" id="cherry9VO" volume="100" packName="game" />
+		<sound file="LS_146" id="cherry10VO" volume="100" packName="game" />
+		<sound file="LS_147" id="carrot2VO" volume="100" packName="game" />
+		<sound file="LS_148" id="carrot3VO" volume="100" packName="game" />
+		<sound file="LS_149" id="carrot4VO" volume="100" packName="game" />
+		<sound file="LS_150" id="carrot5VO" volume="100" packName="game" />
+		<sound file="LS_151" id="carrot6VO" volume="100" packName="game" />
+		<sound file="LS_152" id="carrot7VO" volume="100" packName="game" />
+		<sound file="LS_153" id="carrot8VO" volume="100" packName="game" />
+		<sound file="LS_154" id="carrot9VO" volume="100" packName="game" />
+		<sound file="LS_155" id="carrot10VO" volume="100" packName="game" />
+		<sound file="LS_15" id="LS_15" volume="100" packName="game" />
+		<sound file="LS_58" id="incorrectVO" volume="100" packName="game" />
+		<sound file="LS_58b" id="incorrect2VO" volume="100" packName="game" />
+		<sound file="LS_156" id="recipe2VO" volume="100" packName="game" />
+		<sound file="LS_157" id="correctVO" volume="100" packName="game" />
+		<sound file="LS_59" id="correct2VO" volume="100" packName="game" />
+		<sound file="LS_60" id="correct2VO" volume="100" packName="game" />
+		<sound file="LS_61" id="waterPourVO" volume="100" packName="game" />
+		<sound file="LS_158" id="cherryPourVO" volume="100" packName="game" />
+		<sound file="LS_160" id="cherryPourVO" volume="100" packName="game" />
+		<sound file="LS_159" id="carrotPour2VO" volume="100" packName="game" />
+		<sound file="LS_161" id="carrotPour2VO" volume="100" packName="game" />
+		<sound file="LS_61a" id="icePourVO" volume="100" packName="game" />
+		<sound file="LS_216" id="chocolatePourVO" volume="100" packName="game" />
+		<sound file="LS_217" id="mixedfruitPourVO" volume="100" packName="game" />
+		<sound file="LS_62" id="LS_62" volume="100" packName="game" />
+		<sound file="LS_71" id="stirVO" volume="100" packName="game" />
+		<sound file="LS_63" id="sugarVO" volume="100" packName="game" />
+		<sound file="LS_64" id="sugar1VO" volume="100" packName="game" />
+		<sound file="LS_65" id="sugar2VO" volume="100" packName="game" />
+		<sound file="LS_66" id="sugar3VO" volume="100" packName="game" />
+		<sound file="LS_67" id="sugar4VO" volume="100" packName="game" />
+		<sound file="LS_68" id="sugar5VO" volume="100" packName="game" />
+		<sound file="LS_69" id="sugar6VO" volume="100" packName="game" />
+		<sound file="LS_162" id="blueberries1VO" volume="100" packName="game" />
+		<sound file="LS_163" id="blueberries2VO" volume="100" packName="game" />
+		<sound file="LS_164" id="blueberries3VO" volume="100" packName="game" />
+		<sound file="LS_165" id="blueberries4VO" volume="100" packName="game" />
+		<sound file="LS_166" id="blueberries5VO" volume="100" packName="game" />
+		<sound file="LS_167" id="blueberries6VO" volume="100" packName="game" />
+		<sound file="LS_168" id="blueberries7VO" volume="100" packName="game" />
+		<sound file="LS_169" id="blueberries8VO" volume="100" packName="game" />
+		<sound file="LS_170" id="blueberries9VO" volume="100" packName="game" />
+		<sound file="LS_171" id="blueberries10VO" volume="100" packName="game" />
+		<sound file="LS_172" id="lavender1VO" volume="100" packName="game" />
+		<sound file="LS_173" id="lavender2VO" volume="100" packName="game" />
+		<sound file="LS_174" id="lavender3VO" volume="100" packName="game" />
+		<sound file="LS_175" id="lavender4VO" volume="100" packName="game" />
+		<sound file="LS_176" id="lavender5VO" volume="100" packName="game" />
+		<sound file="LS_177" id="lavender6VO" volume="100" packName="game" />
+		<sound file="LS_70" id="sugarCrushVO" volume="100" packName="game" />
+		<sound file="LS_178" id="lavenderCrushVO" volume="100" packName="game" />
+		<sound file="LS_179" id="blueberriesCrushVO" volume="100" packName="game" />
+		<sound file="LS_179a" id="muddleTimeoutVO" volume="100" packName="game" />
+		<sound file="LS_203" id="chocolateCrushVO" volume="100" packName="game" />
+		<sound file="LS_180" id="lavenderEncVO" volume="100" packName="game" />
+		<sound file="LS_181" id="blueberriesEncVO" volume="100" packName="game" />
+		<sound file="LS_72" id="iceVO" volume="100" packName="game" />
+		<sound file="LS_182" id="ice4VO" volume="100" packName="game" />
+		<sound file="LS_183" id="ice5VO" volume="100" packName="game" />
+		<sound file="LS_184" id="ice6VO" volume="100" packName="game" />
+		<sound file="LS_73" id="ice7VO" volume="100" packName="game" />
+		<sound file="LS_74" id="ice8VO" volume="100" packName="game" />
+		<sound file="LS_75" id="ice9VO" volume="100" packName="game" />
+		<sound file="LS_76" id="ice10VO" volume="100" packName="game" />
+		<sound file="LS_77" id="ice11VO" volume="100" packName="game" />
+		<sound file="LS_78" id="ice12VO" volume="100" packName="game" />
+		<sound file="LS_185" id="chocolate4VO" volume="100" packName="game" />
+		<sound file="LS_186" id="chocolate5VO" volume="100" packName="game" />
+		<sound file="LS_187" id="chocolate6VO" volume="100" packName="game" />
+		<sound file="LS_188" id="chocolate7VO" volume="100" packName="game" />
+		<sound file="LS_189" id="chocolate8VO" volume="100" packName="game" />
+		<sound file="LS_190" id="chocolate9VO" volume="100" packName="game" />
+		<sound file="LS_191" id="chocolate10VO" volume="100" packName="game" />
+		<sound file="LS_192" id="chocolate11VO" volume="100" packName="game" />
+		<sound file="LS_193" id="chocolate12VO" volume="100" packName="game" />
+		<sound file="LS_194" id="mixedfruit4VO" volume="100" packName="game" />
+		<sound file="LS_195" id="mixedfruit5VO" volume="100" packName="game" />
+		<sound file="LS_196" id="mixedfruit6VO" volume="100" packName="game" />
+		<sound file="LS_197" id="mixedfruit7VO" volume="100" packName="game" />
+		<sound file="LS_198" id="mixedfruit8VO" volume="100" packName="game" />
+		<sound file="LS_199" id="mixedfruit9VO" volume="100" packName="game" />
+		<sound file="LS_200" id="mixedfruit10VO" volume="100" packName="game" />
+		<sound file="LS_201" id="mixedfruit11VO" volume="100" packName="game" />
+		<sound file="LS_202" id="mixedfruit12VO" volume="100" packName="game" />
+		<sound file="LS_204" id="iceEncVO" volume="100" packName="game" />
+		<sound file="LS_205" id="chocolateEncVO" volume="100" packName="game" />
+		<sound file="LS_206" id="mixedfruitEncVO" volume="100" packName="game" />
+		<sound file="LS_79" id="finalStirVO" volume="100" packName="game" />
+		<sound file="LS_80" id="lemonadeCompleteVO" volume="100" packName="game" />
+		<sound file="LS_81" id="lavenderVO" volume="100" packName="game" />
+		<sound file="LS_207" id="cherryVO" volume="100" packName="game" />
+		<sound file="LS_208" id="pickleSliceVO" volume="100" packName="game" />
+		<sound file="LS_209" id="cucumberSliceVO" volume="100" packName="game" />
+		<sound file="LS_210" id="blueberriesVO" volume="100" packName="game" />
+		<sound file="LS_211" id="bananaSliceVO" volume="100" packName="game" />
+		<sound file="LS_212" id="watermelonSliceVO" volume="100" packName="game" />
+		<sound file="LS_213" id="chocolateVO" volume="100" packName="game" />
+		<sound file="LS_214" id="carrotVO" volume="100" packName="game" />
+		<sound file="LS_215" id="mixedfruitVO" volume="100" packName="game" />
+			
+		<!-- SERVE AND SELL -->
+		<sound file="LS_88" id="LS_88" volume="100" packName="serveandsell" />
+		<sound file="LS_89" id="LS_89" volume="100" packName="serveandsell" />
+		<sound file="LS_90" id="LS_90" volume="100" packName="serveandsell" />
+		<sound file="LS_91" id="LS_91" volume="100" packName="serveandsell" />
+		<sound file="LS_92" id="LS_92" volume="100" packName="serveandsell" />
+		<sound file="LS_93" id="LS_93" volume="100" packName="serveandsell" />
+		<sound file="LS_94" id="LS_94" volume="100" packName="serveandsell" />
+		<sound file="LS_96" id="LS_96" volume="100" packName="serveandsell" />
+		<sound file="LS_218" id="LS_218" volume="100" packName="serveandsell" />
+		<sound file="LS_219" id="ticketsIntro1VO" volume="100" packName="serveandsell" />
+		<sound file="LS_220" id="ticketsIntro2VO" volume="100" packName="serveandsell" />
+		<sound file="LS_97" id="LS_97" volume="100" packName="serveandsell" />
+		<sound file="LS_97a" id="LS_97a" volume="100" packName="serveandsell" />
+		<sound file="LS_97b" id="LS_97b" volume="100" packName="serveandsell" />
+		<sound file="LS_97c" id="LS_97c" volume="100" packName="serveandsell" />
+		<sound file="LS_98" id="LS_98" volume="100" packName="serveandsell" />
+		<sound file="LS_99" id="tickets1VO" volume="100" packName="serveandsell" />
+		<sound file="LS_100" id="tickets2VO" volume="100" packName="serveandsell" />
+		<sound file="LS_101" id="tickets3VO" volume="100" packName="serveandsell" />
+		<sound file="LS_102" id="tickets4VO" volume="100" packName="serveandsell" />
+		<sound file="LS_103" id="tickets5VO" volume="100" packName="serveandsell" />
+		<sound file="LS_104" id="tickets6VO" volume="100" packName="serveandsell" />
+		<sound file="LS_105" id="tickets7VO" volume="100" packName="serveandsell" />
+		<sound file="LS_106" id="tickets8VO" volume="100" packName="serveandsell" />
+		<sound file="LS_107" id="tickets9VO" volume="100" packName="serveandsell" />
+		<sound file="LS_108" id="tickets10VO" volume="100" packName="serveandsell" />
+		<sound file="LS_111" id="ticketsCorrectVO" volume="100" packName="serveandsell" />
+		<sound file="LS_111a" id="ticketsCorrectVO" volume="100" packName="serveandsell" />
+		<sound file="LS_111b" id="ticketsCorrectVO" volume="100" packName="serveandsell" />
+		<sound file="LS_112" id="plusVO" volume="100" packName="serveandsell" />
+		<sound file="LS_113" id="equalsVO" volume="100" packName="serveandsell" />
+		<sound file="LS_113a" id="allTogetherVO" volume="100" packName="serveandsell" />
+		<sound file="LS_114" id="count1VO" volume="100" packName="serveandsell" />
+		<sound file="LS_115" id="count2VO" volume="100" packName="serveandsell" />
+		<sound file="LS_116" id="count3VO" volume="100" packName="serveandsell" />
+		<sound file="LS_117" id="count4VO" volume="100" packName="serveandsell" />
+		<sound file="LS_118" id="count5VO" volume="100" packName="serveandsell" />
+		<sound file="LS_119" id="count6VO" volume="100" packName="serveandsell" />
+		<sound file="LS_120" id="count7VO" volume="100" packName="serveandsell" />
+		<sound file="LS_121" id="count8VO" volume="100" packName="serveandsell" />
+		<sound file="LS_122" id="count9VO" volume="100" packName="serveandsell" />
+		<sound file="LS_123" id="count10VO" volume="100" packName="serveandsell" />
+		<sound file="LS_126" id="ticketsIncorrectVO" volume="100" packName="serveandsell" />
+		<sound file="LS_127" id="ticketsIncorrectVO" volume="100" packName="serveandsell" />
+		<sound file="LS_128" id="ticketsIncorrectVO" volume="100" packName="serveandsell" />
+		<sound file="LS_222" id="playAgainVOMobile" volume="100" packName="serveandsell" />
+		<sound file="LS_221" id="playAgainVODesktop" volume="100" packName="serveandsell" />
+		<sound file="LS_136a" id="playAgainVO" volume="100" packName="serveandsell" />
+	</vo>
+</data>

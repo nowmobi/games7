@@ -1,0 +1,159 @@
+{
+  "md5": "1e77df0f837ef56ebc5cdc286b0510b5",
+  "movies": [
+    {
+      "id": "mc_frame",
+      "layers": [
+        {
+          "keyframes": [
+            {
+              "pivot": [
+                480,
+                280
+              ],
+              "duration": 1,
+              "ref": "texture_orange_frame",
+              "loc": [
+                480,
+                280
+              ],
+              "tweened": false,
+              "index": 0
+            }
+          ],
+          "name": "Layer 1"
+        }
+      ]
+    },
+    {
+      "id": "mc_preloader",
+      "layers": [
+        {
+          "keyframes": [
+            {
+              "tweened": false,
+              "duration": 1,
+              "index": 0,
+              "ref": "texture_BGloader"
+            }
+          ],
+          "name": "texture_BGloader"
+        },
+        {
+          "keyframes": [
+            {
+              "pivot": [
+                180.1,
+                195.65
+              ],
+              "duration": 1,
+              "ref": "texture_recipe0007",
+              "loc": [
+                512.1667,
+                388.0623
+              ],
+              "tweened": false,
+              "index": 0,
+              "scale": [
+                0.72,
+                0.72
+              ]
+            }
+          ],
+          "name": "texture_recipe0007"
+        },
+        {
+          "keyframes": [
+            {
+              "pivot": [
+                110,
+                125
+              ],
+              "duration": 1,
+              "ref": "texture_loader_fill0001",
+              "alpha": 0.8008,
+              "loc": [
+                493.1,
+                402.95
+              ],
+              "tweened": false,
+              "index": 0
+            }
+          ],
+          "name": "texture_loader_fill0001"
+        }
+      ]
+    }
+  ],
+  "frameRate": 30,
+  "isNamespaced": false,
+  "textureGroups": [
+    {
+      "atlases": [
+        {
+          "textures": [
+            {
+              "symbol": "texture_orange_frame",
+              "origin": [
+                0,
+                0
+              ],
+              "rect": [
+                1,
+                1,
+                960,
+                560
+              ]
+            },
+            {
+              "symbol": "texture_recipe0007",
+              "origin": [
+                0,
+                0
+              ],
+              "rect": [
+                1,
+                563,
+                360,
+                391
+              ]
+            },
+            {
+              "symbol": "texture_loader_fill0001",
+              "origin": [
+                0,
+                0
+              ],
+              "rect": [
+                363,
+                563,
+                220,
+                250
+              ]
+            }
+          ],
+          "file": "atlas0.png"
+        },
+        {
+          "textures": [
+            {
+              "symbol": "texture_BGloader",
+              "origin": [
+                0,
+                0
+              ],
+              "rect": [
+                1,
+                1,
+                960,
+                560
+              ]
+            }
+          ],
+          "file": "atlas1.png"
+        }
+      ],
+      "scaleFactor": 1
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "locale": "fr-FR",
+  "strings": {
+    "quest": {
+      "quest_burger_order": "Prends des commandes de burgers",
+      "quest_customer_happy": "Rends les clients heureux",
+      "quest_customer_amount": "Obtiens des clients",
+      "quest_drink_order": "Prends des commandes de boissons",
+      "quest_drink_order_green": "Commandes de boissons vertes",
+      "quest_drink_order_yellow": "Commandes de boissons jaunes",
+      "quest_drink_order_blue": "Commandes de boissons bleues",
+      "quest_drink_order_light_blue": "Commandes de boissons bleu clair",
+      "quest_burger_order_in_single_game": "Commandes burgers en une partie",
+      "quest_drink_order_in_single_game": "Commandes boissons en une partie"
+    },
+    "skill": {
+      "gameTime": {
+        "name": "Temps de jeu",
+        "desc": "Augmenter le temps de jeu initial"
+      },
+      "customerTime": {
+        "name": "Temps du client",
+        "desc": "Augmenter la patience des clients"
+      },
+      "bonusTimePerCustomer": {
+        "name": "Temps bonus par client",
+        "desc": "Obtenez du temps supplémentaire par client"
+      },
+      "bonusMoney": {
+        "name": "Argent bonus",
+        "desc": "Gagnez plus d'argent par commande"
+      }
+    },
+    "ui": {
+      "shop": "Boutique",
+      "setting": "Paramètres",
+      "back": "Retour",
+      "play": "JOUER",
+      "quest": "QUÊTE"
+    },
+    "confirmation": {
+      "no": "NON",
+      "yes": "OUI",
+      "ok": "OK",
+      "erase_data": "Êtes-vous sûr de vouloir réinitialiser les données ?"
+    }
+  }
+}

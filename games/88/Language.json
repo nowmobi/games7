@@ -1,0 +1,50 @@
+{
+  "c2array": true,
+  "size": [
+    2,
+    6,
+    1
+  ],
+  "data": [
+    [
+      [
+        "en-GB"
+      ],
+      [
+        "es-ES"
+      ],
+      [
+        "fr-FR"
+      ],
+      [
+        "zh-CN"
+      ],
+      [
+        "it-IT"
+      ],
+      [
+        "de-DE"
+      ]
+    ],
+    [
+      [
+        "English"
+      ],
+      [
+        "Spanish"
+      ],
+      [
+        "French"
+      ],
+      [
+        "Chinese"
+      ],
+      [
+        "Italian"
+      ],
+      [
+        "German"
+      ]
+    ]
+  ]
+}

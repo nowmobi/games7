@@ -1,0 +1,315 @@
+{
+  "frames": {
+    "cream_timer_por0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    },
+    "cream_timer_por1": {
+      "frame": {
+        "x": 0,
+        "y": 58,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    },
+    "cream_timer_por2": {
+      "frame": {
+        "x": 0,
+        "y": 116,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    },
+    "cream_timer_por3": {
+      "frame": {
+        "x": 0,
+        "y": 174,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    },
+    "cream_timer_por4": {
+      "frame": {
+        "x": 0,
+        "y": 232,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    },
+    "cream_timer_por5": {
+      "frame": {
+        "x": 0,
+        "y": 290,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    },
+    "cream_timer_por6": {
+      "frame": {
+        "x": 0,
+        "y": 348,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    },
+    "cream_timer_por7": {
+      "frame": {
+        "x": 0,
+        "y": 406,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    },
+    "cream_timer_por8": {
+      "frame": {
+        "x": 0,
+        "y": 464,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    },
+    "cream_timer_por9": {
+      "frame": {
+        "x": 0,
+        "y": 522,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    },
+    "cream_timer_por10": {
+      "frame": {
+        "x": 0,
+        "y": 580,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    },
+    "cream_timer_por11": {
+      "frame": {
+        "x": 0,
+        "y": 638,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    },
+    "cream_timer_por12": {
+      "frame": {
+        "x": 0,
+        "y": 696,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    },
+    "cream_timer_por13": {
+      "frame": {
+        "x": 0,
+        "y": 754,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    },
+    "cream_timer_por14": {
+      "frame": {
+        "x": 0,
+        "y": 812,
+        "w": 522,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 522,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 522,
+        "h": 58
+      }
+    }
+  },
+  "meta": {
+    "app": "Adobe Animate",
+    "version": "20.5.0.29329",
+    "image": "cream_timer_por.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 552,
+      "h": 896
+    },
+    "scale": "1"
+  }
+}

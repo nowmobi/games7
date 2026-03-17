@@ -1,0 +1,94 @@
+{
+  "recipes": [
+    {
+      "name": "lavender",
+      "water": 2,
+      "sugar": 3,
+      "ice": 10,
+      "specialName": "lavender",
+      "specialAmount": 4,
+      "specialPart": ""
+    },
+    {
+      "name": "blueberries",
+      "water": 2,
+      "sugar": 3,
+      "ice": 10,
+      "specialName": "blueberries",
+      "specialAmount": 4,
+      "specialPart": ""
+    },
+    {
+      "name": "banana",
+      "water": 2,
+      "sugar": 3,
+      "ice": 10,
+      "specialName": "banana",
+      "specialAmount": 1,
+      "specialPart": "half"
+    },
+    {
+      "name": "watermelon",
+      "water": 2,
+      "sugar": 3,
+      "ice": 10,
+      "specialName": "watermelon",
+      "specialAmount": 1,
+      "specialPart": "half"
+    },
+    {
+      "name": "cherry",
+      "water": 2,
+      "sugar": 3,
+      "ice": 10,
+      "specialName": "cherry",
+      "specialAmount": 4,
+      "specialPart": ""
+    },
+    {
+      "name": "cucumber",
+      "water": 2,
+      "sugar": 3,
+      "ice": 10,
+      "specialName": "cucumber",
+      "specialAmount": 1,
+      "specialPart": "half"
+    },
+    {
+      "name": "pickle",
+      "water": 2,
+      "sugar": 3,
+      "ice": 10,
+      "specialName": "pickle",
+      "specialAmount": 1,
+      "specialPart": "half"
+    },
+    {
+      "name": "carrot",
+      "water": 2,
+      "sugar": 3,
+      "ice": 10,
+      "specialName": "carrot",
+      "specialAmount": 4,
+      "specialPart": ""
+    },
+    {
+      "name": "rainbow",
+      "water": 2,
+      "sugar": 3,
+      "ice": 10,
+      "specialName": "mixedfruit",
+      "specialAmount": 4,
+      "specialPart": ""
+    },
+    {
+      "name": "chocolate",
+      "water": 2,
+      "sugar": 3,
+      "ice": 10,
+      "specialName": "chocolate",
+      "specialAmount": 4,
+      "specialPart": ""
+    }
+  ]
+}

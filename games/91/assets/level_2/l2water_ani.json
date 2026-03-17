@@ -1,0 +1,355 @@
+{
+  "frames": {
+    "l2water_ani0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 188,
+        "h": 252
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 63,
+        "y": 29,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani1": {
+      "frame": {
+        "x": 188,
+        "y": 0,
+        "w": 272,
+        "h": 305
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 21,
+        "y": 3,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani2": {
+      "frame": {
+        "x": 460,
+        "y": 0,
+        "w": 312,
+        "h": 311
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 0,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani3": {
+      "frame": {
+        "x": 772,
+        "y": 0,
+        "w": 304,
+        "h": 269
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 21,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani4": {
+      "frame": {
+        "x": 1076,
+        "y": 0,
+        "w": 256,
+        "h": 191
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 29,
+        "y": 60,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani5": {
+      "frame": {
+        "x": 1332,
+        "y": 0,
+        "w": 275,
+        "h": 245
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 60,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani6": {
+      "frame": {
+        "x": 0,
+        "y": 311,
+        "w": 285,
+        "h": 312
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 60,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani7": {
+      "frame": {
+        "x": 285,
+        "y": 311,
+        "w": 281,
+        "h": 296
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 60,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani8": {
+      "frame": {
+        "x": 566,
+        "y": 311,
+        "w": 281,
+        "h": 296
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 60,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani9": {
+      "frame": {
+        "x": 847,
+        "y": 311,
+        "w": 281,
+        "h": 296
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 60,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani10": {
+      "frame": {
+        "x": 1128,
+        "y": 311,
+        "w": 281,
+        "h": 296
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 60,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani11": {
+      "frame": {
+        "x": 0,
+        "y": 623,
+        "w": 281,
+        "h": 304
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 60,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani12": {
+      "frame": {
+        "x": 281,
+        "y": 623,
+        "w": 268,
+        "h": 304
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 60,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani13": {
+      "frame": {
+        "x": 549,
+        "y": 623,
+        "w": 267,
+        "h": 304
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 18,
+        "y": 60,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani14": {
+      "frame": {
+        "x": 816,
+        "y": 623,
+        "w": 266,
+        "h": 302
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 19,
+        "y": 60,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani15": {
+      "frame": {
+        "x": 1082,
+        "y": 623,
+        "w": 263,
+        "h": 286
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 22,
+        "y": 60,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    },
+    "l2water_ani16": {
+      "frame": {
+        "x": 1345,
+        "y": 623,
+        "w": 190,
+        "h": 253
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 62,
+        "y": 29,
+        "w": 313,
+        "h": 372
+      },
+      "sourceSize": {
+        "w": 313,
+        "h": 372
+      }
+    }
+  },
+  "meta": {
+    "app": "Adobe Animate",
+    "version": "20.5.0.29329",
+    "image": "l2water_ani.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1610,
+      "h": 948
+    },
+    "scale": "1"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "locale": "zh-CN",
+  "strings": {
+    "quest": {
+      "quest_burger_order": "获取汉堡订单",
+      "quest_customer_happy": "让顾客满意",
+      "quest_customer_amount": "获取顾客",
+      "quest_drink_order": "获取饮料订单",
+      "quest_drink_order_green": "获取绿色饮料订单",
+      "quest_drink_order_yellow": "获取黄色饮料订单",
+      "quest_drink_order_blue": "获取蓝色饮料订单",
+      "quest_drink_order_light_blue": "获取浅蓝色饮料订单",
+      "quest_burger_order_in_single_game": "单局中获取汉堡",
+      "quest_drink_order_in_single_game": "单局中获取饮料"
+    },
+    "skill": {
+      "gameTime": {
+        "name": "时间",
+        "desc": "增加初始游戏时间"
+      },
+      "customerTime": {
+        "name": "耐心",
+        "desc": "增加顾客的耐心"
+      },
+      "bonusTimePerCustomer": {
+        "name": "加时",
+        "desc": "每位顾客获得额外时间"
+      },
+      "bonusMoney": {
+        "name": "奖金",
+        "desc": "每个订单赚取更多金钱"
+      }
+    },
+    "ui": {
+      "shop": "商店",
+      "setting": "设置",
+      "back": "返回",
+      "play": "开始",
+      "quest": "任务"
+    },
+    "confirmation": {
+      "no": "否",
+      "yes": "是",
+      "ok": "确定",
+      "erase_data": "您确定要重置数据吗？"
+    }
+  }
+}

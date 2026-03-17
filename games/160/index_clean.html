@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, minimal-ui" />
+
+    <title>Burger - hyhygames.com</title>
+    <script type="text/javascript">
+        document.domain = 'hyhygames.com'
+    </script>
+
+
+
+    <style>
+      /* 隐藏所有广告容器 */
+      #imaContainer,
+      #imaContainer_new,
+      #sdk__advertisement,
+      #gmLoadingText,
+      iframe[src*="imasdk"],
+      iframe[src*="doubleclick"],
+      iframe[src*="googlesyndication"],
+      iframe[title="Advertisement"],
+      div[id*="google_ads"],
+      div[id*="aswift"] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+    </style>
+    <script>
+      // 定期清除动态插入的广告元素
+      setInterval(function() {
+        var adSelectors = [
+          '#imaContainer',
+          '#imaContainer_new', 
+          '#sdk__advertisement',
+          '#gmLoadingText',
+          'iframe[src*="imasdk"]',
+          'iframe[src*="doubleclick"]',
+          'iframe[src*="googlesyndication"]',
+          'iframe[title="Advertisement"]',
+          'div[id*="google_ads"]',
+          'div[id*="aswift"]'
+        ];
+        
+        adSelectors.forEach(function(selector) {
+          var elements = document.querySelectorAll(selector);
+          elements.forEach(function(el) {
+            if (el && el.parentNode) {
+              el.parentNode.removeChild(el);
+            }
+          });
+        });
+
+        // 阻止广告SDK函数
+        if (window.sdk_init) window.sdk_init = function() {};
+        if (window.sdk) window.sdk = { showBanner: function() {}, requestAd: function() {} };
+        if (window.adBreak) window.adBreak = function() {};
+        if (window.adConfig) window.adConfig = function() {};
+      }, 500);
+    </script>
+
+  </head>
+
+<body>
+    <script src="./phaser.min.js"></script>
+    <script src="./game.js"></script>
+    <style>
+        #sharks {
+            font-family: "font-interfata";
+            visibility: hidden;
+        }
+
+        #cooper {
+            font-family: "CooperBlackStd";
+            visibility: hidden;
+        }
+
+        @font-face {
+            font-family: 'font-interfata';
+            font-style: normal;
+            src: url(./assets/fonts/font-interfata.ttf);
+        }
+
+        @font-face {
+            font-family: 'CooperBlackStd';
+            font-style: black;
+            src: url(./assets/fonts/font-levels-map.otf);
+        }
+    </style>
+    <div id="sharks">.</div>
+    <div id="cooper">.</div>
+
+
+    <script type="text/javascript">
+        window.SDK_OPTIONS = {
+            gameId: "qw4v21ei18qupf0om1whltxbc1kn1vqa",
+            onEvent: function(a) {
+                switch (a.name) {
+                    case "SDK_GAME_PAUSE":
+                        // pause game logic / mute audio
+                        break;
+                    case "SDK_GAME_START":
+                        // advertisement done, resume game logic and unmute audio
+                        break;
+                    case "SDK_READY":
+                        // when sdk is ready
+                        break;
+                }
+            }
+        };
+        (function(a, b, c) {
+            var d = a.getElementsByTagName(b)[0];
+            a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk.js", d.parentNode.insertBefore(a, d))
+        })(document, "script", "gamemonetize-sdk");
+    </script>
+
+
+    <script type="text/javascript">
+        function Advert1() {
+            if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+                sdk.showBanner();
+            }
+        };
+
+        function Advert2() {
+            if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+                sdk.showBanner();
+            }
+        };
+
+        setTimeout(function() {
+            Advert1();
+        }, 1000);
+        setInterval(function() {
+            Advert2();
+        }, 70000);
+    </script>
+
+
+    <div id="gameContainer" style="width: 100%; height: 100%;">
+        <div id="content"></div>
+        <a href="hyhygames.com" onclick="window.open('https://hyhygames.com'); return false;"><img src="logo.png" style="bottom:1%;right:1%;position:absolute;width:100px;transform:translate(-5%,2%);cursor:pointer;height:auto;max-width:30%;z-index:80%" alt="hyhygames.com"></a>
+    </div>
+</body>
+
+</html>

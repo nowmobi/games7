@@ -1,0 +1,22 @@
+{
+  "companyName": "Gaming Cafe",
+  "productName": "Drink Buffet",
+  "productVersion": "1.0",
+  "dataUrl": "db.data.unityweb",
+  "asmCodeUrl": "db.asm.code.unityweb",
+  "asmMemoryUrl": "db.asm.memory.unityweb",
+  "asmFrameworkUrl": "db.asm.framework.unityweb",
+  "TOTAL_MEMORY": 268435456,
+  "graphicsAPI": [
+    "WebGL 2.0",
+    "WebGL 1.0"
+  ],
+  "webglContextAttributes": {
+    "preserveDrawingBuffer": false
+  },
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#231F20",
+  "developmentBuild": false,
+  "multithreading": false,
+  "unityVersion": "2019.2.1f1"
+}

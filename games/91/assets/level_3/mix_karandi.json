@@ -1,0 +1,375 @@
+{
+  "frames": {
+    "mix_karandi0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 413
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 257,
+        "y": 54,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi1": {
+      "frame": {
+        "x": 305,
+        "y": 0,
+        "w": 305,
+        "h": 413
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 190,
+        "y": 80,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi2": {
+      "frame": {
+        "x": 610,
+        "y": 0,
+        "w": 305,
+        "h": 412
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 123,
+        "y": 106,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi3": {
+      "frame": {
+        "x": 915,
+        "y": 0,
+        "w": 306,
+        "h": 413
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 61,
+        "y": 87,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi4": {
+      "frame": {
+        "x": 1221,
+        "y": 0,
+        "w": 306,
+        "h": 413
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 68,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi5": {
+      "frame": {
+        "x": 0,
+        "y": 413,
+        "w": 306,
+        "h": 412
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 57,
+        "y": 34,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi6": {
+      "frame": {
+        "x": 306,
+        "y": 413,
+        "w": 306,
+        "h": 412
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 114,
+        "y": 0,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi7": {
+      "frame": {
+        "x": 612,
+        "y": 413,
+        "w": 306,
+        "h": 412
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 185,
+        "y": 27,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi8": {
+      "frame": {
+        "x": 918,
+        "y": 413,
+        "w": 305,
+        "h": 413
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 257,
+        "y": 54,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi9": {
+      "frame": {
+        "x": 1223,
+        "y": 413,
+        "w": 305,
+        "h": 413
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 257,
+        "y": 54,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi10": {
+      "frame": {
+        "x": 0,
+        "y": 826,
+        "w": 305,
+        "h": 413
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 190,
+        "y": 80,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi11": {
+      "frame": {
+        "x": 305,
+        "y": 826,
+        "w": 305,
+        "h": 412
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 123,
+        "y": 106,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi12": {
+      "frame": {
+        "x": 610,
+        "y": 826,
+        "w": 306,
+        "h": 413
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 61,
+        "y": 87,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi13": {
+      "frame": {
+        "x": 916,
+        "y": 826,
+        "w": 306,
+        "h": 413
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 68,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi14": {
+      "frame": {
+        "x": 1222,
+        "y": 826,
+        "w": 306,
+        "h": 412
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 57,
+        "y": 34,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi15": {
+      "frame": {
+        "x": 0,
+        "y": 1239,
+        "w": 306,
+        "h": 412
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 114,
+        "y": 0,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi16": {
+      "frame": {
+        "x": 306,
+        "y": 1239,
+        "w": 306,
+        "h": 412
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 185,
+        "y": 27,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    },
+    "mix_karandi17": {
+      "frame": {
+        "x": 612,
+        "y": 1239,
+        "w": 305,
+        "h": 413
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 257,
+        "y": 54,
+        "w": 562,
+        "h": 518
+      },
+      "sourceSize": {
+        "w": 562,
+        "h": 518
+      }
+    }
+  },
+  "meta": {
+    "app": "Adobe Animate",
+    "version": "20.5.0.29329",
+    "image": "mix_karandi.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1568,
+      "h": 1704
+    },
+    "scale": "1"
+  }
+}

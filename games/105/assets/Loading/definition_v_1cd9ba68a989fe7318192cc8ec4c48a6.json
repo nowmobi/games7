@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "assetId": "background",
+      "scaleX": 1,
+      "childIndex": 0,
+      "x": 0,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 0,
+      "visible": true,
+      "name": "instance4"
+    },
+    {
+      "assetId": "glow",
+      "scaleX": 1,
+      "childIndex": 1,
+      "x": 145,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 136,
+      "visible": true,
+      "name": "glow"
+    },
+    {
+      "assetId": "text",
+      "scaleX": 1,
+      "childIndex": 2,
+      "x": 145,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 136,
+      "visible": true,
+      "name": "instance7"
+    }
+  ],
+  "name": "Loading"
+}

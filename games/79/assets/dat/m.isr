@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<stringresources>
+	<languages>
+		<language>en</language>
+		<language>es</language>
+		<language>de</language>
+		<language>fr</language>
+		<language>pt</language>
+		<language>it</language>
+	</languages>
+	<strings>
+
+		<string id="ENABLE_SOUNDS" index="0">
+			<en>ENABLE MUSIC?</en>
+			<es>ENCENDER LA MÚSICA?</es>
+			<de>MUSIK EINSCHALTEN?</de>
+			<fr>ALLUMER LA MUSIQUE?</fr>
+			<pt>LIGAR SONS?</pt>
+			<it>ABILITARE MUSICA?</it>
+			<ru>ВКЛЮЧИТЬ МУЗЫКУ?</ru>
+		</string>
+
+		<string id="STATS" index="1">
+			<en>STATS</en>
+			<es>STATS</es>
+			<de>STATS</de>
+			<fr>STATS</fr>
+			<pt>STATS</pt>
+			<it>STATS</it>
+			<ru>СТАТИСТИКА</ru>
+		</string>
+
+		<string id="MAGIC_TOWER" index="2">
+			<en>MAGIC TOWER</en>
+			<es>MAGIC TOWER</es>
+			<de>MAGIC TOWER</de>
+			<fr>TOUR MAGIQUE</fr>
+			<pt>MAGIC TOWER</pt>
+			<it>TORRE MAGICA</it>
+			<ru>ВОЛШЕБНАЯ БАШНЯ</ru>
+		</string>
+
+		<string id="INVENTORY" index="3">
+			<en>INVENTORY</en>
+			<es>INVENTORY</es>
+			<de>INVENTORY</de>
+			<fr>INVENTAIRE</fr>
+			<pt>INVENTORY</pt>
+			<it>INVENTARIO</it>
+			<ru>ИНВЕНТАРЬ</ru>
+		</string>
+
+		<string id="CONSUMABLE" index="4">
+			<en>CONSUMABLE</en>
+			<es>CONSUMABLE</es>
+			<de>CONSUMABLE</de>
+			<fr>CONSOMMABLES</fr>
+			<pt>CONSUMABLE</pt>
+			<it>OGGETTI</it>
+			<ru>РАСХОДНЫХ</ru>
+		</string>
+
+		<string id="STRENGTH" index="5">
+			<en>STRENGTH</en>
+			<es>STRENGTH</es>
+			<de>STRENGTH</de>
+			<fr>FORCE</fr>
+			<pt>STRENGTH</pt>
+			<it>FORZA</it>
+			<ru>ПРОЧНОСТЬ</ru>
+		</string>
+
+		<string id="HEALTH" index="6">
+			<en>HEALTH</en>
+			<es>HEALTH</es>
+			<de>HEALTH</de>
+			<fr>SANTÉ</fr>
+			<pt>HEALTH</pt>
+			<it>SALUTE</it>
+			<ru>ЗДОРОВЬЕ</ru>
+		</string>
+
+		<string id="AGILITY" index="7">
+			<en>AGILITY</en>
+			<es>AGILITY</es>
+			<de>AGILITY</de>
+			<fr>AGILITÉ</fr>
+			<pt>AGILITY</pt>
+			<it>AGILITÀ</it>
+			<ru>ЛОВКОСТЬ</ru>
+		</string>
+
+		<string id="CRITICAL" index="8">
+			<en>CRITICAL</en>
+			<es>CRITICAL</es>
+			<de>CRITICAL</de>
+			<fr>COUP CRITIQUE</fr>
+			<pt>CRITICAL</pt>
+			<it>CRITICO</it>
+			<ru>КРИТИЧЕСКОЕ</ru>
+		</string>
+
+		<string id="KNOCKBACK" index="9">
+			<en>KNOCKBACK</en>
+			<es>KNOCKBACK</es>
+			<de>KNOCKBACK</de>
+			<fr>COUP PUISSANT</fr>
+			<pt>KNOCKBACK</pt>
+			<it>RESPINTA</it>
+			<ru>ОТБРОСИТЬ</ru>
+		</string>
+
+		<string id="STRENGTH_TEXT" index="10">
+			<en>INCREASES THE BASIC DAMAGE CAUSED AGAINST THE ENEMY</en>
+			<es>AUMENTA EL DANO BÁSICO CAUSADO POR EL ENEMIGO</es>
+			<de>ERHÖHT DIE GRUNDLEGENDE BESCHÄDIGUNG, VERURSACHT GEGEN DEN FEIND</de>
+			<fr>AUGMENTE LES DOMMAGES INFLIGÉS A L´ENNEMI</fr>
+			<pt>AUMENTA O DANO BÁSICO CAUSADO POR INIMIGO</pt>
+			<it>AUMENTA IL DANNO MAGICO INFLITTO AL NEMICO</it>
+			<ru>УВЕЛИЧИВАЕТ ОСНОВНОЙ УЩЕРБ, НАПРАВЛЕНЫЙ ПРОТИВ ВРАГА</ru>
+		</string>
+
+		<string id="HEALTH_TEXT" index="11">
+			<en>INCREASES THE ENERGY OF THE RAMPART</en>
+			<es>AUMENTA LA ENERGÍA DE LA MURALLA</es>
+			<de>ERHÖHT DIE ENERGIE DES VERTEIDIGUNGSWALLS</de>
+			<fr>AUGMENTE L’ÉNERGIE DE LA FORTIFICATION</fr>
+			<pt>AUMENTA A ENERGIA DA BARREIRA DEFENSIVA</pt>
+			<it>AUMENTA L'ENERGIA DEL BASTIONE</it>
+			<ru>УВЕЛИЧИВАЕТ ЭНЕРГИЮ РАМПАРТА</ru>
+		</string>
+
+		<string id="AGILITY_TEXT" index="12">
+			<en>INCREASES THE SPEED OF THE SHOOTING</en>
+			<es>AUMENTA LA VELOCIDAD DEL DISPARO</es>
+			<de>ERHÖHT DIE SCHNELLIGKEIT BEIM SCHIEßEN</de>
+			<fr>AUGMENTE LA CADENCE DE TIR</fr>
+			<pt>AUMENTA A VELOCIDADE DE FOGO</pt>
+			<it>AUMENTA LA VELOCITÀ DELL'ATTACCO</it>
+			<ru>УВЕЛИЧИВАЕТ СКОРОСТЬ ВЫСТРЕЛОВ</ru>
+		</string>
+
+		<string id="CRITICAL_TEXT" index="13">
+			<en>INCREASES THE CHANCE TO CAUSE DOUBLE DAMAGE</en>
+			<es>AUMENTA LA POSIBILIDAD DE CAUSAR DANO DOBLE</es>
+			<de>ERHÖHT DIE CHANCE, DOPPELTE BESCHÄDIGUNG ZU VERURSACHEN</de>
+			<fr>AUGMENTE LES CHANCES DE DOUBLER LES DOMMAGES INFLIGÉS</fr>
+			<pt>AUMENTA A CHANCE DE CAUSAR UM DANO DUPLO</pt>
+			<it>AUMENTA LA POSSIBILITÀ DI CAUSARE IL DOPPIO DEL DANNO</it>
+			<ru>УВЕЛИЧИВАЕТ ШАНС ПРИЧИНИТЬ ДВОЙНОЙ УЩЕРБ</ru>
+		</string>
+
+		<string id="KNOCKBACK_TEXT" index="14">
+			<en>INCREASES THE CHANCE OF THE SHOTS TO SLOW DOWN THE ENEMIES</en>
+			<es>AUMENTA LA PROBABILIDAD DE LOS DISPAROS PARA FRENAR A LOS ENEMIGOS</es>
+			<de>ERHÖHT DIE CHANCE DER SCHÜSSE, DIE FEINDE ZU VERLANGSAMEN</de>
+			<fr>AUGMENTE LES CHANCES DE RALENTIR LES ENNEMIS AVEC LES TIRS</fr>
+			<pt>AUMENTA A CHANCE DAS BALAS PARA RETARDAR OS INIMIGOS</pt>
+			<it>AUMENTA LA POSSIBILITÀ CHE GLI ATTACCHI RALLENTINO I NEMICI</it>
+			<ru>УВЕЛИЧИВАЕТ ШАНСЫ НА ЗАМЕДЛЕНИЕ ВРАГОВ </ru>
+		</string>
+
+		<string id="MAGE_TOWER_TEXT" index="15">
+			<en>INCREASES THE AMOUNT OF THE MANNA AND UNLOCKS THE MAGIC</en>
+			<es>AUMENTA LA CANTIDAD DE MANÁ Y DESBLOQUEA LA MAGIA</es>
+			<de>ERHÖHT DIE MENGE VON MANA, UND SPERRT ZAUBER AUF</de>
+			<fr>AUGMENTE LA QUANTITÉ DE MANA ET DÉBLOQUE LES SORTS MAGIQUES</fr>
+			<pt>AUMENTA A QUANTIDADE DE MANA E DESBLOQUEIA OS ENCANTOS</pt>
+			<it>AUMENTA LA QUANTITÀ DEL MANA E SBLOCCA LE MAGIE</it>
+			<ru>УВЕЛИЧИВАЕТ КОЛИЧЕСТВО МАННЫ И ОТКРЫВАЕТ ВОЛШЕБСТВО</ru>
+		</string>
+
+		<string id="FIRESPELL_1" index="16">
+			<en>FIREBALL THE BASIC FIRE MAGIC.</en>
+			<es>FIREBALL LA MAGIA BÁSICA DEL FUEGO.</es>
+			<de>FIREBALL GRUNDLEGENDER FEUERZAUBER.</de>
+			<fr>BOULE DE FEU SORT DE FEU DE BASE. BLESSE LES ENNEMIS.</fr>
+			<pt>FIREBALL ENCANTO DE FOGO BÁSICO.</pt>
+			<it>LA SFERA INFUOCATA È LA MAGIA DI FUOCO BASE.</it>
+			<ru>ШАРОВАЯ МОЛНИЯ НАЧАЛЬНАЯ ОГНЕВАЯ МАГИЯ.</ru>
+		</string>
+
+		<string id="FIRESPELL_2" index="17">
+			<en>METEORS STRONGER FIRE MAGIC.</en>
+			<es>METEORS MAGIA DEL FUEGO MÁS FUERTE.</es>
+			<de>METEORS STÄRKERER FEUERZAUBER.</de>
+			<fr>MÉTÉORES SORT DE FEU INTERMÉDIAIRE.</fr>
+			<pt>METEORS ENCANTO DE FOGO FORTE.</pt>
+			<it>LE METEORE SONO UNA MAGIA DI FUOCO PIÙ FORTE.</it>
+			<ru>МЕТЕОРЫ СИЛЬНАЯ ОГНЕВАЯ МАГИЯ.</ru>
+		</string>
+
+		<string id="FIRESPELL_3" index="18">
+			<en>METEOR SHOWER ADVANCED FIRE MAGIC.</en>
+			<es>METEOR SHOWER MAGIA DEL FUEGO AVANZADA.</es>
+			<de>METEOR SHOWER FORTGESCHRITTENER FEUERZAUBER.</de>
+			<fr>PLUIE DE MÉTÉORES SORT DE FEU AVANCÉ.</fr>
+			<pt>METEOR SHOWER ENCANTO DE FOGO MAIS AVANÇADO.</pt>
+			<it>LA PIOGGIA DI METEORITI È UNA MAGIA DI FUOCO AVANZATA.</it>
+			<ru>МЕТЕОРИТНЫЙ ДОЖДЬ РАСШИРЕННАЯ ОГНЕВАЯ МАГИЯ.</ru>
+		</string>
+
+		<string id="FIRESPELL_4" index="19">
+			<en>ARMAGEDDON THE STRONGEST FIRE MAGIC.</en>
+			<es>ARMAGEDDON LA MAGIA DEL FUEGO MÁS FUERTE.</es>
+			<de>ARMAGEDDON DER STÄRKSTE FEUERZAUBER.</de>
+			<fr>ARMAGEDDON SORT DE FEU LE PLUS PUISSANT.</fr>
+			<pt>ARMAGEDDON O ENCANTO DE FOGO MAIS FORTE.</pt>
+			<it>L'ARMAGEDDON È LA MAGIA DI FUOCO PIÙ FORTE DI TUTTE.</it>
+			<ru>АРМАГЕДДОН САМАЯ СИЛЬНАЯ ОГНЕВАЯ МАГИЯ.</ru>
+		</string>
+
+		<string id="FIRESPELL_BASE" index="20">
+			<en>IT HURTS THE ATTACKERS.</en>
+			<es>HIERE A LOS ATACANTES.</es>
+			<de>VERLETZT DIE ANGREIFER.</de>
+			<fr>BLESSE LES ENNEMIS.</fr>
+			<pt>PREJUDICA OS ATACANTES.</pt>
+			<it>FERISCE GLI ASSALTATORI.</it>
+			<ru>ЭТО ВРЕДИТ НАПАДАЮЩЕМУ</ru>
+		</string>
+
+		<string id="FROSTSPELL_1" index="21">
+			<en>ICE BOLT THE BASIC ICE MAGIC.</en>
+			<es>ICE BOLT LA MAGIA DEL HIELO BÁSICA.</es>
+			<de>ICE BOLT GRUNDLEGENDER EISZAUBER.</de>
+			<fr>ECLAIR DE GLACE SORT DE GLACE DE BASE.</fr>
+			<pt>ICE BOLT ENCANTO DE GELO BÁSICO.</pt>
+			<it>IL COLPO DI GHIACCIO È LA MAGIA DI GHIACCIO BASE.</it>
+			<ru>ЛЕДЯНОЙ БОЛТ НАЧАЛЬНАЯ ЛЕДЯНАЯ МАГИЯ.</ru>
+		</string>
+
+		<string id="FROSTSPELL_2" index="22">
+			<en>ICE BLAST STRONGER ICE MAGIC.</en>
+			<es>ICE BLAST MAGIA DEL HIELO MÁS FUERTE.</es>
+			<de>ICE BLAST STÄRKERER EISZAUBER.</de>
+			<fr>SOUFFLE DE GLACE SORT DE GLACE INTERMÉDIAIRE.</fr>
+			<pt>ICE BLAST ENCANTO DE GELO FORTE.</pt>
+			<it>IL COLPO DI GHIACCIO È UNA MAGIA DI GHIACCIO PIÙ FORTE.</it>
+			<ru>ЛЕДЯННОЙ ВЗРЫВ СИЛЬНАЯ ЛЕДЯНАЯ МАГИЯ</ru>
+		</string>
+
+		<string id="FROSTSPELL_3" index="23">
+			<en>ICE SHOWER ADVANCED ICE MAGIC.</en>
+			<es>ICE SHOWER MAGIA DEL HIELO AVANZADA.</es>
+			<de>ICE SHOWER FORTGESCHRITTENER EISZAUBER.</de>
+			<fr>PLUIE DE GLACE SORT DE GLACE AVANCÉ.</fr>
+			<pt>ICE SHOWER ENCANTO DE GELO MAIS AVANÇADO.</pt>
+			<it>LA PIOGGIA DI GHIACCIO È UNA MAGIA DI GHIACCIO AVANZATA.</it>
+			<ru>ЛЕДЯНОЙ ДОЖДЬ РАСШИРЕННАЯ ЛЕДЯНАЯ МАГИЯ.</ru>
+		</string>
+
+		<string id="FROSTSPELL_4" index="24">
+			<en>ICE STORM THE STRONGEST ICE MAGIC.</en>
+			<es>ICE STORM LA MAGIA DEL HIELO MÁS FUERTE.</es>
+			<de>ICE STORM DER STÄRKSTE EISZAUBER.</de>
+			<fr>TEMPETE DE GLACE SORT DE GLACE LE PLUS PUISSANT.</fr>
+			<pt>ICE STORM O ENCANTO DE GELO MAIS FORTE.</pt>
+			<it>LA TEMPESTA DI GHIACCIO È LA MAGIA DI GHIACCIO PIÙ FORTE DI TUTTE.</it>
+			<ru>ЛЕДЯНОЙ ШТОРМ САМАЯ СИЛЬНАЯ ЛЕДЯНАЯ МАГИЯ.</ru>
+		</string>
+
+		<string id="FROSTSPELL_BASE" index="25">
+			<en>IT SLOWS DOWN THE ATTACKERS.</en>
+			<es>RALENTIZA A LOS ATACANTES.</es>
+			<de>VERLANGSAMT DIE ANGREIFER.</de>
+			<fr>RALENTIT LES ENNEMIS.</fr>
+			<pt>RETARDA OS ATACANTES.</pt>
+			<it>RALLENTA GLI ASSALTATORI.</it>
+			<ru>ЗАМЕДЛЯЕТ НАПАДАЮЩЕГО.</ru>
+		</string>
+
+		<string id="POISONSPELL_1" index="26">
+			<en>BASIC POISON THE BASIC POISON MAGIC.</en>
+			<es>BASIC POISON LA MAGIA DEL VENENO BÁSICA.</es>
+			<de>BASIC POISON GRUNDLEGENDER GIFTZAUBER.</de>
+			<fr>EMPOISONNEMENT SORT DE POISON DE BASE.</fr>
+			<pt>BASIC POISON ENCANTO DE VENENO BÁSICO.</pt>
+			<it>IL VELENO BASE È LA MAGIA DI VELENO BASE.</it>
+			<ru>ОСНОВНОЙ ЯД НАЧАЛЬНАЯ ЯДОВИТАЯ МАГИЯ.</ru>
+		</string>
+
+		<string id="POISONSPELL_2" index="27">
+			<en>DOUBLE POISON STRONGER POISON MAGIC.</en>
+			<es>DOUBLE POISON MAGIA DEL VENENO MÁS FUERTE.</es>
+			<de>DOUBLE POISON STÄRKERER GIFTZAUBER.</de>
+			<fr>GRIFFE EMPOISONNÉE SORT DE POISON INTERMÉDIAIRE.</fr>
+			<pt>DOUBLE POISON ENCANTO DE VENENO FORTE.</pt>
+			<it>IL DOPPIO VELENO È UNA MAGIA DI VELENO PIÙ FORTE.</it>
+			<ru>ДВОЙНОЙ ЯД СИЛЬНАЯ ЯДОВИТАЯ МАГИЯ</ru>
+		</string>
+
+		<string id="POISONSPELL_3" index="28">
+			<en>GREATER VENOM ADVANCED POISON MAGIC.</en>
+			<es>GREATER VENOM MAGIA DEL VENENO AVANZADA.</es>
+			<de>GREATER VENOM FORTGESCHRITTENER GIFTZAUBER.</de>
+			<fr>CHOC EMPOISONNÉ SORT DE POISON AVANCÉ.</fr>
+			<pt>GREATER VENOM ENCANTO DE VENENO MAIS AVANÇADO.</pt>
+			<it>GRAN VELENO È UNA MAGIA DI VELENO AVANZATA.</it>
+			<ru>СИЛЬНЫЙ ЯД ПРОДВИНУТАЯ ЯДОВИТАЯ МАГИЯ</ru>
+		</string>
+
+		<string id="POISONSPELL_4" index="29">
+			<en>VENOM RAGE THE STRONGEST POISON MAGIC.</en>
+			<es>VENOM RAGE LA MAGIA DEL VENENO MÁS FUERTE.</es>
+			<de>VENOM RAGE DER STÄRKSTE GIFTZAUBER.</de>
+			<fr>MORSURE DU COBRA SORT DE POISON LE PLUS PUISSANT.</fr>
+			<pt>VENOM RAGE O ENCANTO DE GELO MAIS FORTE.</pt>
+			<it>RABBIA VELENOSA È LA MAGIA DI VELENO PIÙ FORTE DI TUTTE.</it>
+			<ru>СВЕРЕПЫЙ ЯД САМАЯ СИЛЬНАЯ ЯДОВИТАЯ МАГИЯ</ru>
+		</string>
+
+		<string id="POISONSPELL_BASE" index="30">
+			<en>IT SLOWS DOWN AND HURTS THE ATTACKERS.</en>
+			<es>RALENTIZA Y HIERE A LOS ATACANTES.</es>
+			<de>VERLANGSAMT UND VERLETZT DIE ANGREIFER.</de>
+			<fr>RALENTIT ET BLESSE LES ENNEMIS.</fr>
+			<pt>RETARDA E PREJUDICA OS ATACANTES.</pt>
+			<it>RALLENTA E FERISCE GLI ASSALTATORI.</it>
+			<ru>ЭТО ЗАМЕДЛЯЕТ И РАНИТ НАПАДАЮЩЕГО</ru>
+		</string>
+
+		<string id="WIZARD_STAFF" index="31">
+			<en>WIZARD STAFF</en>
+			<es>WIZARD STAFF</es>
+			<de>WIZARD STAFF</de>
+			<fr>BÂTON DE MAGICIEN</fr>
+			<pt>WIZARD STAFF</pt>
+			<it>BASTONE DEL MAGO</it>
+			<ru>МАСТЕР ВОЛШЕБСТВА</ru>
+		</string>
+
+		<string id="YELLOW_STAFF" index="32">
+			<en>YELLOW WIZARD STAFF - 2 SHOTS (DAMAGE 55 % + 55 %)</en>
+			<es>YELLOW WIZARD STAFF - 2 DISPAROS (DANO 55 % + 55 %)</es>
+			<de>YELLOW WIZARD STAFF - 2 SCHÜSSE (BESCHÄDIGUNG 55% + 55%)</de>
+			<fr>BÂTON DE MAGICIEN JAUNE - 2 TIRS (DOMMAGES 55 % + 55 %)</fr>
+			<pt>YELLOW WIZARD STAFF - 2 TIROS (DANO 55 % + 55 %)</pt>
+			<it>BASTONE DEL MAGO GIALLO - 2 ATTACCHI (DANNO 55 % + 55 %)</it>
+			<ru>ЖЕЛТЫЙ МАСТЕР ВОЛШЕБСТВА - 2 ВЫСТРЕЛА (УЩЕРБ 55% + 55%)</ru>
+		</string>
+
+		<string id="ORANGE_STAFF" index="33">
+			<en>ORANGE WIZARD STAFF - 2 SHOTS (DAMAGE 65 % + 65 %)</en>
+			<es>ORANGE WIZARD STAFF - 2 DISPAROS (DANO 65 % + 65 %)</es>
+			<de>ORANGE WIZARD STAFF - 2 SCHÜSSE (BESCHÄDIGUNG 65% + 65%)</de>
+			<fr>BÂTON DE MAGICIEN ORANGE- 2 TIRS (DOMMAGES 65 % + 65 %)</fr>
+			<pt>ORANGE WIZARD STAFF - 2 TIROS (DANO 65 % + 65 %)</pt>
+			<it>BASTONE DEL MAGO ARANCIONE - 2 ATTACCHI (DANNO 65 % + 65 %)</it>
+			<ru>ОРАНЖЕВЫЙ МАСТЕР ВОЛШЕБСТВА - 2 ВЫСТРЕЛА (УЩЕРБ 65% + 65%)</ru>
+		</string>
+
+		<string id="RED_STAFF" index="34">
+			<en>RED WIZARD STAFF - 2 SHOTS (DAMAGE 75 % + 75 %)</en>
+			<es>RED WIZARD STAFF - 2 DISPAROS (DANO 75 % + 75 %)</es>
+			<de>RED WIZARD STAFF - 2 SCHÜSSE (BESCHÄDIGUNG 75% + 75%)</de>
+			<fr>BÂTON DE MAGICIEN ROUGE- 2 TIRS (DOMMAGES 75 % + 75 %)</fr>
+			<pt>RED WIZARD STAFF - 2 TIROS (DANO 75 % + 75 %)</pt>
+			<it>BASTONE DEL MAGO ROSSO - 2 ATTACCHI (DANNO 75 % + 75 %)</it>
+			<ru>КРАСНЫЙ МАСТЕР ВОЛШЕБСТВА - 2 ВЫСТРЕЛА (УЩЕРБ 75% + 75%) </ru>
+		</string>
+
+		<string id="GREEN_STAFF" index="35">
+			<en>GREEN WIZARD STAFF - 3 SHOTS (DAMAGE 55 % + 55 % + 55 %)</en>
+			<es>GREEN WIZARD STAFF - 3 DISPAROS (ANO 55 % + 55 % + 55 %)</es>
+			<de>GREEN WIZARD STAFF - 3 SCHÜSSE (BESCHÄDIGUNG 55% + 55% + 55%)</de>
+			<fr>BÂTON DE MAGICIEN VERT - 3 TIRS (DOMMAGES 55 % + 55 % + 55 %)</fr>
+			<pt>GREEN WIZARD STAFF - 3 TIROS (DANO 55 % + 55 % + 55 %)</pt>
+			<it>BASTONE DEL MAGO VERDE - 3 ATTACCHI (DANNO 55 % + 55 % + 55 %)</it>
+			<ru>ЗЕЛЕНЫЙ МАСТЕР ВОЛШЕБСТВА - 3 ВЫСТРЕЛА (УЩЕРБ 55% + 55% + 55%)</ru>
+		</string>
+
+		<string id="BLUE_STAFF" index="36">
+			<en>BLUE WIZARD STAFF - 3 SHOTS (DAMAGE 65 % + 65 % + 65 %)</en>
+			<es>BLUE WIZARD STAFF - 3 DISPAROS (ANO 65 % + 65 % + 65 %)</es>
+			<de>BLUE WIZARD STAFF - 3 SCHÜSSE (BESCHÄDIGUNG 65% + 65% + 65%)</de>
+			<fr>BÂTON DE MAGICIEN BLEU - 3 TIRS (DOMMAGES 65 % + 65 % + 65 %)</fr>
+			<pt>BLUE WIZARD STAFF - 3 TIROS (DANO 65 % + 65 % + 65 %)</pt>
+			<it>BASTONE DEL MAGO BLU - 3 ATTACCHI (DANNO 65 % + 65 % + 65 %)</it>
+			<ru>ГОЛУБОЙ МАСТЕР ВОЛШЕБСТВА -  3 ВЫСТРЕЛА (УЩЕРБ 65 % + 65 % + 65 %)</ru>
+		</string>
+
+		<string id="PURPLE_STAFF" index="37">
+			<en>PURPLE WIZARD STAFF - 3 SHOTS (DAMAGE 75 % + 75% + 75 %)</en>
+			<es>PURPLE WIZARD STAFF - 3 DISPAROS (ANO 75 % + 75 % + 75 %)</es>
+			<de>PURPLE WIZARD STAFF - 3 SCHÜSSE (BESCHÄDIGUNG 75% + 75% + 75%)</de>
+			<fr>BÂTON DE MAGICIEN VIOLET - 3 TIRS (DOMMAGES 75 % + 75 % + 75 %)</fr>
+			<pt>PURPLE WIZARD STAFF - 3 TIROS (DANO 75 % + 75 % + 75 %)</pt>
+			<it>BASTONE DEL MAGO PORPORA - 3 ATTACCHI (DANNO 75 % + 75% + 75 %)</it>
+			<ru>ФИОЛЕТОВЫЙ МАСТЕР ВОЛШЕБСТВА - 3 ВЫСТРЕЛА (УЩЕРБ 75 % + 75% + 75 %)</ru>
+		</string>
+
+		<string id="MAGIC_ROBE" index="38">
+			<en>MAGIC ROBE</en>
+			<es>CAPA MÁGICA</es>
+			<de>MAGIC ROBE</de>
+			<fr>VETEMENT MAGIQUE</fr>
+			<pt>MAGIC ROBE</pt>
+			<it>VESTE MAGICA</it>
+			<ru>ВОЛШЕБНАЯ МАНТИЯ</ru>
+		</string>
+
+		<string id="WHITE_ROBE" index="39">
+			<en>WHITE ROBE</en>
+			<es>WHITE ROBE</es>
+			<de>WHITE ROBE</de>
+			<fr>TUNIQUE BLANCHE</fr>
+			<pt>WHITE ROBE</pt>
+			<it>VESTE BIANCA</it>
+			<ru>БЕЛАЯ МАНТИЯ</ru>
+		</string>
+
+		<string id="YELLOW_ROBE" index="40">
+			<en>YELLOW ROBE</en>
+			<es>YELLOW ROBE</es>
+			<de>YELLOW ROBE</de>
+			<fr>TUNIQUE JAUNE</fr>
+			<pt>YELLOW ROBE</pt>
+			<it>VESTE GIALLA</it>
+			<ru>ЖЕЛТАЯ МАНТИЯ</ru>
+		</string>
+
+		<string id="ORANGE_ROBE" index="41">
+			<en>ORANGE ROBE</en>
+			<es>ORANGE ROBE</es>
+			<de>ORANGE ROBE</de>
+			<fr>TUNIQUE ORANGE</fr>
+			<pt>ORANGE ROBE</pt>
+			<it>VESTE ARANCIONE</it>
+			<ru>ОРАНЖЕВАЯ МАНТИЯ</ru>
+		</string>
+
+		<string id="RED_ROBE" index="42">
+			<en>RED ROBE</en>
+			<es>RED ROBE</es>
+			<de>RED ROBE</de>
+			<fr>TUNIQUE ROUGE</fr>
+			<pt>RED ROBE</pt>
+			<it>VESTE ROSSA</it>
+			<ru>КРАСНАЯ МАНТИЯ</ru>
+		</string>
+
+		<string id="GREEN_ROBE" index="43">
+			<en>GREEN ROBE</en>
+			<es>GREEN ROBE</es>
+			<de>GREEN ROBE</de>
+			<fr>TUNIQUE VERT</fr>
+			<pt>GREEN ROBE</pt>
+			<it>VESTE VERDE</it>
+			<ru>ЗЕЛЕНАЯ МАНТИЯ</ru>
+		</string>
+
+		<string id="BLUE_ROBE" index="44">
+			<en>BLUE ROBE</en>
+			<es>BLUE ROBE</es>
+			<de>BLUE ROBE</de>
+			<fr>TUNIQUE BLEU</fr>
+			<pt>BLUE ROBE</pt>
+			<it>VESTE BLU</it>
+			<ru>СИНЯЯ МАНТИЯ</ru>
+		</string>
+
+		<string id="PURPLE_ROBE" index="45">
+			<en>PURPLE ROBE</en>
+			<es>PURPLE ROBE</es>
+			<de>PURPLE ROBE</de>
+			<fr>TUNIQUE VIOLETTE</fr>
+			<pt>PURPLE ROBE</pt>
+			<it>VESTE PORPORA</it>
+			<ru>ФИОЛЕТОВАЯ МАНТИЯ</ru>
+		</string>
+
+		<string id="STAGE" index="46">
+			<en>STAGE</en>
+			<es>NIVEL</es>
+			<de>LEVEL</de>
+			<fr>NIVEAU</fr>
+			<pt>NÍVEL</pt>
+			<it>FASE</it>
+			<ru>ЭТАП</ru>
+		</string>
+
+		<string id="TOTAL" index="47">
+			<en>TOTAL</en>
+			<es>TOTAL</es>
+			<de>INSGESAMT</de>
+			<fr>TOTAL</fr>
+			<pt>TOTAL</pt>
+			<it>TOTALE</it>
+			<ru>ВСЕГО</ru>
+		</string>
+
+		<string id="STAGE_COMPLETE" index="48">
+			<en>STAGE [X] COMPLETED</en>
+			<es>NIVEL [X] COMPLETADO</es>
+			<de>LEVEL [X] ABGESCHLOSSEN</de>
+			<fr>NIVEAU [X] ACCOMPLI</fr>
+			<pt>NÍVEL [X] CONCLUÍDO</pt>
+			<it>FASE [X] COMPLETATA</it>
+			<ru>ЭТАПОВ [X] ЗАВЕРШЕНО</ru>
+		</string>
+
+		<string id="STAGE_FAILED" index="49">
+			<en>STAGE [X] FAILED</en>
+			<es>NIVEL [X] FALLADO</es>
+			<de>LEVEL [X] ERFOLGLOS</de>
+			<fr>NIVEAU [X] MANQUÉ</fr>
+			<pt>NÍVEL [X] FALHADO</pt>
+			<it>FASE [X] FALLITA</it>
+			<ru>ЭТАПОВ [X] ПРОИГРАНО</ru>
+		</string>
+
+		<string id="CREATE_PROFILE_1" index="50">
+			<en>CREATE A</en>
+			<es>ELIGE</es>
+			<de>WÄHLE DEINEN</de>
+			<fr>CHOISIS</fr>
+			<pt>ESCOLHA O</pt>
+			<it>CREA UN</it>
+			<ru>СОЗДАТЬ</ru>
+		</string>
+
+		<string id="CREATE_PROFILE_2" index="51">
+			<en>NEW PROFILE</en>
+			<es>UN DEFENSOR</es>
+			<de>VERTEIDIGER</de>
+			<fr>TON DÉFENSEUR</fr>
+			<pt>SEU DEFENSOR</pt>
+			<it>NUOVO PROFILO</it>
+			<ru>НОВЫЙ ПРОФИЛЬ</ru>
+		</string>
+
+		<string id="DELETE_PROFILE" index="52">
+			<en>DO YOU REALLY WISH TO DELETE THE PROFILE?</en>
+			<es>?DESEAS REALMENTE BORRAR TU PERFIL?</es>
+			<de>PROFIL TATSÄCHLICH LÖSCHEN?</de>
+			<fr>EFFACER VRAIMENT LE PROFIL ?</fr>
+			<pt>REALMENTE APAGAR O PERFIL?</pt>
+			<it>VUOI VERAMENTE ELIMINARE IL PROFILO?</it>
+			<ru>ВЫ ДЕЙСТВИТЕЛЬНО ХОТИТЕ УДАЛИТЬ ПРОФИЛЬ?</ru>
+		</string>
+
+		<string id="PRICE" index="53">
+			<en>PRICE</en>
+			<es>PRECIO</es>
+			<de>PREIS</de>
+			<fr>PRIX</fr>
+			<pt>PREÇO</pt>
+			<it>PREZZO</it>
+			<ru>ЦЕНА</ru>
+		</string>
+
+		<string id="INSTRUCTIONS" index="54">
+			<en>INSTRUCTIONS ^ ^ DEFEND YOUR CASTLE IN A RELENTLESS BATTLE AGAINST HORDES OF TERRIFING ENEMIES! CAST YOUR SPELLS, DESTROY THE ENEMIES AND INCREASE YOUR MAGICAL POWERS. THE FATE OF THE KINGDOM DEPENDS UPON YOU AND YOUR POWERFUL MAGIC! ^ ^ CONTROLS:
+TAP OR HOLD FINGER ON SCREEN TO AIM. TAP SPELL / ITEM ICONS TO USE WHAT YOU HAVE EQUIPPED. NAVIGATE THROUGH MENU AND SHOPS BY TAPPING ICONS.</en>
+			<es>INSTRUCCIONES ^ ^ DEFIENDE TU CASTILLO EN UNA BATALLA SIN CUARTEL CONTRA LAS PELIGROSAS HORDAS ENEMIGAS! APUNTA Y DESTRUYE A LOS ENEMIGOS, AUMENTA TUS CAPACIDADES MÁGICAS Y USALAS CON ELLOS! EL DESTINO DEL REINO DEPENDE DE TI Y DE TUS PODERES MÁGICOS. ^ ^ CONTROL:
+HAGA CLICK O MANTÉN EL DEDO PULSADO EN LA PANTALLA PARA APUNTAR. TOCA LOS ICONOS DE HECHIZOS / OBJETOS PARA USAR LO QUE TIENES PREPARADO. NAVEGA POR EL MENU Y LAS TIENDAS HACIENDO EL CLICK EN LOS ICONOS.   </es>
+			<de>INSTRUKTIONEN ^ ^ VERTEIDIGE DEINE BURG IM UNBARMHERZIGEN KAMPF GEGEN DIE HORDEN VON GEFÄHRLICHEN FEINDEN! ZIELE UND VERNICHTE DIE FEINDE, VERSTÄRKE DEINE MAGISCHEN FÄHIGKEITEN UND SCHICKE  SAMMELZAUBER! DAS SCHICKSAL DES KÖNIGREICHS LIEGT IN DEINEN HÄNDEN UND MAGISCHEN FÄHIGKEITEN. ^ ^ STEUERUNG:
+DRÜCKE ODER HALTE DEN FINGER AUF DEN BILDSCHIRM UM ZU ZIELEN. TIPPE AUF SYMBOLE FÜR ZAUBER / GEGENSTÄNDE UM SIE ZU BENUTZEN. NAVIGIERE DICH DURCH DAS MENÜ UND DIE GESCHÄFTE INDEM DU IHRE SYMBOLE ANTIPPST.</de>
+			<fr>INSTRUCTIONS ^ ^ PROTÉGEZ VOTRE CHÂTEAU FORT DANS LA LUTTE SANS MERCI CONTRE LES HORDES D’ENVAHISSEURS ! VISEZ JUSTE ET DÉCIMEZ TOUS LES ENNEMIS. AMÉLIOREZ VOS POUVOIRS MAGIQUES ET LANCEZ DES SORTS TOUJOURS PLUS PUISSANTS.  ^ ^ CONTRÔLES:
+TOUCHEZ L'ÉCRAN À DROITE OU À GAUCHE POUR VISER. TOUCHEZ L'ICÔNE DE MAGIE POUR UTILISER UN SORT QUE VOUS AVEZ PRÉPARÉ. NAVIGUEZ DANS LE MENU ET LE MAGASIN EN APPUYANT SUR LES ICÔNES.</fr>
+			<pt>INSTRUÇOES ^ ^ DEFENDA O SEU CASTELO NUMA FEROZ BATALHA CONTRA AS HORDAS DE INIMIGOS PERIGOSOS! APONTE E DESTRUA OS INIMIGOS, FORTALEÇA AS SUAS HABILIDADES MÁGICAS E MANDE OS ENCANTOS COLETIVOS! O DESTINO DO REINO ESTÁ NAS SUAS MAOS E NAS SUAS HABILIDADES MÁGICAS. ^ ^ CONTROLE:
+CLIQUE E SEGURE O DEDO NA TELA PARA APONTAR. TOQUE NOS ÍCONES DE FEITIÇOS/OBJETOS PARA USAR O QUE VOCÊ PREPAROU. NAVEGUE PELO MENU E LOJAS TOCANDO NOS ÍCONES.</pt>
+			<it>ISTRUZIONI ^ ^ DIFENDI IL TUO CASTELLO IN UN'INCESSANTE BATTAGLIA CONTRO ORDE DI NEMICI TERRIFICANTI! LANCIA I TUOI INCANTESIMI, DISTRUGGI I NEMICI E AUMENTA I TUOI POTERI MAGICI. IL DESTINO DEL REGNO DIPENDE DA TE E DALLA TUA POTENZA MAGICA! ^ ^ COMANDI: 
+TOCCA O TIENI PREMUTO IL DITO SULLO SCHERMO PER MIRARE. TOCCA LE ICONE DEGLI INCANTESIMI E DEGLI OGGETTI PER USARE CIÒ CHE HAI NELL'EQUIPAGGIAMENTO. NAVIGA NEL MENU E NEI NEGOZI TOCCANDO LE ICONE.</it>
+			<ru>ИНСТРУКЦИИ ^ ^ ЗАЩИЩАЙТЕ СВОЙ ЗАМОК В НЕПРЕРЫВНОЙ БОРЬБЕ ОТ ПОЛЧИЩА ЗЛОБНЫХ ВРАГОВ! ЛИШЬ ВАШИ ЗАКЛИНАНИЯ, УНИЧТОЖАТ ВРАГОВ И УВЕЛИЧАТ ВАШИ ВОЛШЕБНЫЕ СИЛЫ. СУДЬБА ЦАРСТВА ЗАВИСИТ ОТ ВАС И ВАШЕЙ МОЩНОЙ МАГИИ! ^ ^ УПРАВЛЕНИЯ: \n НАЖМИТЕ ИЛИ УДЕРЖИВАЙТЕ ПАЛЕЦ НА ЭКРАНЕ, ЧТОБЫ ПРИЦЕЛИТЬСЯ. НАЖМИТЕ НА ЗАКЛИНАЯ / НАЙДЕТЕ ТАМ, ГДЕ ВЫ УСТАНОВИТЕ. УПРАВЛЕНИЕ ПО МЕНЮ И МАГАЗИНАМ, ПРОИЗВОДИТЬСЯ ИСПОЛЬЗЫВАЯ ИКОНКИ.</ru>
+		</string>
+
+		<string id="CONTINUE" index="55">
+			<en>CONTINUE</en>
+			<es>CONTINUAR</es>
+			<de>WEITER</de>
+			<fr>CONTINUER</fr>
+			<pt>CONTINUAR</pt>
+			<it>CONTINUA</it>
+			<ru>ПРОДОЛЖИТЬ</ru>
+		</string>
+
+		<string id="DELETE" index="56">
+			<en>DELETE</en>
+			<es>BORRAR</es>
+			<de>LÖSCHEN</de>
+			<fr>EFFACER</fr>
+			<pt>APAGAR</pt>
+			<it>ELIMINA</it>
+			<ru>УДАЛИТЬ</ru>
+		</string>
+
+		<string id="INVENTORY_ADD" index="57">
+			<en>CONGRATULATIONS! FOR YOUR BRAVERY AND SELF-SACRIFICE, YOU HAVE GAINED ACCESS TO MAGICAL RELICS. CHECK UP YOUR INVENTORY.</en>
+			<es>!ENHORABUENA! POR TU VALENTÍA Y SACRIFICIO PERSONAL, HAS OBTENIDO EL ACCESO A LAS RELIQUIAS MÁGICAS. REVISA TU INVENTARIO.</es>
+			<de>HERZLICHEN GLÜCKWUNSCH! FÜR DEINE TAPFERKEIT UND OPFERWILLIGKEIT HAST DU NUN DEN ZUGANG ZU MAGISCHEN RELIQUIEN. KONTROLLIERE DEIN INVENTAR.</de>
+			<fr>FÉLICITATIONS ! POUR TA VAILLANCE ET POUR TON COURAGE, TU AS OBTENU L’ACCES AUX RELIQUES MAGIQUES. VÉRIFIE TON INVENTAIRE.</fr>
+			<pt>PARABÉNS! POR SUA BRAVURA E SACRIFÍCIO GANHOU ACESSO AS RELÍQUIAS MÁGICAS. VERIFIQUE O SEU INVENTÁRIO.</pt>
+			<it>CONGRATULAZIONI! PER IL TUO CORAGGIO E LA TUA DEDIZIONE, HAI OTTENUTO L'ACCESSO A RELIQUIE MAGICHE. DAI UN'OCCHIATA AL TUO INVENTARIO.</it>
+			<ru>ПОЗДРАВЛЯЕМ! ВЫ ХОРОШЫ ЗАЩИТИЛИСЬ, И ВЫ ПОЛУЧАЕТЕ ДОСТУП К ВОЛШЕБНЫМ РЕЛИКВИЯМ. ПРОВЕРЬТЕ СВОЙ ИНВЕНТАРЬ. </ru>
+		</string>
+
+		<string id="MAGIC_ADD" index="58">
+			<en>FROM NOW ON, MAGIC FROM THE MAGICAL TOWER WILL ENHANCE YOUR DEFENCE. YOU CAN IMPROVE THEIR POWER!</en>
+			<es>A PARTIR DE AHORA, LA MAGIA DE LA TORRE MÁGICA FACILITARÁ SU DEFENSA. PUEDES MEJORAR TU EFICACIA.</es>
+			<de>DEINE VERTEIDIGUNG WIRD VON NUN AN DURCH UNERSTÜTZUNG MIT ZAUBERN AUS DEM MAGISCHEN TURM ERLEICHTERT. DU KANNST IHRE WIRKSAMKEIT VERBESSERN.</de>
+			<fr>DÉSORMAIS TU AS ACCES AUX SORTS DE LA TOUR MAGIQUE. AMÉLIORE LEUR EFFICACITÉ POUR ASSURER LA VICTOIRE.</fr>
+			<pt>DESDE AGORA A SUA DEFESA VAI SER FACILITADA PELO APOIO DOS ENCANTOS DA TORRE MÁGICA. VOCE PODE MELHORAR A EFICIENCIA DELES.</pt>
+			<it>D'ORA IN POI, LE MAGIE DELLA TORRE MAGICA POTENZIERANNO LA TUA DIFESA. PUOI MIGLIORARE LA LORO POTENZA!</it>
+			<ru>СЕЙЧАС МАГИЯ ИЗ ВОЛШЕБНОЙ БАШНИ УЛУЧШАЕТ ВАШУ ОБОРОНУ. ВЫ МОЖЕТЕ УЛУЧШИТЬ ИХ СИЛУ!</ru>
+		</string>
+
+		<string id="UPGRADE_MAGIC_TOWER" index="59">
+			<en>UPGRADE MAGIC TOWER\nTO UNLOCK SPELLS</en>
+			<es>MEJORA LA TORRE MÁGICA\nPARA DESBLOQUEAR HECHIZOS</es>
+			<de>WÄHLE EIN UPGRADE FÜR\nDEN MAGISCHEN TURM, UM\nZAUBERSPRÜCHE FREIZUSCHALTEN</de>
+			<fr>AMÉLIORER LA TOUR MAGIQUE\nPOUR DÉVERROUILLER DES SORTS</fr>
+			<pt>ATUALIZE A TORRE MÁGICA\nPARA DESBLOQUEAR\nOS FEITIÇOS</pt>
+			<it>POTENZIA LA TORRE MAGICA\nPER SBLOCCARE INCANTESIMI</it>
+			<ru>ОБНОВИТЕ ВОЛШЕБНУЮ БАШНЮ,\nЧТОБЫ РАЗБЛОКИРОВАТЬ ЗАКЛИНАНИЯ</ru>
+		</string>
+
+		<string id="UPGRADE" index="60">
+			<en>UPGRADE</en>
+			<es>MEJORAR</es>
+			<de>VERBESSERN</de>
+			<fr>AMÉLIORER</fr>
+			<pt>MELHORAR</pt>
+			<it>POTENZIA</it>
+			<ru>УЛУЧШИТЬ</ru>
+		</string>
+
+		<string id="EQUIP" index="61">
+			<en>EQUIP</en>
+			<es>EQUIPAR</es>
+			<de>AUSRÜSTEN</de>
+			<fr>ÉQUIPER</fr>
+			<pt>EQUIPAR</pt>
+			<it>EQUIPAGGIA</it>
+			<ru>ЭКИПИРОВКА</ru>
+		</string>
+
+		<string id="SELECT_STAFF_OR_ROBE" index="62">
+			<en>SELECT STAFF OR \nROBE TO EQUIP</en>
+			<es>SELECCIONA EL BASTÓN\nO LA TÚNICA A EQUIPAR</es>
+			<de>WÄHLE MITARBEITER\nODER GEWAND AUS</de>
+			<fr>SÉLECTIONNER LE BÂTON\nOU LA ROBE À ÉQUIPER</fr>
+			<pt>SELECIONE O CAJADO OU\nMANTO PARA EQUIPAR</pt>
+			<it>SELEZIONA BASTONE O VESTE\nDA EQUIPAGGIARE</it>
+			<ru>ВЫБЕРИТЕ ПЕРСОНАЛ ИЛИ\nОДЕЖДУ ДЛЯ ЭКИПИРОВКИ</ru>
+		</string>
+
+		<string id="UNLOCKS_AT_STAGE" index="63">
+			<en>UNLOCK AT STAGE [X]</en>
+			<es>DESBLOQUEA EN EL NIVEL [X]</es>
+			<de>SCHALTE STUFE [X] FREI</de>
+			<fr>DÉBLOQUÉ AU NIVEAU [X]</fr>
+			<pt>DESBLOQUEAR NO NÍVEL [X]</pt>
+			<it>EVRE [X]'DA KILIDINI</it>
+			<ru>РАЗБЛОКИРОВАТЬ ЭТАП [X]</ru>
+		</string>
+
+		<string id="MAXXED" index="64">
+			<en>MAX.</en>
+			<es>MAX.</es>
+			<de>MAX.</de>
+			<fr>MAX.</fr>
+			<pt>MAX.</pt>
+			<it>MAX.</it>
+			<ru>МАКС.</ru>
+		</string>
+
+		<string id="SELECT_ATTRIBUTE" index="65">
+			<en>SELECT ATTRIBUTE\nTO UPGRADE</en>
+			<es>SELECCIONA EL ATRIBUTO\nA MEJORAR</es>
+			<de>WÄHLE EINE EIGENSCHAFT\nFÜR DAS UPGRADE AUS</de>
+			<fr>SÉLECTIONNER L'ATTRIBUT\nÀ AMÉLIORER</fr>
+			<pt>SELECIONE O ATRIBUTO\nPARA ATUALIZAR</pt>
+			<it>SELEZIONA CARATTERISTICA\nDA POTENZIARE</it>
+			<ru>ВЫБЕРИТЕ АТРИБУТ\nДЛЯ УЛУЧШЕНИЯ</ru>
+		</string>
+
+		<string id="MORE_GAMES">
+			<en>MORE GAMES</en>
+			<fr>PLUS DE JEUX</fr>
+			<de>MEHR SPIELE</de>
+			<es>MÁS JUEGOS</es>
+			<pt>MAIS JOGOS</pt>
+			<it>ALTRI GIOCHI</it>
+			<ru></ru>
+		</string>
+
+	</strings>
+</stringresources>

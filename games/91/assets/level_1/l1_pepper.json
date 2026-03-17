@@ -1,0 +1,475 @@
+{
+  "frames": {
+    "l1_pepper0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 108,
+        "h": 193
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 49,
+        "y": 3,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper1": {
+      "frame": {
+        "x": 108,
+        "y": 0,
+        "w": 108,
+        "h": 183
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 49,
+        "y": 13,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper2": {
+      "frame": {
+        "x": 216,
+        "y": 0,
+        "w": 187,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 0,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper3": {
+      "frame": {
+        "x": 403,
+        "y": 0,
+        "w": 207,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 19,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper4": {
+      "frame": {
+        "x": 610,
+        "y": 0,
+        "w": 193,
+        "h": 129
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 40,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper5": {
+      "frame": {
+        "x": 803,
+        "y": 0,
+        "w": 206,
+        "h": 197
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper6": {
+      "frame": {
+        "x": 1009,
+        "y": 0,
+        "w": 206,
+        "h": 197
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper7": {
+      "frame": {
+        "x": 1215,
+        "y": 0,
+        "w": 206,
+        "h": 197
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper8": {
+      "frame": {
+        "x": 1421,
+        "y": 0,
+        "w": 206,
+        "h": 197
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper9": {
+      "frame": {
+        "x": 0,
+        "y": 209,
+        "w": 217,
+        "h": 201
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper10": {
+      "frame": {
+        "x": 217,
+        "y": 209,
+        "w": 229,
+        "h": 211
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper11": {
+      "frame": {
+        "x": 446,
+        "y": 209,
+        "w": 242,
+        "h": 223
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper12": {
+      "frame": {
+        "x": 688,
+        "y": 209,
+        "w": 261,
+        "h": 227
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper13": {
+      "frame": {
+        "x": 949,
+        "y": 209,
+        "w": 270,
+        "h": 246
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper14": {
+      "frame": {
+        "x": 1219,
+        "y": 209,
+        "w": 270,
+        "h": 246
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper15": {
+      "frame": {
+        "x": 1489,
+        "y": 209,
+        "w": 277,
+        "h": 250
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper16": {
+      "frame": {
+        "x": 0,
+        "y": 459,
+        "w": 283,
+        "h": 255
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper17": {
+      "frame": {
+        "x": 283,
+        "y": 459,
+        "w": 290,
+        "h": 260
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper18": {
+      "frame": {
+        "x": 573,
+        "y": 459,
+        "w": 206,
+        "h": 197
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 6,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper19": {
+      "frame": {
+        "x": 779,
+        "y": 459,
+        "w": 193,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 41,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper20": {
+      "frame": {
+        "x": 972,
+        "y": 459,
+        "w": 208,
+        "h": 171
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 19,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper21": {
+      "frame": {
+        "x": 1180,
+        "y": 459,
+        "w": 185,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 0,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    },
+    "l1_pepper22": {
+      "frame": {
+        "x": 1365,
+        "y": 459,
+        "w": 107,
+        "h": 193
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 50,
+        "y": 3,
+        "w": 291,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 266
+      }
+    }
+  },
+  "meta": {
+    "app": "Adobe Animate",
+    "version": "20.5.0.29329",
+    "image": "l1_pepper.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1806,
+      "h": 1024
+    },
+    "scale": "1"
+  }
+}

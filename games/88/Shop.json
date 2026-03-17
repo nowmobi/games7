@@ -1,0 +1,118 @@
+{
+  "gameTime": {
+    "defaultEffect": {
+      "effect": 35
+    },
+    "effects": [
+      {
+        "price": 50,
+        "effect": 40
+      },
+      {
+        "price": 130,
+        "effect": 45
+      },
+      {
+        "price": 250,
+        "effect": 50
+      },
+      {
+        "price": 350,
+        "effect": 55
+      },
+      {
+        "price": 650,
+        "effect": 60
+      },
+      {
+        "price": 800,
+        "effect": 70
+      },
+      {
+        "price": 1000,
+        "effect": 80
+      }
+    ]
+  },
+  "customerTime": {
+    "defaultEffect": {
+      "effect": 10
+    },
+    "effects": [
+      {
+        "price": 50,
+        "effect": 12
+      },
+      {
+        "price": 120,
+        "effect": 15
+      },
+      {
+        "price": 250,
+        "effect": 18
+      },
+      {
+        "price": 400,
+        "effect": 21
+      },
+      {
+        "price": 650,
+        "effect": 24
+      },
+      {
+        "price": 800,
+        "effect": 27
+      }
+    ]
+  },
+  "bonusTimePerCustomer": {
+    "defaultEffect": {
+      "effect": 4
+    },
+    "effects": [
+      {
+        "price": 80,
+        "effect": 5
+      },
+      {
+        "price": 400,
+        "effect": 6
+      },
+      {
+        "price": 700,
+        "effect": 7
+      },
+      {
+        "price": 1000,
+        "effect": 8
+      }
+    ]
+  },
+  "bonusMoney": {
+    "defaultEffect": {
+      "effect": 0
+    },
+    "effects": [
+      {
+        "price": 50,
+        "effect": 0.2
+      },
+      {
+        "price": 150,
+        "effect": 0.4
+      },
+      {
+        "price": 400,
+        "effect": 0.6
+      },
+      {
+        "price": 700,
+        "effect": 0.8
+      },
+      {
+        "price": 1000,
+        "effect": 1
+      }
+    ]
+  }
+}

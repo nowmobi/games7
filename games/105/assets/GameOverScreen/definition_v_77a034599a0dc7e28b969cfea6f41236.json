@@ -1,0 +1,126 @@
+{
+  "items": [
+    {
+      "assetId": "resultBG",
+      "scaleX": 1,
+      "childIndex": 0,
+      "x": 0,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 0,
+      "visible": true,
+      "name": "instance29"
+    },
+    {
+      "assetId": "Comptoir",
+      "scaleX": 1,
+      "childIndex": 1,
+      "x": 0.45,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 79.35,
+      "visible": true,
+      "name": "instance31"
+    },
+    {
+      "assetId": "gameOverPaper",
+      "scaleX": 1,
+      "childIndex": 2,
+      "x": 329.8,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": -28.15,
+      "visible": true,
+      "name": "paper"
+    },
+    {
+      "assetId": "Anchor",
+      "scaleX": 1,
+      "childIndex": 3,
+      "x": 463.95,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 132,
+      "visible": true,
+      "name": "totalOrder"
+    },
+    {
+      "assetId": "Anchor",
+      "scaleX": 1,
+      "childIndex": 4,
+      "x": 463.95,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 165,
+      "visible": true,
+      "name": "totalSuccess"
+    },
+    {
+      "assetId": "Anchor",
+      "scaleX": 1,
+      "childIndex": 5,
+      "x": 463.95,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 199,
+      "visible": true,
+      "name": "totalFailed"
+    },
+    {
+      "assetId": "Anchor",
+      "scaleX": 1,
+      "childIndex": 6,
+      "x": 473.95,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 248,
+      "visible": true,
+      "name": "totalPoints"
+    },
+    {
+      "assetId": "BtnQuit",
+      "scaleX": 1,
+      "childIndex": 7,
+      "x": 750.35,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 435,
+      "visible": true,
+      "name": "btnQuit"
+    },
+    {
+      "assetId": "BtnTryAgain",
+      "scaleX": 1,
+      "childIndex": 8,
+      "x": 584,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 435,
+      "visible": true,
+      "name": "btnReplay"
+    },
+    {
+      "assetId": "over",
+      "scaleX": 1,
+      "childIndex": 9,
+      "x": 602.8,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 145,
+      "visible": true,
+      "name": "instance36"
+    },
+    {
+      "assetId": "game",
+      "scaleX": 1,
+      "childIndex": 10,
+      "x": 130.45,
+      "scaleY": 1,
+      "isAnimated": false,
+      "y": 145,
+      "visible": true,
+      "name": "instance38"
+    }
+  ],
+  "name": "GameOverScreen"
+}

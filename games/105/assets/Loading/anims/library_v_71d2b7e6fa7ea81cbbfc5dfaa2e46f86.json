@@ -1,0 +1,79 @@
+{
+  "md5": "de60537c9904f7c8a91769cc8d4eeccf",
+  "frameRate": 30,
+  "movies": [
+    {
+      "layers": [
+        {
+          "keyframes": [
+            {
+              "duration": 19,
+              "index": 0,
+              "ref": "bt_loading",
+              "loc": [
+                137.5,
+                35
+              ],
+              "pivot": [
+                137.5,
+                35
+              ]
+            },
+            {
+              "duration": 20,
+              "scale": [
+                0.7,
+                0.7
+              ],
+              "ref": "bt_loading",
+              "pivot": [
+                137.55,
+                35
+              ],
+              "index": 19,
+              "loc": [
+                137.4846,
+                34.9999
+              ]
+            },
+            {
+              "duration": 1,
+              "index": 39,
+              "ref": "bt_loading",
+              "loc": [
+                137.5,
+                35
+              ],
+              "pivot": [
+                137.5,
+                35
+              ]
+            }
+          ],
+          "name": "Layer 1"
+        }
+      ],
+      "id": "loading_anim"
+    }
+  ],
+  "atlases": [
+    {
+      "textures": [
+        {
+          "rect": [
+            0,
+            0,
+            275,
+            70
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "symbol": "bt_loading"
+        }
+      ],
+      "file": "atlas0.png"
+    }
+  ]
+}

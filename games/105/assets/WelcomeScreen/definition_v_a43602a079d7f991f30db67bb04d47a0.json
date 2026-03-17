@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "isAnimated": false,
+      "assetId": "Welcome",
+      "scaleX": 1,
+      "childIndex": 0,
+      "x": 0,
+      "scaleY": 1,
+      "y": 0,
+      "visible": true,
+      "name": "screen"
+    },
+    {
+      "isAnimated": false,
+      "assetId": "ClickToPlay",
+      "scaleX": 1,
+      "childIndex": 1,
+      "x": 175.35,
+      "scaleY": 1,
+      "y": 412.3,
+      "visible": true,
+      "name": "click"
+    },
+    {
+      "isAnimated": false,
+      "assetId": "TapToPlay",
+      "scaleX": 1,
+      "childIndex": 2,
+      "x": 181.35,
+      "scaleY": 1,
+      "y": 412.3,
+      "visible": true,
+      "name": "tap"
+    }
+  ],
+  "name": "WelcomeScreen"
+}

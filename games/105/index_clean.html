@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TMNT: Pizza Time</title>
+    <meta name="robots" content="noindex,nofollow" />
+    <script src="scripts/jsembed.js"></script>
+    <script type="text/javascript">
+        // Parameters configure jsembed itself.
+        var params = {
+            //base: "/games/data/spongebob/spongebob-bikini-bottom-bop-em/html5/", // base url of all content. Defaults ""
+            base: "",
+            api: "flambe", // supported custom apis are defined in jsembed. Defaults none.
+            autoscale: "true", // update window.canvasScale on window resize? Defaults true.
+            indexroot: "true", // use index url as path root? If false, uses domain root instead. Defaults false (uses domain root).
+            libs: ["flambe.js"] // array of libs to embed before trying to launch app. Defaults []
+        }
+        // Attributes will be set on the embed target for use by the app. "base" will be set as well.
+        var attr = {};
+        jsembed.embed("flambe.js", "embedtarget", "960", "560", params, attr);
+    </script>
+	<script type="text/javascript">
+        window.SDK_OPTIONS = {
+            gameId: "hynoxd8wkdy2e05sld8xmrslb5vmppax",
+            onEvent: function(a) {
+                switch (a.name) {
+                    case "SDK_GAME_PAUSE":
+                        // pause game logic / mute audio
+                        break;
+                    case "SDK_GAME_START":
+                        // advertisement done, resume game logic and unmute audio
+                        break;
+                    case "SDK_READY":
+                        // when sdk is ready
+                        break;
+                }
+            }
+        };
+        (function(a, b, c) {
+            var d = a.getElementsByTagName(b)[0];
+            a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk.js", d.parentNode.insertBefore(a, d))
+        })(document, "script", "gamemonetize-sdk");
+    </script>
+
+    <style>
+      /* 隐藏所有广告容器 */
+      #imaContainer,
+      #imaContainer_new,
+      #sdk__advertisement,
+      #gmLoadingText,
+      iframe[src*="imasdk"],
+      iframe[src*="doubleclick"],
+      iframe[src*="googlesyndication"],
+      iframe[title="Advertisement"],
+      div[id*="google_ads"],
+      div[id*="aswift"] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+    </style>
+    <script>
+      // 定期清除动态插入的广告元素
+      setInterval(function() {
+        var adSelectors = [
+          '#imaContainer',
+          '#imaContainer_new', 
+          '#sdk__advertisement',
+          '#gmLoadingText',
+          'iframe[src*="imasdk"]',
+          'iframe[src*="doubleclick"]',
+          'iframe[src*="googlesyndication"]',
+          'iframe[title="Advertisement"]',
+          'div[id*="google_ads"]',
+          'div[id*="aswift"]'
+        ];
+        
+        adSelectors.forEach(function(selector) {
+          var elements = document.querySelectorAll(selector);
+          elements.forEach(function(el) {
+            if (el && el.parentNode) {
+              el.parentNode.removeChild(el);
+            }
+          });
+        });
+
+        // 阻止广告SDK函数
+        if (window.sdk_init) window.sdk_init = function() {};
+        if (window.sdk) window.sdk = { showBanner: function() {}, requestAd: function() {} };
+        if (window.adBreak) window.adBreak = function() {};
+        if (window.adConfig) window.adConfig = function() {};
+      }, 500);
+    </script>
+
+  </head>
+
+<body style="padding: 0; margin: 0; background-color: black">
+<script type="text/javascript">
+        function analytics() {sdk.showBanner();};
+        function analytics_ID() {sdk.showBanner();};
+        setTimeout(function() {analytics();}, 1000);
+        setInterval(function() {analytics_ID();}, 70000);
+    </script>
+    <div id="embedtarget"></div>
+		<div id="canvas" style="width:220px;height:48px;z-index:10;position:absolute;bottom:0px;right:0%;">
+	<a target="_blank" href="https://goolgames.com" onclick="window.open('https://goolgames.com/?utm_source=www.gamemonetize.com&utm_medium=MainScene-logo&utm_campaign=game-skewer-sewer/'); return false;">
+	<img src="media/images/moregames.png" style="cursor:pointer;" alt="Больше игр" width="220" height="48">
+	</a></div>
+	<audio autoplay>
+<source src="media/goolgames.ogg" type="audio/ogg">
+<source src="media/goolgames.m4a" type="audio/mpeg">
+<source src="media/goolgames.mp3" type="audio/mpeg">
+</audio>
+</body>
+<script language="JavaScript">
+	var units = [ 
+	"PGRpdiBjbGFzcz0id2ViZ2wtY29udGVudCI+DQogICAgICAgIDxkaXYgaWQ9ImYtMSIgc3R5bGU9InBvc2l0aW9uOmZpeGVkOyBib3R0b206IDIwJTsgbGlmdDogMCU7IHotaW5kZXg6IDEwOyI+DQogICAgICAgICAgICA8aWZyYW1lIGZyYW1lYm9yZGVyPSIwIiBzdHlsZT0iY3Vyc29yOnBvaW50ZXI7IGhlaWdodDogMTIwcHg7IHdpZHRoOiAxMzBweCIgc3JjPSJodHRwczovL2dvb2xnYW1lcy5tb3JlLWdhbWVzLnh5ei9odG1sL21nYzMuaHRtbCI8L2lmcmFtZT4NCiAgICAgICAgPC9kaXY+DQogICAgPC9kaXY+", 
+	 ]; 
+	 var unit = units[Math.floor(Math.random() * units.length)]; 
+	 var decodedData = atob(unit); 
+	 document.write(decodedData); 
+</script>
+</body>
+
+</html>
