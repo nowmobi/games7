@@ -1,0 +1,19 @@
+{
+  "id": "61380",
+  "title": "Combo Snake",
+  "slug": "combo-snake",
+  "description": "Control the snake to move and collect gems. Collecting gems of the same color will create nodes of the corresponding color on the snakes body. When three nodes of the same color are connected, they will be automatically eliminated. Eliminating nodes can earn you extra points. Hitting the wall or colliding with itself will lead to the end of the game. Successfully eliminating the entire snakes body results in a game victory.",
+  "instructions": "Computer Use the arrow keys to control Mobile phone Tap the screen to control the direction ",
+  "url": "https://html5.gamemonetize.com/s3qipzsmowz03sobcyid3h15cn3zssfv/",
+  "category": "Bejeweled",
+  "categorySlug": "bejeweled",
+  "tags": [
+    "1 Player",
+    "2D"
+  ],
+  "thumb": "https://img.gamemonetize.com/s3qipzsmowz03sobcyid3h15cn3zssfv/512x384.jpg",
+  "width": 800,
+  "height": 800,
+  "publisher": null,
+  "crawledAt": "2026-02-02T06:28:02.252Z"
+}

@@ -1,0 +1,142 @@
+{
+  "frames": [
+    {
+      "filename": "container_level_completed.png",
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 448,
+        "h": 425
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 448,
+        "h": 425
+      },
+      "sourceSize": {
+        "w": 448,
+        "h": 425
+      }
+    },
+    {
+      "filename": "gameover_stars.png",
+      "frame": {
+        "x": 452,
+        "y": 2,
+        "w": 448,
+        "h": 237
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 448,
+        "h": 237
+      },
+      "sourceSize": {
+        "w": 448,
+        "h": 237
+      }
+    },
+    {
+      "filename": "go_home_button.png",
+      "frame": {
+        "x": 635,
+        "y": 241,
+        "w": 72,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 69
+      }
+    },
+    {
+      "filename": "go_home_button_press.png",
+      "frame": {
+        "x": 635,
+        "y": 312,
+        "w": 72,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 69
+      }
+    },
+    {
+      "filename": "standar_button.png",
+      "frame": {
+        "x": 452,
+        "y": 241,
+        "w": 181,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 181,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 181,
+        "h": 75
+      }
+    },
+    {
+      "filename": "standar_button_press.png",
+      "frame": {
+        "x": 452,
+        "y": 318,
+        "w": 181,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 181,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 181,
+        "h": 75
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "ui_gameover.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 902,
+      "h": 429
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:6e9f1d0d2741f26d13e5b3d076757788:c43692853aadea366b1936f508da014f:c7cfad328131b63d1f36d7abbbf9ceb0$"
+  }
+}

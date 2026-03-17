@@ -1,0 +1,394 @@
+{
+  "frames": [
+    {
+      "filename": "tutorial0_collectcoin_1.png",
+      "frame": {
+        "x": 842,
+        "y": 2,
+        "w": 201,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 201,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial0_collectcoin_2.png",
+      "frame": {
+        "x": 1045,
+        "y": 2,
+        "w": 201,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 201,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial1_bombstreak_1.png",
+      "frame": {
+        "x": 1248,
+        "y": 2,
+        "w": 192,
+        "h": 272
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 8,
+        "w": 192,
+        "h": 272
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial2_wallbounce_1.png",
+      "frame": {
+        "x": 547,
+        "y": 283,
+        "w": 201,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 201,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial2_wallbounce_2.png",
+      "frame": {
+        "x": 2,
+        "y": 484,
+        "w": 201,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 201,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial3_swapbubble_1.png",
+      "frame": {
+        "x": 205,
+        "y": 484,
+        "w": 201,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 201,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial3_swapbubble_2.png",
+      "frame": {
+        "x": 750,
+        "y": 283,
+        "w": 201,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 201,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial4_dragon_skull_1.png",
+      "frame": {
+        "x": 953,
+        "y": 349,
+        "w": 201,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 201,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial4_dragon_skull_2.png",
+      "frame": {
+        "x": 1156,
+        "y": 349,
+        "w": 201,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 201,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial5_shield_1.png",
+      "frame": {
+        "x": 408,
+        "y": 564,
+        "w": 201,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 201,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial5_shield_2.png",
+      "frame": {
+        "x": 611,
+        "y": 564,
+        "w": 201,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 201,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial6_dragon_scales_1.png",
+      "frame": {
+        "x": 814,
+        "y": 630,
+        "w": 201,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 201,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial6_dragon_scales_2.png",
+      "frame": {
+        "x": 547,
+        "y": 2,
+        "w": 293,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 293,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 294,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial7_metal_ball_1.png",
+      "frame": {
+        "x": 1017,
+        "y": 630,
+        "w": 201,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 201,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial7_metal_ball_2.png",
+      "frame": {
+        "x": 1220,
+        "y": 630,
+        "w": 201,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 1,
+        "w": 201,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 280
+      }
+    },
+    {
+      "filename": "tutorial_base.png",
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 543,
+        "h": 480
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 543,
+        "h": 480
+      },
+      "sourceSize": {
+        "w": 543,
+        "h": 480
+      }
+    },
+    {
+      "filename": "yes_button.png",
+      "frame": {
+        "x": 1248,
+        "y": 276,
+        "w": 177,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 3,
+        "w": 177,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 177,
+        "h": 77
+      }
+    },
+    {
+      "filename": "yes_button_press.png",
+      "frame": {
+        "x": 953,
+        "y": 283,
+        "w": 169,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 7,
+        "w": 169,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 177,
+        "h": 77
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "ui_tutorial_ingame.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1442,
+      "h": 911
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:3ebcae96f0fc3b31e987c80be4f2c77c:edb176391d605fcd38ec6e8d27d8fbfb:10620daf56ffdfeefdf9e94bdbbf4f23$"
+  }
+}

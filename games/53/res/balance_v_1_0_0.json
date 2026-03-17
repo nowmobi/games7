@@ -1,0 +1,45 @@
+{
+  "LAUNCHER": {
+    "FIRING_ANGLE": 140,
+    "COOLDOWN": 0,
+    "WAIT_FOR_BUBBLE": true,
+    "BUBBLE_SPEED": 20,
+    "BUBBLE_COLLISION_SCALE": 0.6,
+    "CAN_CHANGE_BUBBLE": true
+  },
+  "SCORE": {
+    "MATCH": 150,
+    "DROP": 200,
+    "BOMB": 500,
+    "OBJECTIVE": 500
+  },
+  "SPECIALS": {
+    "BOMB_RADIUS": 2,
+    "COVER_HEALTH": 3,
+    "COVER2_HEALTH": 4
+  },
+  "SETTINGS": {
+    "CHEATS_ACTIVATED": false,
+    "MATCH_NUMBER": 3,
+    "MATCH_SIZE_FOR_ANIM": 6,
+    "BUBBLES_DROPPED_FOR_ANIM": 4,
+    "MATCHES_FOR_POWERUP": 5,
+    "MAX_VISIBLE_ROWS": 9,
+    "VISIBLE_ROWS_FOR_GAMEOVER": 16,
+    "MINIMUM_VISIBLE_ROWS_FOR_SCROLL": 6,
+    "SCROLL_TO_X_ROWS_WHEN_MINIMUM": 10
+  },
+  "TUTORIAL": {
+    "FOR_INPUT": 1,
+    "STAGES": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      23,
+      16,
+      12
+    ]
+  }
+}

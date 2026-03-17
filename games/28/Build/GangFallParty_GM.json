@@ -1,0 +1,23 @@
+{
+  "companyName": "RHM Games Studio",
+  "productName": "Gang Fall Party",
+  "productVersion": "0.1",
+  "dataUrl": "GangFallParty_GM.data.unityweb",
+  "wasmCodeUrl": "GangFallParty_GM.wasm.code.unityweb",
+  "wasmFrameworkUrl": "GangFallParty_GM.wasm.framework.unityweb",
+  "graphicsAPI": [
+    "WebGL 2.0"
+  ],
+  "webglContextAttributes": {
+    "preserveDrawingBuffer": false
+  },
+  "backgroundUrl": "GangFallParty_GM.jpg",
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#FFFFFF",
+  "cacheControl": {
+    "default": "must-revalidate"
+  },
+  "developmentBuild": false,
+  "multithreading": false,
+  "unityVersion": "2019.4.28f1"
+}

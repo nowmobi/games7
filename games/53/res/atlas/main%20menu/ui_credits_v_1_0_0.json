@@ -1,0 +1,121 @@
+{
+  "frames": [
+    {
+      "filename": "container_credits.png",
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 300,
+        "h": 389
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 389
+      },
+      "sourceSize": {
+        "w": 300,
+        "h": 389
+      }
+    },
+    {
+      "filename": "logo.png",
+      "frame": {
+        "x": 304,
+        "y": 2,
+        "w": 243,
+        "h": 247
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 41,
+        "y": 42,
+        "w": 243,
+        "h": 247
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 316
+      }
+    },
+    {
+      "filename": "ls_levelnumber.png",
+      "frame": {
+        "x": 2,
+        "y": 393,
+        "w": 207,
+        "h": 65
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 207,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 207,
+        "h": 65
+      }
+    },
+    {
+      "filename": "standar_blue_button.png",
+      "frame": {
+        "x": 304,
+        "y": 251,
+        "w": 181,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 181,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 181,
+        "h": 75
+      }
+    },
+    {
+      "filename": "standar_blue_button_press.png",
+      "frame": {
+        "x": 304,
+        "y": 328,
+        "w": 181,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 181,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 181,
+        "h": 75
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "ui_credits.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 549,
+      "h": 460
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:68f79bbafc1a65f8a4121538495f0a3a:7350a7f3130d819a5c2d22aa062022c9:71695752c6ab2ecd0cff55c6c6da6fac$"
+  }
+}

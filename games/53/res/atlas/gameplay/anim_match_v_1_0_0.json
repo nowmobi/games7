@@ -1,0 +1,961 @@
+{
+  "frames": [
+    {
+      "filename": "explosion_1.png",
+      "frame": {
+        "x": 194,
+        "y": 745,
+        "w": 48,
+        "h": 49
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 42,
+        "y": 37,
+        "w": 48,
+        "h": 49
+      },
+      "sourceSize": {
+        "w": 134,
+        "h": 121
+      }
+    },
+    {
+      "filename": "explosion_10.png",
+      "frame": {
+        "x": 793,
+        "y": 596,
+        "w": 128,
+        "h": 116
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 3,
+        "w": 128,
+        "h": 116
+      },
+      "sourceSize": {
+        "w": 134,
+        "h": 121
+      }
+    },
+    {
+      "filename": "explosion_11.png",
+      "frame": {
+        "x": 886,
+        "y": 209,
+        "w": 1,
+        "h": 1
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 134,
+        "h": 121
+      }
+    },
+    {
+      "filename": "explosion_2.png",
+      "frame": {
+        "x": 2,
+        "y": 745,
+        "w": 68,
+        "h": 66
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 32,
+        "y": 28,
+        "w": 68,
+        "h": 66
+      },
+      "sourceSize": {
+        "w": 134,
+        "h": 121
+      }
+    },
+    {
+      "filename": "explosion_3.png",
+      "frame": {
+        "x": 932,
+        "y": 487,
+        "w": 84,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 24,
+        "y": 22,
+        "w": 84,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 134,
+        "h": 121
+      }
+    },
+    {
+      "filename": "explosion_4.png",
+      "frame": {
+        "x": 496,
+        "y": 459,
+        "w": 95,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 18,
+        "y": 18,
+        "w": 95,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 134,
+        "h": 121
+      }
+    },
+    {
+      "filename": "explosion_5.png",
+      "frame": {
+        "x": 508,
+        "y": 357,
+        "w": 111,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 11,
+        "w": 111,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 134,
+        "h": 121
+      }
+    },
+    {
+      "filename": "explosion_6.png",
+      "frame": {
+        "x": 508,
+        "y": 253,
+        "w": 114,
+        "h": 102
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 10,
+        "w": 114,
+        "h": 102
+      },
+      "sourceSize": {
+        "w": 134,
+        "h": 121
+      }
+    },
+    {
+      "filename": "explosion_7.png",
+      "frame": {
+        "x": 793,
+        "y": 714,
+        "w": 120,
+        "h": 108
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 7,
+        "w": 120,
+        "h": 108
+      },
+      "sourceSize": {
+        "w": 134,
+        "h": 121
+      }
+    },
+    {
+      "filename": "explosion_8.png",
+      "frame": {
+        "x": 454,
+        "y": 687,
+        "w": 126,
+        "h": 114
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 4,
+        "w": 126,
+        "h": 114
+      },
+      "sourceSize": {
+        "w": 134,
+        "h": 121
+      }
+    },
+    {
+      "filename": "explosion_9.png",
+      "frame": {
+        "x": 886,
+        "y": 2,
+        "w": 130,
+        "h": 117
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 3,
+        "w": 130,
+        "h": 117
+      },
+      "sourceSize": {
+        "w": 134,
+        "h": 121
+      }
+    },
+    {
+      "filename": "sparks1_1.png",
+      "frame": {
+        "x": 582,
+        "y": 685,
+        "w": 60,
+        "h": 72
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 61,
+        "y": 36,
+        "w": 60,
+        "h": 72
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_10.png",
+      "frame": {
+        "x": 792,
+        "y": 487,
+        "w": 138,
+        "h": 107
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 22,
+        "y": 19,
+        "w": 138,
+        "h": 107
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_11.png",
+      "frame": {
+        "x": 649,
+        "y": 637,
+        "w": 142,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 20,
+        "y": 17,
+        "w": 142,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_12.png",
+      "frame": {
+        "x": 621,
+        "y": 392,
+        "w": 152,
+        "h": 118
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15,
+        "y": 13,
+        "w": 152,
+        "h": 118
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_13.png",
+      "frame": {
+        "x": 290,
+        "y": 687,
+        "w": 162,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 9,
+        "w": 162,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_14.png",
+      "frame": {
+        "x": 850,
+        "y": 353,
+        "w": 172,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 6,
+        "w": 172,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_15.png",
+      "frame": {
+        "x": 290,
+        "y": 547,
+        "w": 178,
+        "h": 138
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 3,
+        "w": 178,
+        "h": 138
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_16.png",
+      "frame": {
+        "x": 314,
+        "y": 405,
+        "w": 180,
+        "h": 140
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 2,
+        "w": 180,
+        "h": 140
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_17.png",
+      "frame": {
+        "x": 470,
+        "y": 547,
+        "w": 177,
+        "h": 136
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 4,
+        "w": 177,
+        "h": 136
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_18.png",
+      "frame": {
+        "x": 886,
+        "y": 209,
+        "w": 1,
+        "h": 1
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_2.png",
+      "frame": {
+        "x": 582,
+        "y": 685,
+        "w": 60,
+        "h": 72
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 61,
+        "y": 36,
+        "w": 60,
+        "h": 72
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_3.png",
+      "frame": {
+        "x": 582,
+        "y": 759,
+        "w": 47,
+        "h": 46
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 67,
+        "y": 49,
+        "w": 47,
+        "h": 46
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_4.png",
+      "frame": {
+        "x": 593,
+        "y": 459,
+        "w": 26,
+        "h": 25
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 78,
+        "y": 60,
+        "w": 26,
+        "h": 25
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_5.png",
+      "frame": {
+        "x": 593,
+        "y": 459,
+        "w": 26,
+        "h": 25
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 78,
+        "y": 60,
+        "w": 26,
+        "h": 25
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_6.png",
+      "frame": {
+        "x": 991,
+        "y": 121,
+        "w": 29,
+        "h": 28
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 76,
+        "y": 58,
+        "w": 29,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_7.png",
+      "frame": {
+        "x": 631,
+        "y": 759,
+        "w": 45,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 68,
+        "y": 50,
+        "w": 45,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_8.png",
+      "frame": {
+        "x": 631,
+        "y": 759,
+        "w": 45,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 68,
+        "y": 50,
+        "w": 45,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks1_9.png",
+      "frame": {
+        "x": 886,
+        "y": 121,
+        "w": 103,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 39,
+        "y": 29,
+        "w": 103,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 183,
+        "h": 142
+      }
+    },
+    {
+      "filename": "sparks_treasure_1.png",
+      "frame": {
+        "x": 923,
+        "y": 596,
+        "w": 98,
+        "h": 99
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 120,
+        "y": 89,
+        "w": 98,
+        "h": 99
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_10.png",
+      "frame": {
+        "x": 628,
+        "y": 212,
+        "w": 220,
+        "h": 178
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 59,
+        "y": 49,
+        "w": 220,
+        "h": 178
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_11.png",
+      "frame": {
+        "x": 628,
+        "y": 2,
+        "w": 256,
+        "h": 208
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 41,
+        "y": 34,
+        "w": 256,
+        "h": 208
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_12.png",
+      "frame": {
+        "x": 2,
+        "y": 511,
+        "w": 286,
+        "h": 232
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 26,
+        "y": 22,
+        "w": 286,
+        "h": 232
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_13.png",
+      "frame": {
+        "x": 320,
+        "y": 2,
+        "w": 306,
+        "h": 249
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 16,
+        "y": 13,
+        "w": 306,
+        "h": 249
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_14.png",
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 316,
+        "h": 258
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 9,
+        "w": 316,
+        "h": 258
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_15.png",
+      "frame": {
+        "x": 2,
+        "y": 262,
+        "w": 310,
+        "h": 247
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 14,
+        "y": 15,
+        "w": 310,
+        "h": 247
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_16.png",
+      "frame": {
+        "x": 886,
+        "y": 209,
+        "w": 1,
+        "h": 1
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_2.png",
+      "frame": {
+        "x": 775,
+        "y": 392,
+        "w": 73,
+        "h": 73
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 132,
+        "y": 102,
+        "w": 73,
+        "h": 73
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_3.png",
+      "frame": {
+        "x": 72,
+        "y": 745,
+        "w": 62,
+        "h": 62
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 138,
+        "y": 107,
+        "w": 62,
+        "h": 62
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_4.png",
+      "frame": {
+        "x": 244,
+        "y": 745,
+        "w": 44,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 147,
+        "y": 116,
+        "w": 44,
+        "h": 45
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_5.png",
+      "frame": {
+        "x": 136,
+        "y": 745,
+        "w": 56,
+        "h": 51
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 141,
+        "y": 113,
+        "w": 56,
+        "h": 51
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_6.png",
+      "frame": {
+        "x": 915,
+        "y": 714,
+        "w": 100,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 119,
+        "y": 90,
+        "w": 100,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_7.png",
+      "frame": {
+        "x": 649,
+        "y": 512,
+        "w": 141,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 98,
+        "y": 77,
+        "w": 141,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_8.png",
+      "frame": {
+        "x": 850,
+        "y": 212,
+        "w": 172,
+        "h": 139
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 83,
+        "y": 69,
+        "w": 172,
+        "h": 139
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    },
+    {
+      "filename": "sparks_treasure_9.png",
+      "frame": {
+        "x": 320,
+        "y": 253,
+        "w": 186,
+        "h": 150
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 76,
+        "y": 63,
+        "w": 186,
+        "h": 150
+      },
+      "sourceSize": {
+        "w": 339,
+        "h": 274
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "anim_match.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1024,
+      "h": 824
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:0d30e9691851e3d63d0d0d73f4f5574d:94f395db8b259940bac5ba84bf1fcce2:9c9adad4236dabdc8eed46402a0ee604$"
+  }
+}

@@ -1,0 +1,488 @@
+{
+  "classname": null,
+  "name": null,
+  "animation": {
+    "classname": null,
+    "name": "AnimationManager",
+    "actionlist": [
+      {
+        "classname": null,
+        "name": "in",
+        "actionnodelist": [
+          {
+            "classname": null,
+            "name": "map_home_button",
+            "ActionTag": 50072875,
+            "actionframelist": [
+              {
+                "classname": null,
+                "name": null,
+                "colorb": 255,
+                "colorg": 255,
+                "colorr": 255,
+                "frameid": 0,
+                "opacity": 0,
+                "positionx": -107,
+                "positiony": 64,
+                "rotation": 0,
+                "scalex": 1,
+                "scaley": 1,
+                "starttime": 0,
+                "tweenParameter": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "tweenType": 0,
+                "visible": false
+              },
+              {
+                "classname": null,
+                "name": null,
+                "colorb": 255,
+                "colorg": 255,
+                "colorr": 255,
+                "frameid": 3,
+                "opacity": 255,
+                "positionx": 61,
+                "positiony": 64,
+                "rotation": 0,
+                "scalex": 1,
+                "scaley": 1,
+                "starttime": 0,
+                "tweenParameter": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "tweenType": 14,
+                "visible": false
+              }
+            ]
+          },
+          {
+            "classname": null,
+            "name": "map_stars_bg",
+            "ActionTag": 26282634,
+            "actionframelist": [
+              {
+                "classname": null,
+                "name": null,
+                "colorb": 255,
+                "colorg": 255,
+                "colorr": 255,
+                "frameid": 0,
+                "opacity": 0,
+                "positionx": 829,
+                "positiony": 881,
+                "rotation": 0,
+                "scalex": 1,
+                "scaley": 1,
+                "starttime": 0,
+                "tweenParameter": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "tweenType": 0,
+                "visible": false
+              },
+              {
+                "classname": null,
+                "name": null,
+                "colorb": 255,
+                "colorg": 255,
+                "colorr": 255,
+                "frameid": 3,
+                "opacity": 255,
+                "positionx": 570,
+                "positiony": 881,
+                "rotation": 0,
+                "scalex": 1,
+                "scaley": 1,
+                "starttime": 0,
+                "tweenParameter": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "tweenType": 14,
+                "visible": false
+              }
+            ]
+          }
+        ],
+        "loop": false,
+        "unittime": 0.1
+      },
+      {
+        "classname": null,
+        "name": "out",
+        "actionnodelist": [
+          {
+            "classname": null,
+            "name": "map_home_button",
+            "ActionTag": 50072875,
+            "actionframelist": [
+              {
+                "classname": null,
+                "name": null,
+                "colorb": 255,
+                "colorg": 255,
+                "colorr": 255,
+                "frameid": 0,
+                "opacity": 255,
+                "positionx": 61,
+                "positiony": 64,
+                "rotation": 0,
+                "scalex": 1,
+                "scaley": 1,
+                "starttime": 0,
+                "tweenParameter": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "tweenType": 0,
+                "visible": false
+              },
+              {
+                "classname": null,
+                "name": null,
+                "colorb": 255,
+                "colorg": 255,
+                "colorr": 255,
+                "frameid": 3,
+                "opacity": 0,
+                "positionx": -107,
+                "positiony": 64,
+                "rotation": 0,
+                "scalex": 1,
+                "scaley": 1,
+                "starttime": 0,
+                "tweenParameter": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "tweenType": 13,
+                "visible": false
+              }
+            ]
+          },
+          {
+            "classname": null,
+            "name": "map_stars_bg",
+            "ActionTag": 26282634,
+            "actionframelist": [
+              {
+                "classname": null,
+                "name": null,
+                "colorb": 255,
+                "colorg": 255,
+                "colorr": 255,
+                "frameid": 0,
+                "opacity": 255,
+                "positionx": 570,
+                "positiony": 881,
+                "rotation": 0,
+                "scalex": 1,
+                "scaley": 1,
+                "starttime": 0,
+                "tweenParameter": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "tweenType": 0,
+                "visible": false
+              },
+              {
+                "classname": null,
+                "name": null,
+                "colorb": 255,
+                "colorg": 255,
+                "colorr": 255,
+                "frameid": 3,
+                "opacity": 0,
+                "positionx": 829,
+                "positiony": 881,
+                "rotation": 0,
+                "scalex": 1,
+                "scaley": 1,
+                "starttime": 0,
+                "tweenParameter": [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "tweenType": 13,
+                "visible": false
+              }
+            ]
+          }
+        ],
+        "loop": false,
+        "unittime": 0.1
+      }
+    ]
+  },
+  "dataScale": 1,
+  "designHeight": 960,
+  "designWidth": 640,
+  "textures": [
+    "ui_level_select0.plist"
+  ],
+  "texturesPng": [
+    "ui_level_select0.png"
+  ],
+  "version": "1.6.0.0",
+  "widgetTree": {
+    "classname": "Panel",
+    "name": null,
+    "children": [
+      {
+        "classname": "Button",
+        "name": null,
+        "children": [],
+        "options": {
+          "__type": "ButtonSurrogate:#EditorCommon.JsonModel.Component.GUI",
+          "classname": "Button",
+          "name": "home",
+          "ZOrder": 0,
+          "actiontag": 50072875,
+          "anchorPointX": 0.5,
+          "anchorPointY": 0.5,
+          "classType": "CocoStudio.EngineAdapterWrap.CSButton",
+          "colorB": 255,
+          "colorG": 255,
+          "colorR": 255,
+          "customProperty": "",
+          "flipX": false,
+          "flipY": false,
+          "height": 69,
+          "ignoreSize": true,
+          "layoutParameter": null,
+          "opacity": 255,
+          "positionPercentX": 0.084375,
+          "positionPercentY": 0.05625,
+          "positionType": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "sizePercentX": 0.1125,
+          "sizePercentY": 0.071875,
+          "sizeType": 0,
+          "tag": 211,
+          "touchAble": true,
+          "useMergedTexture": true,
+          "visible": true,
+          "width": 72,
+          "x": 54,
+          "y": 54,
+          "capInsetsHeight": 1,
+          "capInsetsWidth": 1,
+          "capInsetsX": 0,
+          "capInsetsY": 0,
+          "disabled": null,
+          "disabledData": {
+            "path": "go_home_button_press.png",
+            "plistFile": "",
+            "resourceType": 1
+          },
+          "fontName": "微软雅黑",
+          "fontSize": 14,
+          "fontType": 0,
+          "normal": null,
+          "normalData": {
+            "path": "go_home_button.png",
+            "plistFile": "",
+            "resourceType": 1
+          },
+          "pressed": null,
+          "pressedData": {
+            "path": "go_home_button_press.png",
+            "plistFile": "",
+            "resourceType": 1
+          },
+          "scale9Enable": false,
+          "scale9Height": 69,
+          "scale9Width": 72,
+          "text": "",
+          "textColorB": 255,
+          "textColorG": 255,
+          "textColorR": 255
+        }
+      },
+      {
+        "classname": "ImageView",
+        "name": null,
+        "children": [
+          {
+            "classname": "LabelBMFont",
+            "name": null,
+            "children": [],
+            "options": {
+              "__type": "LabelBMFontSurrogate:#EditorCommon.JsonModel.Component.GUI",
+              "classname": "LabelBMFont",
+              "name": "stars",
+              "ZOrder": 0,
+              "actiontag": 51600525,
+              "anchorPointX": 0.5,
+              "anchorPointY": 0.6,
+              "classType": "CocoStudio.EngineAdapterWrap.CSLabelBMFont",
+              "colorB": 255,
+              "colorG": 255,
+              "colorR": 255,
+              "customProperty": "",
+              "flipX": false,
+              "flipY": false,
+              "height": 29,
+              "ignoreSize": true,
+              "layoutParameter": null,
+              "opacity": 255,
+              "positionPercentX": 0.163120568,
+              "positionPercentY": 0,
+              "positionType": 0,
+              "rotation": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "sizePercentX": 0.539007068,
+              "sizePercentY": 0.369230777,
+              "sizeType": 0,
+              "tag": 213,
+              "touchAble": false,
+              "useMergedTexture": true,
+              "visible": true,
+              "width": 67,
+              "x": 23,
+              "y": 0,
+              "fileNameData": {
+                "path": "font_white_small.fnt",
+                "plistFile": "",
+                "resourceType": 0
+              },
+              "text": "90/90"
+            }
+          }
+        ],
+        "options": {
+          "__type": "ImageViewSurrogate:#EditorCommon.JsonModel.Component.GUI",
+          "classname": "ImageView",
+          "name": "stars_container",
+          "ZOrder": 0,
+          "actiontag": 26282634,
+          "anchorPointX": 0.5,
+          "anchorPointY": 0.5,
+          "classType": "CocoStudio.EngineAdapterWrap.CSImageView",
+          "colorB": 255,
+          "colorG": 255,
+          "colorR": 255,
+          "customProperty": "",
+          "flipX": false,
+          "flipY": false,
+          "height": 65,
+          "ignoreSize": true,
+          "layoutParameter": null,
+          "opacity": 255,
+          "positionPercentX": 0.890625,
+          "positionPercentY": 0.917708337,
+          "positionType": 0,
+          "rotation": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "sizePercentX": 0.2203125,
+          "sizePercentY": 0.0677083358,
+          "sizeType": 0,
+          "tag": 212,
+          "touchAble": false,
+          "useMergedTexture": true,
+          "visible": true,
+          "width": 141,
+          "x": 570,
+          "y": 881,
+          "capInsetsHeight": 1,
+          "capInsetsWidth": 1,
+          "capInsetsX": 0,
+          "capInsetsY": 0,
+          "fileName": null,
+          "fileNameData": {
+            "path": "ls_star_counter1.png",
+            "plistFile": "",
+            "resourceType": 1
+          },
+          "scale9Enable": false,
+          "scale9Height": 65,
+          "scale9Width": 141
+        }
+      }
+    ],
+    "options": {
+      "__type": "PanelSurrogate:#EditorCommon.JsonModel.Component.GUI",
+      "classname": "Panel",
+      "name": "panel",
+      "ZOrder": 0,
+      "actiontag": -1,
+      "anchorPointX": 0,
+      "anchorPointY": 0,
+      "classType": "CocoStudio.EngineAdapterWrap.CSPanel",
+      "colorB": 255,
+      "colorG": 255,
+      "colorR": 255,
+      "customProperty": "",
+      "flipX": false,
+      "flipY": false,
+      "height": 960,
+      "ignoreSize": false,
+      "layoutParameter": null,
+      "opacity": 255,
+      "positionPercentX": 0,
+      "positionPercentY": 0,
+      "positionType": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "sizePercentX": 1,
+      "sizePercentY": 1,
+      "sizeType": 0,
+      "tag": 210,
+      "touchAble": true,
+      "useMergedTexture": true,
+      "visible": true,
+      "width": 640,
+      "x": 0,
+      "y": 0,
+      "adaptScreen": false,
+      "backGroundImage": null,
+      "backGroundImageData": null,
+      "backGroundScale9Enable": false,
+      "bgColorB": 255,
+      "bgColorG": 200,
+      "bgColorOpacity": 0,
+      "bgColorR": 150,
+      "bgEndColorB": 255,
+      "bgEndColorG": 200,
+      "bgEndColorR": 150,
+      "bgStartColorB": 255,
+      "bgStartColorG": 255,
+      "bgStartColorR": 255,
+      "capInsetsHeight": 1,
+      "capInsetsWidth": 1,
+      "capInsetsX": 0,
+      "capInsetsY": 0,
+      "clipAble": false,
+      "colorType": 1,
+      "layoutType": 0,
+      "vectorX": 0,
+      "vectorY": -0.5
+    }
+  }
+}

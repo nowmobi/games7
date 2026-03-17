@@ -1,0 +1,28 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="Mutemusicbnt2.png" x="415" y="994" width="107" height="108"/>
+	<SubTexture name="bgNewStage2.png" x="0" y="117" width="467" height="179"/>
+	<SubTexture name="bgPause2.png" x="0" y="298" width="467" height="364"/>
+	<SubTexture name="bgWin2.png" x="0" y="884" width="413" height="506"/>
+	<SubTexture name="center_sprite2.png" x="325" y="1586" width="109" height="120"/>
+	<SubTexture name="center_sprite22.png" x="311" y="1889" width="109" height="120"/>
+	<SubTexture name="change_bubble2.png" x="184" y="1889" width="125" height="114"/>
+	<SubTexture name="daynightbnt2.png" x="419" y="664" width="90" height="79"/>
+	<SubTexture name="hud_top2.png" x="0" y="14" width="503" height="101"/>
+	<SubTexture name="ice_part2.png" x="0" y="1975" width="17" height="23"/>
+	<SubTexture name="levelsbnt2.png" x="419" y="745" width="90" height="79"/>
+	<SubTexture name="limit2.png" x="0" y="0" width="640" height="12"/>
+	<SubTexture name="logo_part12.png" x="0" y="664" width="417" height="218"/>
+	<SubTexture name="logo_part22.png" x="184" y="1760" width="169" height="127"/>
+	<SubTexture name="medal2.png" x="325" y="1392" width="135" height="192"/>
+	<SubTexture name="menu_bubbles2.png" x="0" y="1392" width="323" height="366"/>
+	<SubTexture name="moreg2.png" x="355" y="1708" width="108" height="108"/>
+	<SubTexture name="music_bnt_pause2.png" x="415" y="1188" width="90" height="78"/>
+	<SubTexture name="musicbnt2.png" x="415" y="884" width="108" height="108"/>
+	<SubTexture name="mute_bnt_pause2.png" x="415" y="1268" width="90" height="78"/>
+	<SubTexture name="pausebnt2.png" x="436" y="1586" width="87" height="91"/>
+	<SubTexture name="playbtn2.png" x="0" y="1760" width="182" height="182"/>
+	<SubTexture name="replaybnt2.png" x="422" y="1818" width="90" height="79"/>
+	<SubTexture name="resumebnt2.png" x="422" y="1899" width="90" height="78"/>
+	<SubTexture name="shoot_mark2.png" x="415" y="1104" width="100" height="82"/>
+	<SubTexture name="trajectoire0.png" x="0" y="1944" width="144" height="29"/>
+</TextureAtlas>

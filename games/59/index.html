@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Candy 5 in row</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no,target-densitydpi=device-dpi" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style>
+        body {
+            text-align: center;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+
+        html {
+            -ms-touch-action: none;
+            overflow: hidden;
+        }
+
+        div,
+        canvas {
+            display: block;
+            position: absolute;
+            margin: 0 auto;
+            padding: 0;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="position:relative;" id="gameDiv"></div>
+    <script>
+        var document_class = "Main";
+    </script>
+
+    <script src="launcher/egret_require.js"></script>
+    <script src="launcher/egret_loader.js"></script>
+    <script src="launcher/game-min.js"></script>
+    <script>
+        function share(title, description, link) {
+            console.log('share');
+            FB.ui({
+                method: 'feed',
+                link: link,
+                caption: title,
+                description: description
+            }, function(response) {});
+        }
+
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '936772449727592',
+                xfbml: true,
+                version: 'v2.3'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>
+        var support = [].map && document.createElement("canvas").getContext;
+        if (support) {
+            egret_h5.startGame();
+        } else {
+            alert("Egret 不支持您当前的浏览器")
+        }
+    </script>
+	
+	
+	<script type="text/javascript">
+   window.SDK_OPTIONS = {
+      gameId: "ddc0mpt6pn54qibvvncg9ttncf5b284f",
+      onEvent: function (a) {
+         switch (a.name) {
+            case "SDK_GAME_PAUSE":
+               // pause game logic / mute audio
+               break;
+            case "SDK_GAME_START":
+               // advertisement done, resume game logic and unmute audio
+               break;
+            case "SDK_READY":
+               // when sdk is ready
+               break;
+         }
+      }
+   };
+(function (a, b, c) {
+   var d = a.getElementsByTagName(b)[0];
+   a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk.js", d.parentNode.insertBefore(a, d))
+})(document, "script", "gamemonetize-sdk"); 
+</script>
+
+
+<script type="text/javascript">
+        function Advert1() {
+		 if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+		 sdk.showBanner();
+		 }
+        };
+
+        function Advert2() {
+            if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+			sdk.showBanner();
+			}
+        };
+
+        setTimeout(function() {
+            Advert1();
+        }, 1000);
+        setInterval(function() {
+            Advert2();
+        }, 70000);
+    </script>
+	
+	
+	<div id="gameContainer" style="width: 100%; height: 100%;">
+        <div id="content"></div>
+        <a href="bizogames.com" onclick="window.open('https://hyhygames.com'); return false;"><script type="text/javascript" style="display:none">
+//<![CDATA[
+window.__mirage2 = {petok:"aCj.QNwGUOfLrCmu67eagpL0xPleX_OUL2kyVMsyHGk-31536000-0"};
+//]]>
+</script>
+<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
+<img data-cfsrc="logo.png" data-cfstyle="bottom:1%;right:50%;position:absolute;width:100px;transform:translate(-5%,2%);cursor:pointer;height:auto;max-width:30%;z-index:1200000" alt="hyhygames.com" style="display:none;visibility:hidden;"><noscript><img src="logo.png" style="bottom:1%;right:50%;position:absolute;width:100px;transform:translate(-5%,2%);cursor:pointer;height:auto;max-width:30%;z-index:1200000" alt="hyhygames.com"></noscript></a>
+    </div>
+<script>
+(function (a, b, c) {
+   var d = a.getElementsByTagName(b)[0];
+   a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk_preload.js?v=" + Date.now(), d.parentNode.insertBefore(a, d))
+})(document, "script", "gamemonetize-preload-api");
+</script>
+
+
+</body>
+
+
+</html>

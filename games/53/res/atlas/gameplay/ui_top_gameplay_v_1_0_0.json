@@ -1,0 +1,184 @@
+{
+  "frames": [
+    {
+      "filename": "1x1.png",
+      "frame": {
+        "x": 259,
+        "y": 177,
+        "w": 1,
+        "h": 1
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    {
+      "filename": "gem1.png",
+      "frame": {
+        "x": 131,
+        "y": 76,
+        "w": 126,
+        "h": 102
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 0,
+        "w": 126,
+        "h": 102
+      },
+      "sourceSize": {
+        "w": 127,
+        "h": 103
+      }
+    },
+    {
+      "filename": "gem2.png",
+      "frame": {
+        "x": 259,
+        "y": 76,
+        "w": 127,
+        "h": 99
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 2,
+        "w": 127,
+        "h": 99
+      },
+      "sourceSize": {
+        "w": 127,
+        "h": 103
+      }
+    },
+    {
+      "filename": "gem3.png",
+      "frame": {
+        "x": 2,
+        "y": 76,
+        "w": 127,
+        "h": 103
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 127,
+        "h": 103
+      },
+      "sourceSize": {
+        "w": 127,
+        "h": 103
+      }
+    },
+    {
+      "filename": "gp_bar.png",
+      "frame": {
+        "x": 388,
+        "y": 76,
+        "w": 227,
+        "h": 35
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 227,
+        "h": 35
+      },
+      "sourceSize": {
+        "w": 227,
+        "h": 35
+      }
+    },
+    {
+      "filename": "gp_starbar.png",
+      "frame": {
+        "x": 438,
+        "y": 113,
+        "w": 35,
+        "h": 43
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 43
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 43
+      }
+    },
+    {
+      "filename": "gp_topbar.png",
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 640,
+        "h": 72
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 72
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 72
+      }
+    },
+    {
+      "filename": "star_ui.png",
+      "frame": {
+        "x": 388,
+        "y": 113,
+        "w": 48,
+        "h": 46
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 46
+      },
+      "sourceSize": {
+        "w": 48,
+        "h": 46
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "ui_top_gameplay.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 644,
+      "h": 181
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:bcd20fc7bae322234fcab41078e419b5:5c4dec726c531c9985a6aeb3737c872c:58dec2e4c48a2e20783559a7e8e61df2$"
+  }
+}

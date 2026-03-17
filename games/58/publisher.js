@@ -1,0 +1,11 @@
+var gameName = "Bubble Spin";
+var gameVersion = "1.00";
+var gameCategory = "Bubble";
+var developerId = "0";
+var gameCode = "0-bubble_spin";
+var adChannel = "0";
+var enableAds = false;
+var adFreq = "0";
+var firstAd = "0";
+var moreGames = 0;
+var moreGamesURL = "";

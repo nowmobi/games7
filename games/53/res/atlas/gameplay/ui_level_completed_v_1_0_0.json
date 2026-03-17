@@ -1,0 +1,205 @@
+{
+  "frames": [
+    {
+      "filename": "1x1.png",
+      "frame": {
+        "x": 635,
+        "y": 2,
+        "w": 1,
+        "h": 1
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    {
+      "filename": "container_level_completed.png",
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 448,
+        "h": 425
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 448,
+        "h": 425
+      },
+      "sourceSize": {
+        "w": 448,
+        "h": 425
+      }
+    },
+    {
+      "filename": "go_retry_button.png",
+      "frame": {
+        "x": 521,
+        "y": 322,
+        "w": 72,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 70
+      }
+    },
+    {
+      "filename": "go_retry_button_press.png",
+      "frame": {
+        "x": 595,
+        "y": 322,
+        "w": 72,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 70
+      }
+    },
+    {
+      "filename": "medalla.png",
+      "frame": {
+        "x": 452,
+        "y": 322,
+        "w": 67,
+        "h": 102
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 67,
+        "h": 102
+      },
+      "sourceSize": {
+        "w": 67,
+        "h": 102
+      }
+    },
+    {
+      "filename": "star.png",
+      "frame": {
+        "x": 452,
+        "y": 156,
+        "w": 172,
+        "h": 164
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 172,
+        "h": 164
+      },
+      "sourceSize": {
+        "w": 172,
+        "h": 164
+      }
+    },
+    {
+      "filename": "star_ui.png",
+      "frame": {
+        "x": 626,
+        "y": 156,
+        "w": 48,
+        "h": 46
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 46
+      },
+      "sourceSize": {
+        "w": 48,
+        "h": 46
+      }
+    },
+    {
+      "filename": "yes_button.png",
+      "frame": {
+        "x": 452,
+        "y": 2,
+        "w": 181,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 181,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 181,
+        "h": 75
+      }
+    },
+    {
+      "filename": "yes_button_press.png",
+      "frame": {
+        "x": 452,
+        "y": 79,
+        "w": 181,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 181,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 181,
+        "h": 75
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "ui_level_completed.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 676,
+      "h": 429
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:cfaab8cd25c6e614e24e9e2a7de0f200:37dce8bbccc1c0456c0ed79287866899:8858b6eeeafc2ead9cc120de76f497c6$"
+  }
+}

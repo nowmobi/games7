@@ -1,0 +1,121 @@
+{
+  "frames": [
+    {
+      "filename": "1x1.png",
+      "frame": {
+        "x": 2,
+        "y": 176,
+        "w": 1,
+        "h": 1
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      },
+      "sourceSize": {
+        "w": 1,
+        "h": 1
+      }
+    },
+    {
+      "filename": "gp_cannon.png",
+      "frame": {
+        "x": 60,
+        "y": 61,
+        "w": 203,
+        "h": 116
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 0,
+        "w": 203,
+        "h": 116
+      },
+      "sourceSize": {
+        "w": 226,
+        "h": 116
+      }
+    },
+    {
+      "filename": "gp_cannon_line.png",
+      "frame": {
+        "x": 265,
+        "y": 61,
+        "w": 32,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 0,
+        "w": 32,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 71
+      }
+    },
+    {
+      "filename": "tutorial_finger.png",
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 56,
+        "h": 172
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 56,
+        "h": 172
+      },
+      "sourceSize": {
+        "w": 56,
+        "h": 172
+      }
+    },
+    {
+      "filename": "tutorial_line.png",
+      "frame": {
+        "x": 60,
+        "y": 2,
+        "w": 253,
+        "h": 57
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 253,
+        "h": 57
+      },
+      "sourceSize": {
+        "w": 253,
+        "h": 57
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "ui_tutorial_ingame2.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 315,
+      "h": 179
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:3e7f18da375c413ebea201c63b1a4de9:926aba2710fe4701feb91642e2ac3e09:5cc38aae7e9e3df015c55686ca7f2b9d$"
+  }
+}
