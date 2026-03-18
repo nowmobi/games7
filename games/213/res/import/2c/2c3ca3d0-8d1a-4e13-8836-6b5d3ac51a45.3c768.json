@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_stamina",
+    "texture": "1e787e1d2",
+    "rect": [
+      427,
+      657,
+      68,
+      68
+    ],
+    "offset": [
+      0,
+      -5
+    ],
+    "originalSize": [
+      68,
+      78
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

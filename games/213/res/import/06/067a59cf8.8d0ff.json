@@ -1,0 +1,141 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c3_sidedish_1",
+      "texture": "14ed766d3",
+      "rect": [
+        634,
+        812,
+        142,
+        98
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        142,
+        100
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c3_sidedish_2",
+      "texture": "14ed766d3",
+      "rect": [
+        860,
+        892,
+        128,
+        116
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        128,
+        118
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c3_squid_material",
+      "texture": "14ed766d3",
+      "rect": [
+        3,
+        339,
+        322,
+        158
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        322,
+        158
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c3_ice_machine",
+      "texture": "14ed766d3",
+      "rect": [
+        108,
+        3,
+        215,
+        319
+      ],
+      "offset": [
+        0.5,
+        -0.5
+      ],
+      "originalSize": [
+        216,
+        320
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c3_okonomiyaki_material",
+      "texture": "14ed766d3",
+      "rect": [
+        375,
+        518,
+        226,
+        190
+      ],
+      "offset": [
+        0,
+        -1
+      ],
+      "originalSize": [
+        226,
+        192
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

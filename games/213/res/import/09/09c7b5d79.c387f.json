@@ -1,0 +1,56 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_ff_product",
+      "texture": "13134e5b8",
+      "rect": [
+        829,
+        609,
+        105,
+        91
+      ],
+      "offset": [
+        -2.5,
+        -0.5
+      ],
+      "originalSize": [
+        110,
+        92
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_cola_full",
+      "texture": "13134e5b8",
+      "rect": [
+        255,
+        322,
+        58,
+        107
+      ],
+      "offset": [
+        0,
+        1
+      ],
+      "originalSize": [
+        58,
+        109
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

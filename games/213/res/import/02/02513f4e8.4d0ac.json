@@ -1,0 +1,56 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c3_okonomiyaki_raw",
+      "texture": "17d0e5531",
+      "rect": [
+        3,
+        3,
+        133,
+        100
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        134,
+        100
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c3_squid_raw",
+      "texture": "14ed766d3",
+      "rect": [
+        757,
+        544,
+        168,
+        115
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        168,
+        115
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

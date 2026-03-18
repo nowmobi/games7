@@ -1,0 +1,751 @@
+{
+  "frames": [
+    {
+      "filename": "objects/burger",
+      "frame": {
+        "x": 353,
+        "y": 180,
+        "w": 51,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 45
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 45
+      }
+    },
+    {
+      "filename": "objects/burger_glow",
+      "frame": {
+        "x": 870,
+        "y": 115,
+        "w": 60,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 60,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 60,
+        "h": 54
+      }
+    },
+    {
+      "filename": "objects/destroy1",
+      "frame": {
+        "x": 197,
+        "y": 144,
+        "w": 83,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 83,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 83,
+        "h": 69
+      }
+    },
+    {
+      "filename": "objects/destroy2",
+      "frame": {
+        "x": 2,
+        "y": 146,
+        "w": 108,
+        "h": 95
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 108,
+        "h": 95
+      },
+      "sourceSize": {
+        "w": 108,
+        "h": 95
+      }
+    },
+    {
+      "filename": "objects/destroy3",
+      "frame": {
+        "x": 532,
+        "y": 2,
+        "w": 103,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 103,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 103,
+        "h": 127
+      }
+    },
+    {
+      "filename": "objects/destroy4",
+      "frame": {
+        "x": 283,
+        "y": 2,
+        "w": 128,
+        "h": 122
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 122
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 122
+      }
+    },
+    {
+      "filename": "objects/match1",
+      "frame": {
+        "x": 533,
+        "y": 203,
+        "w": 35,
+        "h": 33
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 33
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 33
+      }
+    },
+    {
+      "filename": "objects/match2",
+      "frame": {
+        "x": 803,
+        "y": 118,
+        "w": 65,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 65,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 65,
+        "h": 58
+      }
+    },
+    {
+      "filename": "objects/match3",
+      "frame": {
+        "x": 112,
+        "y": 146,
+        "w": 83,
+        "h": 85
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 83,
+        "h": 85
+      },
+      "sourceSize": {
+        "w": 83,
+        "h": 85
+      }
+    },
+    {
+      "filename": "objects/match4",
+      "frame": {
+        "x": 413,
+        "y": 2,
+        "w": 117,
+        "h": 124
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 117,
+        "h": 124
+      },
+      "sourceSize": {
+        "w": 117,
+        "h": 124
+      }
+    },
+    {
+      "filename": "objects/match5",
+      "frame": {
+        "x": 145,
+        "y": 2,
+        "w": 136,
+        "h": 140
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 136,
+        "h": 140
+      },
+      "sourceSize": {
+        "w": 136,
+        "h": 140
+      }
+    },
+    {
+      "filename": "objects/match6",
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 141,
+        "h": 142
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 141,
+        "h": 142
+      },
+      "sourceSize": {
+        "w": 141,
+        "h": 142
+      }
+    },
+    {
+      "filename": "objects/ramen",
+      "frame": {
+        "x": 603,
+        "y": 193,
+        "w": 60,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 60,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 60,
+        "h": 44
+      }
+    },
+    {
+      "filename": "objects/ramen_glow",
+      "frame": {
+        "x": 282,
+        "y": 176,
+        "w": 69,
+        "h": 52
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 69,
+        "h": 52
+      },
+      "sourceSize": {
+        "w": 69,
+        "h": 52
+      }
+    },
+    {
+      "filename": "objects/salad",
+      "frame": {
+        "x": 471,
+        "y": 203,
+        "w": 60,
+        "h": 39
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 60,
+        "h": 39
+      },
+      "sourceSize": {
+        "w": 60,
+        "h": 39
+      }
+    },
+    {
+      "filename": "objects/salad_glow",
+      "frame": {
+        "x": 933,
+        "y": 144,
+        "w": 68,
+        "h": 47
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 68,
+        "h": 47
+      },
+      "sourceSize": {
+        "w": 68,
+        "h": 47
+      }
+    },
+    {
+      "filename": "objects/sausage",
+      "frame": {
+        "x": 406,
+        "y": 201,
+        "w": 63,
+        "h": 40
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 63,
+        "h": 40
+      },
+      "sourceSize": {
+        "w": 63,
+        "h": 40
+      }
+    },
+    {
+      "filename": "objects/sausage_glow",
+      "frame": {
+        "x": 283,
+        "y": 126,
+        "w": 72,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 48
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 48
+      }
+    },
+    {
+      "filename": "objects/skill1_burger",
+      "frame": {
+        "x": 543,
+        "y": 131,
+        "w": 58,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 21,
+        "y": 10,
+        "w": 58,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 99
+      }
+    },
+    {
+      "filename": "objects/skill1_ramen",
+      "frame": {
+        "x": 938,
+        "y": 2,
+        "w": 63,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 13,
+        "w": 63,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 99
+      }
+    },
+    {
+      "filename": "objects/skill1_salad",
+      "frame": {
+        "x": 938,
+        "y": 73,
+        "w": 63,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 19,
+        "y": 9,
+        "w": 63,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 99
+      }
+    },
+    {
+      "filename": "objects/skill1_sausage",
+      "frame": {
+        "x": 411,
+        "y": 128,
+        "w": 67,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 16,
+        "y": 9,
+        "w": 67,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 99
+      }
+    },
+    {
+      "filename": "objects/skill1_sushi",
+      "frame": {
+        "x": 480,
+        "y": 131,
+        "w": 61,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 19,
+        "y": 8,
+        "w": 61,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 99
+      }
+    },
+    {
+      "filename": "objects/skill2_atas",
+      "frame": {
+        "x": 872,
+        "y": 221,
+        "w": 42,
+        "h": 21
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 42,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 42,
+        "h": 21
+      }
+    },
+    {
+      "filename": "objects/skill2_bawah",
+      "frame": {
+        "x": 916,
+        "y": 221,
+        "w": 42,
+        "h": 21
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 42,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 42,
+        "h": 21
+      }
+    },
+    {
+      "filename": "objects/skill2_glow",
+      "frame": {
+        "x": 603,
+        "y": 131,
+        "w": 60,
+        "h": 60
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 60,
+        "h": 60
+      },
+      "sourceSize": {
+        "w": 60,
+        "h": 60
+      }
+    },
+    {
+      "filename": "objects/skill3_1",
+      "frame": {
+        "x": 712,
+        "y": 2,
+        "w": 72,
+        "h": 116
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15,
+        "y": 13,
+        "w": 72,
+        "h": 116
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 146
+      }
+    },
+    {
+      "filename": "objects/skill3_2",
+      "frame": {
+        "x": 861,
+        "y": 2,
+        "w": 75,
+        "h": 111
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 18,
+        "w": 75,
+        "h": 111
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 146
+      }
+    },
+    {
+      "filename": "objects/skill3_3",
+      "frame": {
+        "x": 786,
+        "y": 2,
+        "w": 73,
+        "h": 114
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 13,
+        "y": 16,
+        "w": 73,
+        "h": 114
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 146
+      }
+    },
+    {
+      "filename": "objects/skill3_4",
+      "frame": {
+        "x": 637,
+        "y": 2,
+        "w": 73,
+        "h": 118
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15,
+        "y": 11,
+        "w": 73,
+        "h": 118
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 146
+      }
+    },
+    {
+      "filename": "objects/skill3_5",
+      "frame": {
+        "x": 665,
+        "y": 122,
+        "w": 68,
+        "h": 119
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 17,
+        "y": 8,
+        "w": 68,
+        "h": 119
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 146
+      }
+    },
+    {
+      "filename": "objects/skill3_6",
+      "frame": {
+        "x": 735,
+        "y": 120,
+        "w": 66,
+        "h": 118
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15,
+        "y": 9,
+        "w": 66,
+        "h": 118
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 146
+      }
+    },
+    {
+      "filename": "objects/skill3_piring",
+      "frame": {
+        "x": 357,
+        "y": 126,
+        "w": 52,
+        "h": 52
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 52,
+        "h": 52
+      },
+      "sourceSize": {
+        "w": 52,
+        "h": 52
+      }
+    },
+    {
+      "filename": "objects/sushi",
+      "frame": {
+        "x": 872,
+        "y": 171,
+        "w": 59,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 59,
+        "h": 48
+      },
+      "sourceSize": {
+        "w": 59,
+        "h": 48
+      }
+    },
+    {
+      "filename": "objects/sushi_glow",
+      "frame": {
+        "x": 803,
+        "y": 178,
+        "w": 67,
+        "h": 56
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 67,
+        "h": 56
+      },
+      "sourceSize": {
+        "w": 67,
+        "h": 56
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "objects.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1003,
+      "h": 244
+    },
+    "scale": "0.5",
+    "smartupdate": "$TexturePacker:SmartUpdate:c472838e6a0a5785497c77aa0e0046f3:9f33f2d690a61de93ab1244299248395:8d6d12ff4d5234f2a4b19e0a906dbf52$"
+  }
+}

@@ -1,0 +1,111 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c1_plate_1",
+      "texture": "182ccc03c",
+      "rect": [
+        255,
+        143,
+        184,
+        110
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        184,
+        110
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c1_beef_product_1",
+      "texture": "182ccc03c",
+      "rect": [
+        845,
+        193,
+        156,
+        95
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        156,
+        95
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c1_beef_product_0",
+      "texture": "182ccc03c",
+      "rect": [
+        361,
+        337,
+        156,
+        94
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        156,
+        95
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c1_beef_product_2",
+      "texture": "182ccc03c",
+      "rect": [
+        845,
+        294,
+        156,
+        95
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        156,
+        95
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_orange",
+    "texture": "1e787e1d2",
+    "rect": [
+      97,
+      500,
+      70,
+      100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      70,
+      100
+    ],
+    "capInsets": [
+      35,
+      0,
+      35,
+      0
+    ]
+  }
+}

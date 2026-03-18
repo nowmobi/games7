@@ -1,0 +1,332 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_cola_machine",
+      "texture": "13134e5b8",
+      "rect": [
+        419,
+        3,
+        314,
+        352
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        314,
+        352
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_box_material",
+      "texture": "13134e5b8",
+      "rect": [
+        413,
+        725,
+        147,
+        135
+      ],
+      "offset": [
+        -0.5,
+        0.5
+      ],
+      "originalSize": [
+        148,
+        136
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_oven2_1",
+      "texture": "13134e5b8",
+      "rect": [
+        669,
+        728,
+        135,
+        98
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        135,
+        98
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_sidedish_1",
+      "texture": "13134e5b8",
+      "rect": [
+        757,
+        869,
+        131,
+        132
+      ],
+      "offset": [
+        0,
+        2
+      ],
+      "originalSize": [
+        131,
+        136
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_sausage_material",
+      "texture": "13134e5b8",
+      "rect": [
+        414,
+        323,
+        174,
+        160
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        175,
+        160
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_sidedish_2",
+      "texture": "13134e5b8",
+      "rect": [
+        571,
+        869,
+        152,
+        111
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        152,
+        111
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_sidedish_3",
+      "texture": "13134e5b8",
+      "rect": [
+        688,
+        869,
+        63,
+        135
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        63,
+        135
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_plate1_1",
+      "texture": "13134e5b8",
+      "rect": [
+        414,
+        489,
+        171,
+        93
+      ],
+      "offset": [
+        -0.5,
+        0.5
+      ],
+      "originalSize": [
+        172,
+        94
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_fish_material",
+      "texture": "13134e5b8",
+      "rect": [
+        3,
+        600,
+        153,
+        164
+      ],
+      "offset": [
+        -2,
+        0
+      ],
+      "originalSize": [
+        157,
+        164
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_ff_machine",
+      "texture": "13134e5b8",
+      "rect": [
+        251,
+        739,
+        133,
+        153
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        133,
+        153
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_bread_material",
+      "texture": "13134e5b8",
+      "rect": [
+        255,
+        435,
+        153,
+        165
+      ],
+      "offset": [
+        -0.5,
+        0.5
+      ],
+      "originalSize": [
+        156,
+        166
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_oven1_1",
+      "texture": "13134e5b8",
+      "rect": [
+        591,
+        561,
+        159,
+        116
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        161,
+        116
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

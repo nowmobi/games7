@@ -1,0 +1,83 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c3_plate2_1",
+      "texture": "14ed766d3",
+      "rect": [
+        621,
+        145,
+        168,
+        102
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        168,
+        104
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c3_ice_full",
+      "texture": "14ed766d3",
+      "rect": [
+        738,
+        812,
+        116,
+        137
+      ],
+      "offset": [
+        -10,
+        0
+      ],
+      "originalSize": [
+        136,
+        137
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c3_plate1_1",
+      "texture": "14ed766d3",
+      "rect": [
+        781,
+        3,
+        186,
+        136
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        186,
+        138
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

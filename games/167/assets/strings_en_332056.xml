@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+
+	<string name="newline" value="&#10;"/>
+	
+	<!-- 
+	
+	"text [nervous] text"        = emoticon action
+	"[red] text text [/red]"     = color
+	"[shake] text text [/shake]" = animation
+	"text [br] text"          = paragraph
+	
+	EMOTICONS: nervous, 
+	COLORS: red, cyan, yellow, green
+	
+	ANIMATIONS: shake,
+				wave,
+				hor_wave,
+				radio // like hor_wave but just for a limited time
+	
+	PARAGRAPH: br   = forces new paragraph
+			   line = forces new line
+			   
+	CHARS: & = cat symbol
+	-->
+	
+	<string name="tutorial_0"  value="welcome to the tutorial"/>
+	<string name="tutorial_1"  value="use keys/swipe and hold to move around"/>
+	<string name="tutorial_2"  value="well done!"/>
+	<string name="tutorial_3"  value="push the food onto the picnic blanket"/>
+	<string name="tutorial_4"  value="push the blocks to open the way"/>
+	<string name="tutorial_5"  value="i can push lined up blocks too!"/>
+	<string name="tutorial_6"  value="watch out for the skeletons outside the level!"/>
+	<string name="tutorial_7"  value="shorter blocks can't push taller ones"/>
+	<string name="tutorial_8"  value="line up star blocks to make them disappear"/>
+	<string name="tutorial_9"  value="some blocks just move horizontally"/>
+	<string name="tutorial_10"  value="some blocks just move horizontally"/>
+	<string name="tutorial_11"  value="step on the teleport to change position"/>
+	<string name="tutorial_12"  value="press the key button to open the door"/>
+	<string name="tutorial_13"  value="don't push spiky blocks directly"/>
+	
+	<string name="level_world"  value="world" />
+	<string name="best_time"    value="best time"/> 
+	<string name="level_clear"  value="level clear"/>
+	<string name="time"         value="time"/>
+	<string name="best"         value="best"/>
+	<string name="continue"     value="tap to continue.."/>
+	
+	<string name="shop_1" value="welcome to the market!"/>
+	<string name="shop_2" value="thanks - come again!"/>
+	
+	<string name="panel_pause" value="pause"/>
+	<string name="panel_level_up" value="level up"/>
+	<string name="panel_shop"  value="shop"/>
+	<string name="panel_buy"   value="buy"/>
+	<string name="panel_no_ads" value="premium"/>
+	<string name="panel_book" value="yokaipedia"/>
+	<string name="panel_premium_text_1" value="free rare items"/>
+	<string name="panel_premium_text_2" value="free continue"/>
+	<string name="panel_premium_text_3" value="remove all ads"/>
+	<string name="panel_locked" value="???"/>
+	<string name="panel_more_gems" value="more coins"/>
+	<string name="panel_parental_gate" value="parental gate"/>
+	<string name="panel_ad_continue" value="watch an ad to continue?"/>
+	<string name="panel_gems_continue" value="use your gems to continue?"/>
+	<string name="panel_tap_to_play_0" value="tap/press space to play"/>
+	<string name="panel_tap_to_play_1" value="insert coin"/>
+	<string name="panel_continue" value="continue?"/>
+	<string name="panel_chest" value="open chest?"/>
+	<string name="panel_chest_message" value="watch an ad to unlock this rare item?"/>
+	<string name="panel_wizards" value="wizards"/>
+	<string name="panel_missing_page" value="missing page"/>
+	<string name="panel_continue_text" value="want to restore your previous game?"/>
+	<string name="panel_quit" value="quit"/>
+	<string name="panel_unlock" value="unlock 1st row"/>
+	<string name="panel_unlock_1" value="unlock 2nd row"/>
+	<string name="panel_unlock_2" value="unlock all wizards"/>
+	<string name="panel_secret_skill" value=" purchase to discover ability -"/>
+	
+	<string name="hurry" value="hurry!!"/>
+	<string name="ready" value="ready"/>
+	<string name="go" value="go !!"/>
+	
+	<string name="world_name_0" value="lunch break"/>
+	<string name="world_name_1" value="office snack"/>
+	<string name="world_name_2" value="beach brunch"/>
+	<string name="world_name_3" value="royal banquet"/>
+	<string name="world_name_4" value="midnight treat"/>
+	<string name="world_name_5" value=""/>
+	<string name="world_name_6" value=""/>
+	<string name="world_name_7" value=""/>
+	<string name="world_name_8" value=""/>
+	
+	<string name="panel_purchase_ok" value="purchase successful."/>
+	<string name="panel_purchase_bad_1" value="not enough coins."/>
+	
+	<string name="panel_settings"   value="credits"/>
+	<string name="panel_reset"      value="reset game"/>
+	<string name="reset_line_0"     value="are you sure?"/>
+	<string name="reset_line_1"     value="resetting the game will remove all your progress permanently"/>
+	<string name="panel_map" 	    value="map"/>
+	<string name="panel_item" 	    value="item"/>
+	<string name="panel_audio" 	    value="audio"/>
+	<string name="panel_options"    value="settings"/>
+	<string name="panel_controls"   value="controls"/>
+	<string name="panel_controls_1" value="swipes"/>
+	<string name="panel_controls_2" value="d-pad"/>
+	
+	<string name="yes" value="yes"/>
+	<string name="no" value="no"/>
+	
+	<string name="intro_string_1" value="it is the lantern festival and all people are gathered."/>
+	<string name="intro_string_2" value="tanuki is guarding the village,"/>
+	<string name="intro_string_2b" value="when a lightning strikes the nearby shrine."/>
+	<string name="intro_string_3" value="removing the protection charm from an old jar."/>
+	<string name="intro_string_4" value="oh no! the evil spirits are freed."/>
+	<string name="intro_string_5" value="'i am tatarigami and i bring sorrow and destruction!'"/>
+	<string name="intro_string_6" value="will you defeat all the pesky yokai and save the festival?"/>
+	
+	<string name="credits_line_0" value="version"/>
+	<string name="credits_line_1" value="published by"/>
+	<string name="credits_line_2" value="game by"/>
+	<string name="credits_line_3" value="code and gfx"/>
+	<string name="credits_line_4" value="music"/>
+	<string name="credits_line_5" value="fdg staff"/>
+	<string name="credits_line_6" value="producer"/>
+	<string name="credits_line_7" value="co-producer"/>
+	<string name="credits_line_8" value="legal"/>
+	<string name="credits_line_9" value="project manager"/>
+	<string name="credits_line_10" value="qa manager"/>
+	<string name="credits_line_11" value="qa assistants"/>
+	<string name="credits_line_12" value="qa team"/>
+	<string name="credits_line_13" value="special thanks"/>
+	
+	</strings>

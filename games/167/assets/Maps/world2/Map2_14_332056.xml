@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <element name="Background2Element1" type="0" x="48" y="72" isFlipped="false" isFlippedVer="false" width="264" height="312"/>
+  <element name="Background2Element2" type="0" x="48" y="72" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="48" y="96" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="72" y="72" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="96" y="72" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="120" y="72" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="48" y="120" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="48" y="144" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="144" y="72" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="168" y="72" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="192" y="72" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="216" y="72" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="240" y="72" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="264" y="72" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="288" y="72" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="48" y="360" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="72" y="360" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="96" y="360" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="120" y="360" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="144" y="360" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="168" y="360" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="192" y="360" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="216" y="360" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="240" y="360" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="264" y="360" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="288" y="360" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="48" y="168" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="48" y="192" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="48" y="216" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="48" y="240" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="48" y="264" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="48" y="288" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="48" y="312" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="48" y="336" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="288" y="96" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="288" y="120" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="288" y="144" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="288" y="168" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="288" y="192" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="288" y="216" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="288" y="240" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="288" y="264" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="288" y="288" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="288" y="312" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="288" y="336" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="96" y="120" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="144" y="120" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="192" y="120" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="240" y="120" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="120" y="144" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="168" y="144" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="216" y="144" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="96" y="168" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="144" y="168" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="192" y="168" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="240" y="168" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="120" y="192" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="168" y="192" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="216" y="192" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="96" y="216" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="144" y="216" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="192" y="216" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="240" y="216" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="120" y="240" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="168" y="240" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="216" y="240" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="96" y="264" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="144" y="264" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="192" y="264" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="240" y="264" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="120" y="288" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="168" y="288" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="216" y="288" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="96" y="312" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="144" y="312" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="192" y="312" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="Background2Element2" type="0" x="240" y="312" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="BackgroundOuterTile1" type="0" x="0" y="0" isFlipped="false" isFlippedVer="false" width="360" height="48"/>
+  <element name="BackgroundOuterTile2" type="0" x="24" y="48" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="BackgroundOuterTile3" type="0" x="48" y="48" isFlipped="false" isFlippedVer="false" width="72" height="27"/>
+  <element name="BackgroundOuterTile4" type="0" x="24" y="72" isFlipped="false" isFlippedVer="false" width="24" height="72"/>
+  <element name="BackgroundOuterTile5" type="0" x="24" y="360" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="BackgroundOuterTile6" type="0" x="96" y="377" isFlipped="false" isFlippedVer="false" width="72" height="18"/>
+  <element name="BackgroundOuterTile3" type="0" x="96" y="48" isFlipped="false" isFlippedVer="false" width="72" height="27"/>
+  <element name="BackgroundOuterTile3" type="0" x="168" y="48" isFlipped="false" isFlippedVer="false" width="72" height="27"/>
+  <element name="BackgroundOuterTile3" type="0" x="240" y="48" isFlipped="false" isFlippedVer="false" width="72" height="27"/>
+  <element name="BackgroundOuterTile4" type="0" x="24" y="144" isFlipped="false" isFlippedVer="false" width="24" height="72"/>
+  <element name="BackgroundOuterTile4" type="0" x="24" y="216" isFlipped="false" isFlippedVer="false" width="24" height="72"/>
+  <element name="BackgroundOuterTile4" type="0" x="24" y="288" isFlipped="false" isFlippedVer="false" width="24" height="72"/>
+  <element name="BackgroundOuterTile6" type="0" x="48" y="377" isFlipped="false" isFlippedVer="false" width="72" height="18"/>
+  <element name="BackgroundOuterTile6" type="0" x="168" y="377" isFlipped="false" isFlippedVer="false" width="72" height="18"/>
+  <element name="BackgroundOuterTile6" type="0" x="240" y="377" isFlipped="false" isFlippedVer="false" width="72" height="18"/>
+  <element name="BackgroundOuterTile2" type="0" x="336" y="48" isFlipped="true" isFlippedVer="false" width="24" height="24"/>
+  <element name="BackgroundOuterTile4" type="0" x="336" y="72" isFlipped="true" isFlippedVer="false" width="24" height="72"/>
+  <element name="BackgroundOuterTile5" type="0" x="336" y="360" isFlipped="true" isFlippedVer="false" width="24" height="24"/>
+  <element name="BackgroundOuterTile4" type="0" x="336" y="144" isFlipped="true" isFlippedVer="false" width="24" height="72"/>
+  <element name="BackgroundOuterTile4" type="0" x="336" y="216" isFlipped="true" isFlippedVer="false" width="24" height="72"/>
+  <element name="BackgroundOuterTile4" type="0" x="336" y="288" isFlipped="true" isFlippedVer="false" width="24" height="72"/>
+  <element name="BackgroundOuterTile1" type="0" x="0" y="384" isFlipped="false" isFlippedVer="false" width="360" height="120"/>
+  <element name="BackgroundOuterTile1" type="0" x="336" y="48" isFlipped="false" isFlippedVer="false" width="24" height="336"/>
+  <element name="BackgroundOuterTile1" type="0" x="0" y="48" isFlipped="false" isFlippedVer="false" width="24" height="336"/>
+  <element name="Background2Element3" type="0" x="269" y="209" isFlipped="false" isFlippedVer="false" width="14" height="14"/>
+  <element name="Background2Element4" type="0" x="55" y="196" isFlipped="false" isFlippedVer="false" width="12" height="12"/>
+  <element name="Background2Element4" type="0" x="78" y="186" isFlipped="true" isFlippedVer="false" width="12" height="12"/>
+  <element name="Background2Element3" type="0" x="149" y="89" isFlipped="false" isFlippedVer="false" width="14" height="14"/>
+  <element name="Background2Element4" type="0" x="294" y="354" isFlipped="true" isFlippedVer="false" width="12" height="12"/>
+  <element name="Background2Element4" type="0" x="271" y="345" isFlipped="false" isFlippedVer="false" width="12" height="12"/>
+  <element name="Background2Element3" type="0" x="127" y="353" isFlipped="true" isFlippedVer="false" width="14" height="14"/>
+  <element name="Background2Element3" type="0" x="187" y="281" isFlipped="true" isFlippedVer="false" width="14" height="14"/>
+  <element name="Background2Element4" type="0" x="66" y="330" isFlipped="false" isFlippedVer="false" width="12" height="12"/>
+  <element name="Background2Element4" type="0" x="294" y="234" isFlipped="true" isFlippedVer="false" width="12" height="12"/>
+  <element name="Background2Element4" type="0" x="294" y="90" isFlipped="true" isFlippedVer="false" width="12" height="12"/>
+  <element name="CarpetScript1" type="0" x="96" y="216" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="CarpetScript1" type="0" x="240" y="216" isFlipped="false" isFlippedVer="false" width="24" height="24"/>
+  <element name="isBlockScript" type="124" x="216" y="120" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="128" x="240" y="240" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="140" x="120" y="120" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="141" x="72" y="144" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="141" x="264" y="144" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="143" x="168" y="240" width="0" height="0" rotation="0" ai="0"/>
+  <element name="LevelCompleteCollisionScript1" type="8" x="168" y="144" width="0" height="0" rotation="0"/>
+  <element name="isBlockScript" type="143" x="168" y="192" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="144" x="120" y="192" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="144" x="216" y="192" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="144" x="120" y="240" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="144" x="216" y="240" width="0" height="0" rotation="0" ai="0"/>
+  <element name="TeleportBlockScript1" type="9" x="216" y="216" width="0" height="0" rotation="0"/>
+  <element name="TeleportBlockScript1" type="9" x="120" y="216" width="0" height="0" rotation="0"/>
+  <element name="isBlockScript" type="126" x="96" y="144" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="125" x="120" y="120" width="1" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="126" x="96" y="168" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="127" x="96" y="192" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="126" x="240" y="144" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="126" x="240" y="168" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="125" x="240" y="120" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="127" x="240" y="192" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="128" x="96" y="240" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="126" x="96" y="264" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="126" x="240" y="264" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="129" x="96" y="288" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="129" x="264" y="288" width="1" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="133" x="96" y="312" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="133" x="264" y="312" width="1" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="124" x="216" y="312" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="124" x="168" y="312" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="135" x="192" y="312" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="135" x="144" y="312" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="139" x="144" y="216" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="139" x="192" y="216" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="131" x="192" y="120" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="131" x="144" y="120" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="126" x="144" y="144" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="126" x="192" y="144" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="127" x="144" y="168" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="127" x="192" y="168" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="128" x="144" y="264" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="128" x="192" y="264" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="148" x="144" y="288" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="148" x="192" y="288" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="141" x="72" y="288" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="141" x="264" y="288" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="140" x="168" y="120" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="140" x="120" y="312" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="145" x="216" y="360" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="145" x="192" y="360" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="145" x="96" y="72" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="145" x="72" y="72" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="145" x="216" y="72" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="145" x="48" y="360" width="0" height="0" rotation="0" ai="0"/>
+  <element name="isBlockScript" type="153" x="168" y="216" width="0" height="0" rotation="0" ai="0"/>
+  <element name="OfficeDecorationScript2" type="8" x="101" y="157" width="0" height="0" rotation="1"/>
+  <element name="OfficeDecorationScript2" type="8" x="114" y="172" width="1" height="0" rotation="1"/>
+  <element name="OfficeDecorationScript2" type="8" x="198" y="267" width="0" height="0" rotation="1"/>
+  <element name="OfficeDecorationScript2" type="8" x="211" y="282" width="1" height="0" rotation="1"/>
+  <element name="OfficeDecorationScript2" type="8" x="259" y="120" width="1" height="0" rotation="1"/>
+  <element name="OfficeDecorationScript2" type="8" x="246" y="135" width="0" height="0" rotation="1"/>
+  <element name="OfficeDecorationScript1" type="8" x="197" y="147" width="0" height="0" rotation="0"/>
+  <element name="OfficeDecorationScript1" type="8" x="115" y="269" width="1" height="0" rotation="0"/>
+  <element name="CollisionArea" type="0" x="24" y="48" width="312" height="24" rotation="0"/>
+  <element name="CollisionArea" type="0" x="24" y="384" width="312" height="24" rotation="0"/>
+  <element name="CollisionArea" type="0" x="23.95" y="72" width="24" height="312" rotation="0"/>
+  <element name="CollisionArea" type="0" x="312" y="72" width="24" height="312" rotation="0"/>
+  <element name="LevelEndScript" type="0" x="360" y="504" width="0" height="0" rotation="0"/>
+  <element name="LevelStartScript" type="0" x="0" y="0" width="0" height="0" rotation="0"/>
+  <element name="HeroScript" type="0" x="216" y="288" width="0" height="0" rotation="0"/>
+  <element name="OniScript1" type="11" x="72" y="216" width="1" height="0" rotation="0" ai="0"/>
+  <element name="OniScript1" type="11" x="264" y="216" width="1" height="0" rotation="0" ai="0"/>
+  <element name="CameraOuterArea" type="0" x="24" y="24" width="312" height="432" rotation="0"/>
+  <element name="CameraInnerArea" type="0" x="120" y="144" width="120" height="168" rotation="0"/>
+</map>

@@ -1,0 +1,12 @@
+[
+  {
+    "__type__": "cc.AudioClip",
+    "_name": "Window_Open",
+    "_native": ".mp3"
+  },
+  {
+    "__type__": "cc.AudioClip",
+    "_name": "Window_Close",
+    "_native": ".mp3"
+  }
+]

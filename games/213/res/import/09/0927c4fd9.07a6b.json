@@ -1,0 +1,75 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "BG",
+      "texture": "1e787e1d2",
+      "rect": [
+        3,
+        156,
+        88,
+        582
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        88,
+        582
+      ],
+      "capInsets": [
+        44,
+        100,
+        44,
+        100
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "MaskHide",
+    "_duration": 0.3333333333333333,
+    "curveData": {
+      "props": {
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 200
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "BG_2",
+      "texture": "1e787e1d2",
+      "rect": [
+        3,
+        3,
+        310,
+        79
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        310,
+        79
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

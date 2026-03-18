@@ -1,1 +1,0 @@
-No Content: https://mazahacka2017.github.io/papas-burgeria/prebid4.12.0.js

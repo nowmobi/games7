@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:466bb1150fb7aedf4179717af64b7c91$ -->
+<TextureAtlas imagePath="group_1.png">
+    <SubTexture name="hero_0_floating" x="360" y="966" width="24" height="26" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_10_floating" x="630" y="746" width="24" height="24" frameX="-4" frameY="-5" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_11_floating" x="632" y="680" width="24" height="32" frameX="-4" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_12_floating" x="334" y="966" width="24" height="26" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_13_floating" x="286" y="602" width="26" height="32" frameX="-2" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_14_floating" x="308" y="966" width="24" height="26" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_15_floating" x="550" y="728" width="26" height="28" frameX="-3" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_16_floating" x="386" y="966" width="22" height="26" frameX="-5" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_17_floating" x="632" y="978" width="24" height="26" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_18_floating" x="604" y="728" width="24" height="30" frameX="-4" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_19_floating" x="578" y="728" width="24" height="30" frameX="-4" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_1_floating" x="606" y="978" width="24" height="26" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_20_floating" x="580" y="950" width="24" height="28" frameX="-4" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_21_floating" x="632" y="950" width="24" height="26" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_22_floating" x="554" y="950" width="24" height="28" frameX="-4" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_23_floating" x="632" y="714" width="24" height="30" frameX="-4" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_24_floating" x="632" y="646" width="24" height="32" frameX="-4" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_2_floating" x="606" y="950" width="24" height="26" frameX="-4" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_3_floating" x="286" y="636" width="24" height="32" frameX="-4" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_4_floating" x="240" y="666" width="24" height="26" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_5_floating" x="214" y="666" width="24" height="26" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_6_floating" x="528" y="950" width="24" height="28" frameX="-4" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_7_floating" x="188" y="666" width="24" height="26" frameX="-4" frameY="-3" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_8_floating" x="502" y="950" width="24" height="28" frameX="-4" frameY="-1" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="hero_9_floating" x="286" y="568" width="26" height="32" frameX="-3" frameY="0" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="layer_1" x="324" y="2" width="224" height="768"/>
+    <SubTexture name="layer_10" x="502" y="772" width="176" height="176"/>
+    <SubTexture name="layer_11" x="840" y="276" width="160" height="160"/>
+    <SubTexture name="layer_12" x="840" y="438" width="144" height="144"/>
+    <SubTexture name="layer_13" x="188" y="324" width="128" height="128"/>
+    <SubTexture name="layer_14" x="188" y="454" width="112" height="112"/>
+    <SubTexture name="layer_15" x="188" y="568" width="96" height="96"/>
+    <SubTexture name="layer_16" x="550" y="646" width="80" height="80"/>
+    <SubTexture name="layer_2" x="2" y="324" width="184" height="368"/>
+    <SubTexture name="layer_3" x="550" y="2" width="176" height="352"/>
+    <SubTexture name="layer_4" x="680" y="646" width="168" height="336"/>
+    <SubTexture name="layer_5" x="2" y="2" width="320" height="320"/>
+    <SubTexture name="layer_6" x="2" y="694" width="304" height="304"/>
+    <SubTexture name="layer_7" x="550" y="356" width="288" height="288"/>
+    <SubTexture name="layer_8" x="728" y="2" width="272" height="272"/>
+    <SubTexture name="layer_9" x="308" y="772" width="192" height="192"/>
+    <SubTexture name="teleport_particle" x="266" y="666" width="6" height="6"/>
+</TextureAtlas>

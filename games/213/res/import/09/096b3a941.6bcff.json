@@ -1,0 +1,56 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c1_sidedish_1",
+      "texture": "182ccc03c",
+      "rect": [
+        3,
+        143,
+        246,
+        116
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        248,
+        117
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c1_sidedish_2",
+      "texture": "182ccc03c",
+      "rect": [
+        3,
+        265,
+        246,
+        95
+      ],
+      "offset": [
+        -1,
+        -10
+      ],
+      "originalSize": [
+        248,
+        117
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

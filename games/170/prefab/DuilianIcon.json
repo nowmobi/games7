@@ -1,0 +1,84 @@
+{
+  "type": "Image",
+  "props": {
+    "y": 74,
+    "x": 74,
+    "width": 150,
+    "skin": "JJExportRes/ex (11).png",
+    "rotation": 0,
+    "presetID": 1,
+    "name": "DuilianIcon",
+    "isPresetRoot": true,
+    "height": 150,
+    "anchorY": 0.5,
+    "anchorX": 0.5,
+    "sizeGrid": "62,68,61,52"
+  },
+  "compId": 193,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 5,
+        "x": 5,
+        "width": 140,
+        "skin": "JJExportRes/tc_icon_1.png",
+        "presetID": 6,
+        "name": "icon",
+        "height": 140,
+        "centerY": 0,
+        "centerX": 0
+      },
+      "compId": 199,
+      "child": [
+        {
+          "type": "Image",
+          "props": {
+            "width": 140,
+            "skin": "JJExportRes/tc_icon_1.png",
+            "renderType": "mask",
+            "presetID": 7,
+            "height": 140
+          },
+          "compId": 200
+        }
+      ]
+    },
+    {
+      "type": "Label",
+      "props": {
+        "y": 149,
+        "x": 0,
+        "width": 150,
+        "valign": "middle",
+        "text": "游戏名字",
+        "strokeColor": "#ffffff",
+        "stroke": 2,
+        "presetID": 4,
+        "name": "name",
+        "height": 37,
+        "fontSize": 25,
+        "bold": true,
+        "align": "center"
+      },
+      "compId": 197
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 128,
+        "var": "imgPoint",
+        "skin": "JJExportRes/mt_hd_1.png",
+        "presetID": 5
+      },
+      "compId": 198
+    }
+  ],
+  "loadList": [
+    "JJExportRes/ex (11).png",
+    "JJExportRes/tc_icon_1.png",
+    "JJExportRes/mt_hd_1.png"
+  ],
+  "loadList3D": []
+}

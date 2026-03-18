@@ -1,0 +1,218 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c5_beef_product_1",
+      "texture": "1725ef9a3",
+      "rect": [
+        3,
+        3,
+        122,
+        66
+      ],
+      "offset": [
+        -5,
+        2
+      ],
+      "originalSize": [
+        132,
+        70
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c5_pasta_product_2",
+      "texture": "1725ef9a3",
+      "rect": [
+        662,
+        3,
+        127,
+        80
+      ],
+      "offset": [
+        -4.5,
+        0
+      ],
+      "originalSize": [
+        136,
+        80
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c5_pasta_product_3",
+      "texture": "1725ef9a3",
+      "rect": [
+        795,
+        3,
+        135,
+        80
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        136,
+        80
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c5_pasta_product_1",
+      "texture": "1725ef9a3",
+      "rect": [
+        533,
+        3,
+        123,
+        71
+      ],
+      "offset": [
+        3.5,
+        -3.5
+      ],
+      "originalSize": [
+        136,
+        80
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c5_beef_product_3",
+      "texture": "1725ef9a3",
+      "rect": [
+        259,
+        3,
+        131,
+        70
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        132,
+        70
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c5_beef_product_0",
+      "texture": "1725ef9a3",
+      "rect": [
+        131,
+        3,
+        122,
+        66
+      ],
+      "offset": [
+        -5,
+        2
+      ],
+      "originalSize": [
+        132,
+        70
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c5_pasta_product_0",
+      "texture": "1d0d3a8f6",
+      "rect": [
+        903,
+        778,
+        117,
+        70
+      ],
+      "offset": [
+        0.5,
+        -3
+      ],
+      "originalSize": [
+        136,
+        80
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c5_beef_product_2",
+      "texture": "1725ef9a3",
+      "rect": [
+        396,
+        3,
+        131,
+        70
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        132,
+        70
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

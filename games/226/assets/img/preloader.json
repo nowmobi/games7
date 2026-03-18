@@ -1,0 +1,163 @@
+{
+  "frames": [
+    {
+      "filename": "preloader/cc1",
+      "frame": {
+        "x": 780,
+        "y": 2,
+        "w": 72,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 126
+      }
+    },
+    {
+      "filename": "preloader/cc2",
+      "frame": {
+        "x": 627,
+        "y": 2,
+        "w": 72,
+        "h": 129
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 129
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 129
+      }
+    },
+    {
+      "filename": "preloader/cc3",
+      "frame": {
+        "x": 442,
+        "y": 2,
+        "w": 74,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 74,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 74,
+        "h": 160
+      }
+    },
+    {
+      "filename": "preloader/cc4",
+      "frame": {
+        "x": 701,
+        "y": 2,
+        "w": 77,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 77,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 77,
+        "h": 130
+      }
+    },
+    {
+      "filename": "preloader/cc5",
+      "frame": {
+        "x": 361,
+        "y": 2,
+        "w": 79,
+        "h": 177
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 79,
+        "h": 177
+      },
+      "sourceSize": {
+        "w": 79,
+        "h": 178
+      }
+    },
+    {
+      "filename": "preloader/cc6",
+      "frame": {
+        "x": 518,
+        "y": 2,
+        "w": 107,
+        "h": 137
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 107,
+        "h": 137
+      },
+      "sourceSize": {
+        "w": 107,
+        "h": 137
+      }
+    },
+    {
+      "filename": "preloader/titleGame",
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 357,
+        "h": 222
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 0,
+        "w": 357,
+        "h": 222
+      },
+      "sourceSize": {
+        "w": 404,
+        "h": 256
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "preloader.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 854,
+      "h": 226
+    },
+    "scale": "0.5",
+    "smartupdate": "$TexturePacker:SmartUpdate:17a5f3c1f9a1a33f6a728526cae9678c:b3a2d1e85d072264aee39ce96f068037:b6cdaa10a06bef6f46bf15cd0aaf732b$"
+  }
+}

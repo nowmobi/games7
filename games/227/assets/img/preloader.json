@@ -1,0 +1,268 @@
+{
+  "frames": [
+    {
+      "filename": "preloader/ing0",
+      "frame": {
+        "x": 590,
+        "y": 390,
+        "w": 162,
+        "h": 62
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 162,
+        "h": 62
+      },
+      "sourceSize": {
+        "w": 162,
+        "h": 62
+      }
+    },
+    {
+      "filename": "preloader/ing1",
+      "frame": {
+        "x": 591,
+        "y": 251,
+        "w": 176,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 176,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 176,
+        "h": 64
+      }
+    },
+    {
+      "filename": "preloader/ing10",
+      "frame": {
+        "x": 215,
+        "y": 379,
+        "w": 190,
+        "h": 75
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 190,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 190,
+        "h": 75
+      }
+    },
+    {
+      "filename": "preloader/ing2",
+      "frame": {
+        "x": 428,
+        "y": 317,
+        "w": 203,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 203,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 203,
+        "h": 71
+      }
+    },
+    {
+      "filename": "preloader/ing3",
+      "frame": {
+        "x": 2,
+        "y": 313,
+        "w": 211,
+        "h": 72
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 211,
+        "h": 72
+      },
+      "sourceSize": {
+        "w": 211,
+        "h": 72
+      }
+    },
+    {
+      "filename": "preloader/ing4",
+      "frame": {
+        "x": 2,
+        "y": 387,
+        "w": 188,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 188,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 188,
+        "h": 70
+      }
+    },
+    {
+      "filename": "preloader/ing5",
+      "frame": {
+        "x": 407,
+        "y": 390,
+        "w": 181,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 181,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 181,
+        "h": 69
+      }
+    },
+    {
+      "filename": "preloader/ing6",
+      "frame": {
+        "x": 215,
+        "y": 313,
+        "w": 211,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 211,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 211,
+        "h": 64
+      }
+    },
+    {
+      "filename": "preloader/ing7",
+      "frame": {
+        "x": 591,
+        "y": 93,
+        "w": 164,
+        "h": 81
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 164,
+        "h": 81
+      },
+      "sourceSize": {
+        "w": 164,
+        "h": 81
+      }
+    },
+    {
+      "filename": "preloader/ing8",
+      "frame": {
+        "x": 591,
+        "y": 2,
+        "w": 179,
+        "h": 89
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 179,
+        "h": 89
+      },
+      "sourceSize": {
+        "w": 179,
+        "h": 89
+      }
+    },
+    {
+      "filename": "preloader/ing9",
+      "frame": {
+        "x": 591,
+        "y": 176,
+        "w": 179,
+        "h": 73
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 179,
+        "h": 73
+      },
+      "sourceSize": {
+        "w": 179,
+        "h": 73
+      }
+    },
+    {
+      "filename": "preloader/title",
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 587,
+        "h": 309
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 587,
+        "h": 309
+      },
+      "sourceSize": {
+        "w": 587,
+        "h": 309
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "preloader.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 772,
+      "h": 461
+    },
+    "scale": "0.5",
+    "smartupdate": "$TexturePacker:SmartUpdate:8e36ef64eee92e67a8861c8675bfcbdb:ab4cc72ca1dca060d8dda5835eaf2617:b6cdaa10a06bef6f46bf15cd0aaf732b$"
+  }
+}

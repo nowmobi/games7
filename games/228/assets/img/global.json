@@ -1,0 +1,352 @@
+{
+  "frames": [
+    {
+      "filename": "global/achievement",
+      "frame": {
+        "x": 2,
+        "y": 227,
+        "w": 137,
+        "h": 136
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 137,
+        "h": 136
+      },
+      "sourceSize": {
+        "w": 137,
+        "h": 136
+      }
+    },
+    {
+      "filename": "global/btn_next",
+      "frame": {
+        "x": 2,
+        "y": 365,
+        "w": 128,
+        "h": 134
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 134
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 134
+      }
+    },
+    {
+      "filename": "global/btn_play",
+      "frame": {
+        "x": 141,
+        "y": 227,
+        "w": 128,
+        "h": 134
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 134
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 134
+      }
+    },
+    {
+      "filename": "global/btn_retry",
+      "frame": {
+        "x": 132,
+        "y": 365,
+        "w": 128,
+        "h": 134
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 134
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 134
+      }
+    },
+    {
+      "filename": "global/btn_stageselect",
+      "frame": {
+        "x": 262,
+        "y": 363,
+        "w": 128,
+        "h": 134
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 134
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 134
+      }
+    },
+    {
+      "filename": "global/credits",
+      "frame": {
+        "x": 227,
+        "y": 140,
+        "w": 77,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 77,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 77,
+        "h": 78
+      }
+    },
+    {
+      "filename": "global/exit",
+      "frame": {
+        "x": 306,
+        "y": 140,
+        "w": 61,
+        "h": 61
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 61,
+        "h": 61
+      },
+      "sourceSize": {
+        "w": 61,
+        "h": 61
+      }
+    },
+    {
+      "filename": "global/more games",
+      "frame": {
+        "x": 227,
+        "y": 2,
+        "w": 137,
+        "h": 136
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 137,
+        "h": 136
+      },
+      "sourceSize": {
+        "w": 137,
+        "h": 136
+      }
+    },
+    {
+      "filename": "global/music_off",
+      "frame": {
+        "x": 271,
+        "y": 220,
+        "w": 44,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 44,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 44,
+        "h": 44
+      }
+    },
+    {
+      "filename": "global/music_on",
+      "frame": {
+        "x": 271,
+        "y": 266,
+        "w": 44,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 44,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 44,
+        "h": 44
+      }
+    },
+    {
+      "filename": "global/nav_left",
+      "frame": {
+        "x": 317,
+        "y": 295,
+        "w": 28,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 28,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 28,
+        "h": 31
+      }
+    },
+    {
+      "filename": "global/nav_right",
+      "frame": {
+        "x": 317,
+        "y": 328,
+        "w": 28,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 28,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 28,
+        "h": 31
+      }
+    },
+    {
+      "filename": "global/pause",
+      "frame": {
+        "x": 271,
+        "y": 312,
+        "w": 44,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 44,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 44,
+        "h": 44
+      }
+    },
+    {
+      "filename": "global/play",
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 223,
+        "h": 223
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 223,
+        "h": 223
+      },
+      "sourceSize": {
+        "w": 223,
+        "h": 223
+      }
+    },
+    {
+      "filename": "global/sfx_off",
+      "frame": {
+        "x": 317,
+        "y": 203,
+        "w": 45,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 45,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 45,
+        "h": 44
+      }
+    },
+    {
+      "filename": "global/sfx_on",
+      "frame": {
+        "x": 317,
+        "y": 249,
+        "w": 45,
+        "h": 44
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 45,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 45,
+        "h": 44
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "global.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 392,
+      "h": 502
+    },
+    "scale": "0.5",
+    "smartupdate": "$TexturePacker:SmartUpdate:67e4ef8719aca93f98f0117130272909:1447eb5d8a2fde128601f0c5892d3b14:fbffe7067403b38fc9b9ab6e3d096eb5$"
+  }
+}

@@ -1,0 +1,111 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c3_squid_product_0",
+      "texture": "14ed766d3",
+      "rect": [
+        781,
+        302,
+        168,
+        115
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        168,
+        115
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c3_okonomiyaki_product_0",
+      "texture": "14ed766d3",
+      "rect": [
+        860,
+        786,
+        133,
+        100
+      ],
+      "offset": [
+        0.5,
+        -1
+      ],
+      "originalSize": [
+        134,
+        102
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c3_squid_product_1",
+      "texture": "14ed766d3",
+      "rect": [
+        781,
+        423,
+        168,
+        115
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        168,
+        115
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c3_okonomiyaki_product_1",
+      "texture": "14ed766d3",
+      "rect": [
+        621,
+        3,
+        133,
+        102
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        134,
+        102
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "21",
+      "texture": "1641193ad",
+      "rect": [
+        192,
+        334,
+        60,
+        38
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        60,
+        60
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "23",
+      "texture": "1641193ad",
+      "rect": [
+        194,
+        91,
+        59,
+        48
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        60,
+        60
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "22",
+      "texture": "1641193ad",
+      "rect": [
+        194,
+        145,
+        59,
+        46
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        60,
+        60
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

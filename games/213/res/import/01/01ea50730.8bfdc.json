@@ -1,0 +1,168 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_hotdog_product_1",
+      "texture": "14a549898",
+      "rect": [
+        3,
+        3,
+        128,
+        94
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        128,
+        94
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_fish_product_3",
+      "texture": "13134e5b8",
+      "rect": [
+        157,
+        879,
+        136,
+        92
+      ],
+      "offset": [
+        0.5,
+        -1
+      ],
+      "originalSize": [
+        137,
+        94
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_fish_product_1",
+      "texture": "13134e5b8",
+      "rect": [
+        323,
+        126,
+        136,
+        85
+      ],
+      "offset": [
+        0.5,
+        -4.5
+      ],
+      "originalSize": [
+        137,
+        94
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_fish_product_2",
+      "texture": "13134e5b8",
+      "rect": [
+        255,
+        878,
+        136,
+        92
+      ],
+      "offset": [
+        0.5,
+        -1
+      ],
+      "originalSize": [
+        137,
+        94
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_hotdog_product_0",
+      "texture": "14a549898",
+      "rect": [
+        137,
+        3,
+        128,
+        94
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        128,
+        94
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c4_fish_product_0",
+      "texture": "13134e5b8",
+      "rect": [
+        353,
+        878,
+        136,
+        85
+      ],
+      "offset": [
+        0.5,
+        -4.5
+      ],
+      "originalSize": [
+        137,
+        94
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

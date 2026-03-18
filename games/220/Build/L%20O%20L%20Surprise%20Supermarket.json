@@ -1,0 +1,21 @@
+{
+  "companyName": "www.loko8.com",
+  "productName": "L O L Surprise Supermarket",
+  "dataUrl": "L O L Surprise Supermarket.data.unityweb",
+  "wasmCodeUrl": "L O L Surprise Supermarket.wasm.code.unityweb",
+  "wasmFrameworkUrl": "L O L Surprise Supermarket.wasm.framework.unityweb",
+  "TOTAL_MEMORY": 134217728,
+  "graphicsAPI": [
+    "WebGL 2.0",
+    "WebGL 1.0"
+  ],
+  "webglContextAttributes": {
+    "preserveDrawingBuffer": false
+  },
+  "backgroundUrl": "L O L Surprise Supermarket.jpg",
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#FFFFFF",
+  "cacheControl": {
+    "default": "must-revalidate"
+  }
+}

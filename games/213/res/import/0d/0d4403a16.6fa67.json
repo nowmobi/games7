@@ -1,0 +1,137 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c2_muffin_product_1",
+      "texture": "1cbf7fc00",
+      "rect": [
+        437,
+        92,
+        169,
+        99
+      ],
+      "offset": [
+        0.5,
+        -4.5
+      ],
+      "originalSize": [
+        170,
+        110
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c2_muffin_product_3",
+      "texture": "1cbf7fc00",
+      "rect": [
+        3,
+        188,
+        169,
+        102
+      ],
+      "offset": [
+        0.5,
+        -3
+      ],
+      "originalSize": [
+        170,
+        110
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c2_muffin_product_0",
+      "texture": "1cbf7fc00",
+      "rect": [
+        244,
+        3,
+        148,
+        83
+      ],
+      "offset": [
+        0,
+        1.5
+      ],
+      "originalSize": [
+        170,
+        110
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c2_muffin_product_4",
+      "texture": "1cbf7fc00",
+      "rect": [
+        744,
+        93,
+        151,
+        103
+      ],
+      "offset": [
+        0.5,
+        2.5
+      ],
+      "originalSize": [
+        170,
+        110
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c2_muffin_product_2",
+      "texture": "1cbf7fc00",
+      "rect": [
+        280,
+        92,
+        151,
+        92
+      ],
+      "offset": [
+        0.5,
+        -3
+      ],
+      "originalSize": [
+        170,
+        110
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

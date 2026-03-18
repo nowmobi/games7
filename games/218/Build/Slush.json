@@ -1,0 +1,18 @@
+{
+  "companyName": "BubbleBee",
+  "productName": "IceSlushyMakerRainbowDesserts",
+  "dataUrl": "Slush.data.unityweb",
+  "asmCodeUrl": "Slush.asm.code.unityweb",
+  "asmMemoryUrl": "Slush.asm.memory.unityweb",
+  "asmFrameworkUrl": "Slush.asm.framework.unityweb",
+  "TOTAL_MEMORY": 268435456,
+  "graphicsAPI": [
+    "WebGL 2.0",
+    "WebGL 1.0"
+  ],
+  "webglContextAttributes": {
+    "preserveDrawingBuffer": false
+  },
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#231F20"
+}

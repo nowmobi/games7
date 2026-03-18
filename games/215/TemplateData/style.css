@@ -1,0 +1,167 @@
+.webgl-content * {border: 0; margin: 0; padding: 0}
+.webgl-content {top: 0; left: 0;}
+
+.webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.webgl-content .logo {background: url('progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
+.webgl-content .progress {height: 18px; width: 141px; margin-top: 90px;}
+.webgl-content .progress .empty {background: url('progressEmpty.Light.png') no-repeat right / cover; float: right; width: 100%; height: 100%; display: inline-block;}
+.webgl-content .progress .full {background: url('progressFull.Light.png') no-repeat left / cover; float: left; width: 0%; height: 100%; display: inline-block;}
+
+.webgl-content .logo.Dark {background-image: url('progressLogo.Dark.png');}
+.webgl-content .progress.Dark .empty {background-image: url('progressEmpty.Dark.png');}
+.webgl-content .progress.Dark .full {background-image: url('progressFull.Dark.png');}
+
+.webgl-content .footer {margin-top: 5px; height: 38px; line-height: 38px; font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 18px;} 
+.webgl-content .footer .webgl-logo, .title, .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;} 
+.webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
+.webgl-content .footer .title {margin-right: 10px; float: right;}
+.webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
+
+body, html{
+    margin:0;
+    padding:0;
+}
+
+#gameContainer canvas{
+    position:absolute;
+    transform:translate(-50%, -50%);
+    top:50%;
+    left:50%;
+
+}
+
+.simmer{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    color:#aaa;
+    font-size:9px;
+    font-family:sans-serif;
+    font-family:sans-serif;
+
+    /*want to remove the simmer branding? uncomment display:none below!*/
+    /*display:none;*/
+}
+
+.simmer a{
+    color:#cccccc;
+    text-decoration:none;
+    font-size:12px;
+    transition:opacity 3s;
+
+}
+
+.simmer a:hover{
+    color:#fff;
+    text-decoration:underline;
+}
+
+.simmer.hide {
+    opacity:0;
+}
+#LoadingGame{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    overflow: hidden;
+}
+.page-bg{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: table;
+}
+#adTitle {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+#adTitle .titleText {
+    vertical-align: middle;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 26px;
+}
+#adTitle img {
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 1px 1px 5px black;
+    transition: .1s;
+    -webkit-transition: .1s;
+}
+/*#adTitle .titleText button {*/
+/*    display: inline-block;*/
+/*    background: #99c506;*/
+/*    background: linear-gradient(#2EFE2E, #088A29);*/
+/*    margin: 10px;*/
+/*    padding: 15px 25px;*/
+/*    border-radius: 10px;*/
+/*    border: 2px solid #fff;*/
+/*    color: #fff;*/
+/*    font-size: 18px;*/
+/*    font-weight: 600;*/
+/*    text-transform: uppercase;*/
+/*    cursor: pointer;*/
+/*    box-shadow: 1px 1px 5px black;*/
+/*    transition: .1s;*/
+/*    -webkit-transition: .1s;*/
+/*}*/
+#adTitle .titleText .GameNameText {
+    vertical-align: middle;
+    font-family: arial;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 45px;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    background: linear-gradient(to right,rgba(30,87,153,0) 0,rgba(0,0,0,.3) 50%,rgba(125,185,232,0) 100%);
+}
+
+
+#buttons {
+    padding-top: 50px;
+    text-align: center;
+}
+.btn {
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+.btn:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+.orange {
+    background-color: #e62239;
+    box-shadow: 0px 5px 0px 0px #cd0930;
+}
+
+.orange:hover {
+    background-color: #ff3c42;
+    cursor: revert;
+}

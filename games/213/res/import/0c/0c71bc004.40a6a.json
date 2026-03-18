@@ -1,0 +1,167 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "setting_sound",
+      "texture": "1e787e1d2",
+      "rect": [
+        400,
+        487,
+        104,
+        99
+      ],
+      "offset": [
+        0,
+        1
+      ],
+      "originalSize": [
+        104,
+        101
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "icon_tool",
+      "texture": "1e787e1d2",
+      "rect": [
+        3,
+        88,
+        62,
+        73
+      ],
+      "offset": [
+        0,
+        -5.5
+      ],
+      "originalSize": [
+        62,
+        84
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "setting_sound_off",
+      "texture": "1e787e1d2",
+      "rect": [
+        177,
+        450,
+        104,
+        101
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        104,
+        101
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "setting_music_off",
+      "texture": "1e787e1d2",
+      "rect": [
+        177,
+        342,
+        102,
+        106
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        102,
+        106
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "Single_BG",
+      "texture": "17271af68",
+      "rect": [
+        3,
+        3,
+        128,
+        166
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        128,
+        166
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "setting_music",
+      "texture": "1e787e1d2",
+      "rect": [
+        289,
+        409,
+        92,
+        105
+      ],
+      "offset": [
+        -5,
+        -0.5
+      ],
+      "originalSize": [
+        102,
+        106
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

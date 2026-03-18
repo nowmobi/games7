@@ -1,0 +1,88 @@
+{
+  "frames": {
+    "butterfly-body": {
+      "frame": {
+        "x": 1,
+        "y": 79,
+        "w": 44,
+        "h": 115
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 44,
+        "h": 115
+      },
+      "sourceSize": {
+        "w": 44,
+        "h": 115
+      },
+      "anchor": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "butterfly-wing": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 76,
+        "h": 145
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 76,
+        "h": 145
+      },
+      "sourceSize": {
+        "w": 76,
+        "h": 145
+      },
+      "anchor": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "heart-particle": {
+      "frame": {
+        "x": 148,
+        "y": 1,
+        "w": 56,
+        "h": 57
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 56,
+        "h": 57
+      },
+      "sourceSize": {
+        "w": 56,
+        "h": 57
+      },
+      "anchor": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "ss-loader.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 205,
+      "h": 124
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:e6dc10cabeef2fe1ca792afad6233a50:f794674c1f09481b82572c888cf11a3d:b008ab7ad66768c81e544630f8250add$"
+  }
+}

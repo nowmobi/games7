@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pose_worry",
+    "texture": "1d1feabb0",
+    "rect": [
+      562,
+      376,
+      337,
+      539
+    ],
+    "offset": [
+      -19.5,
+      9
+    ],
+    "originalSize": [
+      376,
+      557
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "Box",
+  "props": {
+    "y": 26,
+    "x": 52,
+    "width": 104,
+    "presetID": 1,
+    "pivotY": 26,
+    "pivotX": 52,
+    "name": "FontDamaged",
+    "isPresetRoot": true,
+    "height": 52
+  },
+  "compId": 159,
+  "child": [
+    {
+      "type": "FontClip",
+      "props": {
+        "y": 26,
+        "x": 52,
+        "width": 69,
+        "value": "999",
+        "spaceX": -3,
+        "skin": "ui/sy-sz2.png",
+        "sheet": "0123456789",
+        "scaleY": 1.5,
+        "scaleX": 1.5,
+        "presetID": 2,
+        "pivotY": 17,
+        "pivotX": 35,
+        "height": 34
+      },
+      "compId": 160
+    }
+  ],
+  "loadList": [
+    "ui/sy-sz2.png"
+  ],
+  "loadList3D": []
+}

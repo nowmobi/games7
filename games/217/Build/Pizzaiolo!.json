@@ -1,0 +1,20 @@
+{
+  "companyName": "YourCompany",
+  "productName": "Pizzaiolo!",
+  "productVersion": "1.0",
+  "dataUrl": "Pizzaiolo!.data.unityweb",
+  "wasmCodeUrl": "Pizzaiolo!.wasm.code.unityweb",
+  "wasmFrameworkUrl": "Pizzaiolo!.wasm.framework.unityweb",
+  "graphicsAPI": [
+    "WebGL 2.0",
+    "WebGL 1.0"
+  ],
+  "webglContextAttributes": {
+    "preserveDrawingBuffer": false
+  },
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#231F20",
+  "developmentBuild": false,
+  "multithreading": false,
+  "unityVersion": "2019.3.7f1"
+}

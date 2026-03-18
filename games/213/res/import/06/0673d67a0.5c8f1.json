@@ -1,0 +1,166 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c2_sidedish_1",
+      "texture": "1cbf7fc00",
+      "rect": [
+        3,
+        82,
+        91,
+        100
+      ],
+      "offset": [
+        4.5,
+        0
+      ],
+      "originalSize": [
+        100,
+        100
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c2_juice_machine",
+      "texture": "1cbf7fc00",
+      "rect": [
+        3,
+        457,
+        153,
+        219
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        153,
+        219
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c2_sidedish_2",
+      "texture": "1cbf7fc00",
+      "rect": [
+        903,
+        3,
+        110,
+        90
+      ],
+      "offset": [
+        0,
+        -5
+      ],
+      "originalSize": [
+        110,
+        100
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c2_sidedish_3",
+      "texture": "1cbf7fc00",
+      "rect": [
+        122,
+        3,
+        116,
+        78
+      ],
+      "offset": [
+        2,
+        -11
+      ],
+      "originalSize": [
+        120,
+        100
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c2_muffin_material",
+      "texture": "1cbf7fc00",
+      "rect": [
+        389,
+        333,
+        214,
+        130
+      ],
+      "offset": [
+        -13,
+        0
+      ],
+      "originalSize": [
+        240,
+        130
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c2_sidedish_4",
+      "texture": "1cbf7fc00",
+      "rect": [
+        612,
+        93,
+        126,
+        100
+      ],
+      "offset": [
+        2,
+        0
+      ],
+      "originalSize": [
+        130,
+        100
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

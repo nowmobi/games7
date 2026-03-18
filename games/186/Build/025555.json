@@ -1,0 +1,21 @@
+{
+  "companyName": "YourCompany",
+  "productName": "Cook Up Yummy Kitchen Cooking Games",
+  "dataUrl": "025555.data.unityweb",
+  "wasmCodeUrl": "025555.wasm.code.unityweb",
+  "wasmFrameworkUrl": "025555.wasm.framework.unityweb",
+  "TOTAL_MEMORY": 268435456,
+  "graphicsAPI": [
+    "WebGL 2.0",
+    "WebGL 1.0"
+  ],
+  "webglContextAttributes": {
+    "preserveDrawingBuffer": false
+  },
+  "backgroundUrl": "025555.jpg",
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#FFFFFF",
+  "cacheControl": {
+    "default": "must-revalidate"
+  }
+}

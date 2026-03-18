@@ -1,0 +1,110 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c5_plate1_1",
+      "texture": "1725ef9a3",
+      "rect": [
+        377,
+        80,
+        165,
+        87
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        165,
+        87
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c5_plate2_1",
+      "texture": "1725ef9a3",
+      "rect": [
+        202,
+        79,
+        169,
+        85
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        169,
+        85
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c5_cake",
+      "texture": "1d0d3a8f6",
+      "rect": [
+        3,
+        296,
+        56,
+        52
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        56,
+        54
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c5_wine_full",
+      "texture": "1d0d3a8f6",
+      "rect": [
+        275,
+        914,
+        56,
+        106
+      ],
+      "offset": [
+        3,
+        0
+      ],
+      "originalSize": [
+        64,
+        106
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

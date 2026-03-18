@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+  <element name="RainbowScript" type="0" x="8" y="89"/>
+  <element name="IntroClouds" type="0" x="0" y="104"/>
+  <element name="IntroSkyscrapers" type="0" x="0" y="112"/>
+  <element name="IntroAir" type="0" x="104" y="-17"/>
+  <element name="IntroBushes" type="0" x="0" y="202"/>
+  <element name="IntroHill" type="0" x="0" y="258"/>
+  <element name="IntroHero" type="0" x="0" y="453"/>
+</map>

@@ -1,0 +1,106 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "WndClose",
+    "_duration": 0.3333333333333333,
+    "curveData": {
+      "props": {
+        "scale": [
+          {
+            "frame": 0,
+            "value": {
+              "__type__": "cc.Vec2",
+              "x": 1,
+              "y": 1
+            },
+            "curve": [
+              0.6,
+              -0.27,
+              0.73,
+              0.04
+            ]
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__type__": "cc.Vec2",
+              "x": 0.8,
+              "y": 0.8
+            }
+          }
+        ],
+        "opacity": [
+          {
+            "frame": 0.08333333333333333,
+            "value": 255
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "events": [
+      {
+        "frame": 0,
+        "func": "onAnimaFrameEvent",
+        "params": [
+          "close"
+        ]
+      }
+    ]
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "WndOpen",
+    "_duration": 0.3333333333333333,
+    "curveData": {
+      "props": {
+        "scale": [
+          {
+            "frame": 0,
+            "value": {
+              "__type__": "cc.Vec2",
+              "x": 0.8,
+              "y": 0.8
+            },
+            "curve": [
+              0.18,
+              0.89,
+              0.31,
+              1.21
+            ]
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__type__": "cc.Vec2",
+              "x": 1,
+              "y": 1
+            }
+          }
+        ],
+        "opacity": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 0.25,
+            "value": 255
+          }
+        ]
+      }
+    },
+    "events": [
+      {
+        "frame": 0,
+        "func": "onAnimaFrameEvent",
+        "params": [
+          "open"
+        ]
+      }
+    ]
+  }
+]

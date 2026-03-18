@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gradient",
+    "texture": "1e787e1d2",
+    "rect": [
+      140,
+      156,
+      4,
+      59
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      4,
+      60
+    ],
+    "capInsets": [
+      2,
+      0,
+      2,
+      0
+    ]
+  }
+}

@@ -1,9 +1,0 @@
-<strings>
-	<string id="txt_loading" fontName="" fontScale="" offsetX="" offsetY=""><![CDATA[Loading...]]></string>
-	<string id="txt_noggin" fontName="" fontScale="" offsetX="" offsetY=""><![CDATA[Noggin]]></string>
-	<string id="txt_lemonadeStand" fontName="" fontScale="" offsetX="" offsetY=""><![CDATA[Lemonade Stand]]></string>
-	<string id="txt_play" fontName="" fontScale="" offsetX="" offsetY=""><![CDATA[PLAY]]></string>
-	<string id="txt_skip" fontName="" fontScale="" offsetX="" offsetY=""><![CDATA[SKIP]]></string>
-	<string id="txt_sugar" fontName="" fontScale="" offsetX="" offsetY=""><![CDATA[SUGAR]]></string>
-	<string id="txt_playAgain" fontName="" fontScale="" offsetX="" offsetY=""><![CDATA[PLAY AGAIN]]></string>
-</strings>

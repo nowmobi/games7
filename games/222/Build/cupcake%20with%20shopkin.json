@@ -1,0 +1,20 @@
+{
+  "companyName": "6woo.com",
+  "productName": "cupcake with shopkin",
+  "dataUrl": "cupcake with shopkin.data.unityweb",
+  "wasmCodeUrl": "cupcake with shopkin.wasm.code.unityweb",
+  "wasmFrameworkUrl": "cupcake with shopkin.wasm.framework.unityweb",
+  "TOTAL_MEMORY": 134217728,
+  "graphicsAPI": [
+    "WebGL 2.0",
+    "WebGL 1.0"
+  ],
+  "webglContextAttributes": {
+    "preserveDrawingBuffer": false
+  },
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#231F20",
+  "cacheControl": {
+    "default": "must-revalidate"
+  }
+}

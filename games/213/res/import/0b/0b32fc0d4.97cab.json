@@ -1,0 +1,83 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c2_muffin_raw",
+      "texture": "1cbf7fc00",
+      "rect": [
+        398,
+        3,
+        148,
+        83
+      ],
+      "offset": [
+        0,
+        1.5
+      ],
+      "originalSize": [
+        170,
+        110
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c2_muffin_scorched",
+      "texture": "1cbf7fc00",
+      "rect": [
+        552,
+        3,
+        148,
+        83
+      ],
+      "offset": [
+        0,
+        1.5
+      ],
+      "originalSize": [
+        170,
+        110
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "c2_plate_1",
+      "texture": "1cbf7fc00",
+      "rect": [
+        178,
+        190,
+        214,
+        106
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        216,
+        106
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

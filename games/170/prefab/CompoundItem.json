@@ -1,0 +1,341 @@
+{
+  "type": "Box",
+  "props": {
+    "y": 0,
+    "x": 0,
+    "presetID": 1,
+    "name": "CompoundItem",
+    "isPresetRoot": true
+  },
+  "compId": 97,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 15,
+        "x": -16,
+        "width": 358,
+        "skin": "ui/Gun1.png",
+        "presetID": 2,
+        "pivotY": 179,
+        "pivotX": 179,
+        "name": "item1",
+        "height": 358
+      },
+      "compId": 98
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 15,
+        "x": -16,
+        "width": 358,
+        "skin": "ui/Gun1.png",
+        "presetID": 3,
+        "pivotY": 179,
+        "pivotX": 179,
+        "name": "item2",
+        "height": 358
+      },
+      "compId": 99
+    },
+    {
+      "type": "Sprite",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 500,
+        "texture": "ui/hy-guang.png",
+        "scaleY": 0,
+        "scaleX": 0,
+        "presetID": 5,
+        "pivotY": 250,
+        "pivotX": 250,
+        "name": "litght",
+        "height": 500
+      },
+      "compId": 101
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "width": 390,
+        "skin": "ui/Gun2.png",
+        "scaleY": 0,
+        "scaleX": 0,
+        "presetID": 4,
+        "pivotY": 164,
+        "pivotX": 195,
+        "name": "item3",
+        "height": 328
+      },
+      "compId": 100
+    }
+  ],
+  "animations": [
+    {
+      "nodes": [
+        {
+          "target": 98,
+          "keyframes": {
+            "x": [
+              {
+                "value": 100,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 98,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": 150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 98,
+                "key": "x",
+                "index": 5
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 98,
+                "key": "x",
+                "index": 10
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 98,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 98,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 99,
+          "keyframes": {
+            "x": [
+              {
+                "value": -100,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 99,
+                "key": "x",
+                "index": 0
+              },
+              {
+                "value": -150,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 99,
+                "key": "x",
+                "index": 5
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 99,
+                "key": "x",
+                "index": 10
+              }
+            ],
+            "alpha": [
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 99,
+                "key": "alpha",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 99,
+                "key": "alpha",
+                "index": 10
+              }
+            ]
+          }
+        },
+        {
+          "target": 101,
+          "keyframes": {
+            "scaleY": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 101,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 101,
+                "key": "scaleY",
+                "index": 10
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 101,
+                "key": "scaleY",
+                "index": 15
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 101,
+                "key": "scaleY",
+                "index": 20
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 101,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 101,
+                "key": "scaleX",
+                "index": 10
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 101,
+                "key": "scaleX",
+                "index": 15
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 101,
+                "key": "scaleX",
+                "index": 20
+              }
+            ]
+          }
+        },
+        {
+          "target": 100,
+          "keyframes": {
+            "width": [
+              {
+                "value": 358,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 100,
+                "key": "width",
+                "index": 0
+              }
+            ],
+            "scaleY": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 100,
+                "key": "scaleY",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 100,
+                "key": "scaleY",
+                "index": 15
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 100,
+                "key": "scaleY",
+                "index": 20
+              }
+            ],
+            "scaleX": [
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 100,
+                "key": "scaleX",
+                "index": 0
+              },
+              {
+                "value": 0,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 100,
+                "key": "scaleX",
+                "index": 15
+              },
+              {
+                "value": 1,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 100,
+                "key": "scaleX",
+                "index": 20
+              }
+            ],
+            "height": [
+              {
+                "value": 358,
+                "tweenMethod": "linearNone",
+                "tween": true,
+                "target": 100,
+                "key": "height",
+                "index": 0
+              }
+            ]
+          }
+        }
+      ],
+      "name": "ani1",
+      "id": 1,
+      "frameRate": 50,
+      "action": 0
+    }
+  ],
+  "loadList": [
+    "ui/Gun1.png",
+    "ui/hy-guang.png",
+    "ui/Gun2.png"
+  ],
+  "loadList3D": []
+}

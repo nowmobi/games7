@@ -1,0 +1,21 @@
+{
+  "companyName": "YourCompany",
+  "productName": "Cook Chinese Food Asian Cooking Gmaes",
+  "dataUrl": "p1.data.unityweb",
+  "wasmCodeUrl": "p1.wasm.code.unityweb",
+  "wasmFrameworkUrl": "p1.wasm.framework.unityweb",
+  "TOTAL_MEMORY": 268435456,
+  "graphicsAPI": [
+    "WebGL 2.0",
+    "WebGL 1.0"
+  ],
+  "webglContextAttributes": {
+    "preserveDrawingBuffer": false
+  },
+  "backgroundUrl": "p1.jpg",
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#FFFFFF",
+  "cacheControl": {
+    "default": "must-revalidate"
+  }
+}

@@ -1,0 +1,278 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "t8",
+      "texture": "1536d2a8c",
+      "rect": [
+        164,
+        982,
+        60,
+        38
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        60,
+        60
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "t10",
+      "texture": "1536d2a8c",
+      "rect": [
+        608,
+        68,
+        59,
+        46
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        60,
+        60
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "t7",
+      "texture": "1536d2a8c",
+      "rect": [
+        384,
+        376,
+        53,
+        52
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        60,
+        60
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "t4",
+      "texture": "1536d2a8c",
+      "rect": [
+        384,
+        194,
+        57,
+        58
+      ],
+      "offset": [
+        0.5,
+        -1
+      ],
+      "originalSize": [
+        60,
+        60
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "t1",
+      "texture": "1536d2a8c",
+      "rect": [
+        384,
+        69,
+        60,
+        61
+      ],
+      "offset": [
+        0,
+        -4.5
+      ],
+      "originalSize": [
+        60,
+        70
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "t6",
+      "texture": "1536d2a8c",
+      "rect": [
+        384,
+        317,
+        58,
+        53
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        60,
+        60
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "t5",
+      "texture": "1536d2a8c",
+      "rect": [
+        384,
+        257,
+        54,
+        58
+      ],
+      "offset": [
+        1,
+        0
+      ],
+      "originalSize": [
+        60,
+        60
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "t2",
+      "texture": "1536d2a8c",
+      "rect": [
+        384,
+        3,
+        60,
+        65
+      ],
+      "offset": [
+        -2,
+        -4
+      ],
+      "originalSize": [
+        64,
+        73
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "t3",
+      "texture": "1536d2a8c",
+      "rect": [
+        384,
+        135,
+        60,
+        53
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        60,
+        60
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "t9",
+      "texture": "1536d2a8c",
+      "rect": [
+        608,
+        3,
+        59,
+        48
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        60,
+        60
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

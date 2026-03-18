@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html style="height:100%;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="authoring-tool" content="Adobe_Animate_CC">
+    <title>Game</title>
+    <meta name="robots" content="index,nofollow" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <script type="text/javascript" src="//st.wgplayer.com/zeegames.com/wgAds.iframe.conf.js"></script>
+    <script type="text/javascript" src="//st.wgplayer.com/zeegames.com/js/BFbhP4O3F80NlP_-CoK_dg/2317926274/wgAds.js "></script>
+    <script src="//www.zeegames.com/parteneri.js">
+    </script>
+    <link type="text/css" rel="stylesheet" href="//www.playdora.com/preloader.css" />
+    <script>
+        window["GD_OPTIONS"] = {
+            "gameId": "",
+            "onEvent": function(event) {
+                switch (event.name) {
+                    case "SDK_GAME_START":
+                        // advertisement done, resume game logic and unmute audio
+                        exportRoot.startSnd();
+                        break;
+                    case "SDK_GAME_PAUSE":
+                        // pause game logic / mute audio
+                        exportRoot.stopSnd();
+                        break;
+                }
+            },
+        };
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://api.gamemonetize.com/sdk.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'gamemonetize-sdk'));
+        var isvisible = true;
+        document.addEventListener("visibilitychange", handleVisibilityChange, false);
+
+        function getGamename() {
+            var url = window.location.href;
+            if (url.indexOf("127.0.0.1") >= 0) {
+                return "game-under-construction";
+            } else {
+                url = url.split("?")[0];
+                var parts = url.split("/");
+                var last = parts[parts.length - 1];
+                if (!last || last.indexOf(".html") >= 0) {
+                    return parts[parts.length - 2];
+                } else return last;
+            }
+        }
+
+        function makeDivResponsive($div) {
+            //var $div = $("#_preload_div_");
+            if (!$div.attr("data-width")) $div.attr("data-width", $div.width());
+            if (!$div.attr("data-height")) $div.attr("data-height", $div.height());
+            var ratio_w = $(window).width() / $div.attr("data-width");
+            var ratio_h = $(window).height() / $div.attr("data-height");
+            if (ratio_w > ratio_h) {
+                $div.css("transform", "scale(" + ratio_h + ")");
+            } else {
+                $div.css("transform", "scale(" + ratio_w + ")");
+            }
+            $div.css("left", ($(window).width() - $div[0].getBoundingClientRect().width) / 2);
+            $div.css("top", ($(window).height() - $div[0].getBoundingClientRect().height) / 2);
+        }
+
+        function url_domain(data) {
+            var a = document.createElement('a');
+            a.href = data;
+            return a.hostname;
+        }
+        $(document).ready(function() {
+            setInterval(function() {
+                makeDivResponsive($("#_preload_div_"));
+            }, 300)
+            makeDivResponsive($("#_preload_div_"));
+            //alert($(window).width())
+        })
+        $(document).ready(function() {
+            $("#_preload_div_, #_preload_div_ *").css({
+                "-webkit-user-select": "none",
+                "-moz-user-select": "none",
+                "-ms-user-select": "none",
+                "-o-user-select": "none",
+                "user-select": "none",
+                "-webkit-tap-highlight-color": "rgba(0, 0, 0, 0)",
+                "-moz-tap-highlight-color": "rgba(0, 0, 0, 0)",
+                "tap-highlight-color": "rgba(0, 0, 0, 0)"
+            }).attr("unselectable", "on");
+        })
+        var gdSettings = {
+            gameId: "",
+            userId: "F6BA10C4-D755-4E68-AA70-B950E8B3870C-s1"
+        };
+        var preloaderUrl = "https://buzzmavo.com/category/girls/";
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-83810574-10', 'auto');
+        ga('send', 'pageview');
+        $(document).ready(function() {
+            $("title").text(getGamename().toLowerCase().replace(/-/g, " ").replace(/\b[a-z]/g, function(letter) {
+                return letter.toUpperCase();
+            }));
+        })
+        var stringHostDaria = detect_parent_Daria();
+        var QueryStringFlorin = function() {
+            var query_string = {};
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split("=");
+                if (typeof query_string[pair[0]] === "undefined") {
+                    query_string[pair[0]] = decodeURIComponent(pair[1]);
+                } else if (typeof query_string[pair[0]] === "string") {
+                    var arr = [query_string[pair[0]], decodeURIComponent(pair[1])];
+                    query_string[pair[0]] = arr;
+                } else {
+                    query_string[pair[0]].push(decodeURIComponent(pair[1]));
+                }
+            }
+            return query_string;
+        }();
+        var adsInGame = false;
+        var gdAds = false;
+
+        function detect_parent_Daria() {
+            var iframe = (parent !== window);
+            var url = null;
+            if (iframe) {
+                url = document.referrer;
+                ref = url.match(/:\/\/(.[^/]+)/)[1];
+                return ref;
+            }
+            return "daria";
+        }
+        if (stringHostDaria == "daria") {
+            stringHostDaria = window.location.hostname;
+        }
+
+        function realClick(a, b) {
+            b = "undefined" != typeof b ? b : "canvas";
+            var c = $("#rurl"),
+                d = $(b);
+            c.css({
+                display: "block",
+                top: d.offset().top,
+                left: d.offset().left,
+                width: d.width(),
+                height: d.height()
+            }), c.prop("href", a).prop("target", "_blank"), fireEvent(document.getElementById("rurl"), "click"), setTimeout(function() {
+                c.css({
+                    display: "none"
+                })
+            }, 100)
+        }
+
+        function fireEvent(a, b) {
+            var c;
+            if (a.ownerDocument) c = a.ownerDocument;
+            else {
+                if (9 != a.nodeType) throw new Error("Invalid node passed to fireEvent: " + a.id);
+                c = a
+            }
+            if (a.dispatchEvent) {
+                var d = "";
+                switch (b) {
+                    case "click":
+                    case "mousedown":
+                    case "mouseup":
+                        d = "MouseEvents";
+                        break;
+                    case "focus":
+                    case "change":
+                    case "blur":
+                    case "select":
+                        d = "HTMLEvents";
+                        break;
+                    default:
+                        throw "fireEvent: Couldn't find an event class for event '" + b + "'."
+                }
+                var e = c.createEvent(d);
+                e.initEvent(b, !0, !0), e.synthetic = !0, a.dispatchEvent(e, !0)
+            } else if (a.fireEvent) {
+                var e = c.createEventObject();
+                e.synthetic = !0, a.fireEvent("on" + b, e)
+            }
+        }
+        var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation, clickablePreloader = true,
+            gdApi;
+        var showingAds = false;
+
+        function handleVisibilityChange() {
+            if (!showingAds) {
+                if (isvisible) {
+                    isvisible = false;
+                    try {
+                        //exportRoot.checkSound();
+                        exportRoot.stopSnd();
+                    } catch (err) {
+                        console.log(err.message)
+                    }
+                } else {
+                    isvisible = true;
+                    try {
+                        exportRoot.stopSnd();
+                        exportRoot.removeSnd();
+                        exportRoot.startSnd();
+                        //exportRoot.checkSound2();
+                    } catch (err) {
+                        console.log(err.message)
+                    }
+                }
+            }
+        }
+
+        function init() {
+            loadNextImage(lib.properties.manifest, 0);
+        }
+
+        function loadNextImage(manifest, pos) {
+            if (manifest.length && manifest.length > pos) {
+                var src = manifest[pos].src.split("?")[0];
+                var ext = src.split(".").pop();
+                if (ext == "png" || ext == "jpg" || ext == "gif" || ext == "jpeg") {
+                    var img = new Image();
+                    img.addEventListener("load", function() {
+                        var proc = Math.round(((pos + 1) * 100) / manifest.length);
+                        $("#progress_text").text(proc + " %");
+                        loadNextImage(manifest, pos + 1);
+                    })
+                    img.src = manifest[pos].src;
+                } else {
+                    loadNextImage(manifest, pos + 1);
+                }
+            } else {
+                gameInit()
+            }
+        }
+
+        function getManifestPosById(id, manifest) {
+            var pos = false;
+            for (var i = 0; i < manifest.length; i++) {
+                if (manifest[i].id == id) return i;
+            }
+        }
+
+        function gameInit() {
+            canvas = document.getElementById("canvas");
+            anim_container = document.getElementById("animation_container");
+            dom_overlay_container = document.getElementById("dom_overlay_container");
+            images = images || {};
+            ss = ss || {};
+            var loader = new createjs.LoadQueue(false);
+            loader.installPlugin(createjs.Sound);
+            loader.addEventListener("fileload", handleFileLoad);
+            loader.addEventListener("complete", handleComplete);
+            loader.loadManifest(lib.properties.manifest);
+            for (var i = 0; i < partnerUrlArray.length; i++) { //Parteneri Adsense
+                if (stringHostDaria == partnerUrlArray[i]) {
+                    adsInGame = true; //Adsense activat
+                }
+            }
+        }
+
+        function handleFileLoad(evt) {
+            if (evt.item.type != "image") {
+                var pos = getManifestPosById(evt.item.id, lib.properties.manifest);
+                var proc = Math.round(((pos + 1) * 100) / lib.properties.manifest.length);
+            }
+            if (evt.item.type == "image") {
+                images[evt.item.id] = evt.result;
+            }
+        }
+
+        function handleComplete(evt) {
+            //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+            var queue = evt.target;
+            var ssMetadata = lib.ssMetadata;
+            for (i = 0; i < ssMetadata.length; i++) {
+                ss[ssMetadata[i].name] = new createjs.SpriteSheet({
+                    "images": [queue.getResult(ssMetadata[i].name)],
+                    "frames": ssMetadata[i].frames
+                })
+            }
+            var preloaderDiv = document.getElementById("_preload_div_");
+            preloaderDiv.style.display = 'none';
+            $("#animation_container").show();
+            clickablePreloader = false;
+            preloaderDiv.style.cursor = "auto";
+            canvas.style.display = 'block';
+            exportRoot = new lib.game();
+            stage = new createjs.Stage(canvas);
+            stage.addChild(exportRoot);
+            //Registers the "tick" event listener.
+            fnStartAnimation = function() {
+                createjs.Ticker.setFPS(lib.properties.fps);
+                createjs.Ticker.addEventListener("tick", stage);
+            }
+            if (gdAds === true) {
+                var settings = {
+                    gameId: gdSettings.gameId,
+                    userId: gdSettings.userId,
+                    resumeGame: resumeGame,
+                    pauseGame: pauseGame,
+                    onInit: function(data) {},
+                    onError: function(data) {
+                        console.log("Error:" + data);
+                    }
+                };
+                (function(i, s, o, g, r, a, m) {
+                    i['GameDistribution'] = r;
+                    i[r] = i[r] || function() {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    };
+                    i[r].l = 1 * new Date();
+                    a = s.createElement(o);
+                    m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m);
+                })(window, document, 'script', '//html5.api.gamedistribution.com/libs/gd/api.js', 'gdApi');
+                gdApi(settings);
+
+                function resumeGame() {
+                    showingAds = false;
+                    setTimeout(function() {
+                        exportRoot.startSnd();
+                    }, 100);
+                    console.log("Resume game");
+                }
+
+                function pauseGame() {
+                    showingAds = true;
+                    setTimeout(function() {
+                        exportRoot.stopSnd();
+                    }, 100);
+                    console.log("Pause game");
+                }
+            }
+            //Code to support hidpi screens and responsive scaling.
+            function makeResponsive(isResp, respDim, isScale, scaleType) {
+                var lastW, lastH, lastS = 1;
+                window.addEventListener('resize', resizeCanvas);
+                resizeCanvas();
+
+                function resizeCanvas() {
+                    var w = lib.properties.width,
+                        h = lib.properties.height;
+                    var iw = window.innerWidth,
+                        ih = window.innerHeight;
+                    var pRatio = window.devicePixelRatio || 1,
+                        xRatio = iw / w,
+                        yRatio = ih / h,
+                        sRatio = 1;
+                    if (isResp) {
+                        if ((respDim == 'width' && lastW == iw) || (respDim == 'height' && lastH == ih)) {
+                            sRatio = lastS;
+                        } else if (!isScale) {
+                            if (iw < w || ih < h)
+                                sRatio = Math.min(xRatio, yRatio);
+                        } else if (scaleType == 1) {
+                            sRatio = Math.min(xRatio, yRatio);
+                        } else if (scaleType == 2) {
+                            sRatio = Math.max(xRatio, yRatio);
+                        }
+                    }
+                    canvas.width = w * pRatio * sRatio;
+                    canvas.height = h * pRatio * sRatio;
+                    canvas.style.width = anim_container.style.width = dom_overlay_container.style.width = preloaderDiv.style.width = w * sRatio + 'px';
+                    canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = preloaderDiv.style.height = h * sRatio + 'px';
+                    stage.scaleX = pRatio * sRatio;
+                    stage.scaleY = pRatio * sRatio;
+                    lastW = iw;
+                    lastH = ih;
+                    lastS = sRatio;
+                }
+            }
+            makeResponsive(true, 'both', true, 1);
+            fnStartAnimation();
+        }
+
+        function playSound(id, loop) {
+            return createjs.Sound.play(id, createjs.Sound.INTERRUPT_EARLY, 0, 0, loop);
+        }
+        if (typeof(preloaderUrl) === "undefined") {
+            var preloaderUrl = "https://buzzmavo.com/category/girls/";
+        }
+        $(document).ready(function() {
+            $("body").on('click', function(event) {
+                if (clickablePreloader) {
+                    $("#rurl").on("click", function(event) {
+                        event.stopPropagation();
+                    })
+                    realClick(preloaderUrl + '?utm_campaign=' + getGamename() + '&utm_medium=preloader&utm_content=preloader&utm_source=' + stringHostDaria, "body");
+                }
+            });
+        })
+    </script>
+    <script src="game.js"></script>
+
+<style>
+        #links #imgr {
+            position: absolute;
+            border-radius: 50%;
+            width: 75px;
+            height: 75px;
+            animation: rotatei 4s infinite;
+        }
+
+        .imgs {
+            position: absolute;
+            z-index: 999999999;
+            right: 120px;
+            top: 10px;
+        }
+
+        .arrow {
+            position: absolute;
+            left: 14px;
+            top: 1px;
+            animation: uptop 1s infinite;
+            -webkit-animation: uptop 1s infinite;
+            -moz-animation: uptop 1s infinite;
+        }
+
+        @keyframes uptop {
+            0% {
+                top: 1px;
+            }
+            50% {
+                top: 25px;
+            }
+            100% {
+                top: 1px;
+            }
+        }
+
+        @keyframes rotatei {
+            0% {
+                -webkit-transform: rotate(0deg) scale(1);
+                -moz-transform: rotate(0deg) scale(1);
+                -ms-transform: rotate(0deg) scale(1);
+                -o-transform: rotate(0deg) scale(1);
+                transform: rotate(0deg) scale(1);
+            }
+            25% {
+                -webkit-transform: rotate(10deg) scale(1.3);
+                -moz-transform: rotate(10deg) scale(1.3);
+                -ms-transform: rotate(10deg) scale(1.3);
+                -o-transform: rotate(10deg) scale(1.3);
+                transform: rotate(10deg) scale(1.3);
+            }
+            50% {
+                -webkit-transform: rotate(0deg) scale(1);
+                -moz-transform: rotate(0deg) scale(1);
+                -ms-transform: rotate(0deg) scale(1);
+                -o-transform: rotate(0deg) scale(1);
+                transform: rotate(0deg) scale(1);
+            }
+            75% {
+                -webkit-transform: rotate(-10deg) scale(1.3);
+                -moz-transform: rotate(-10deg) scale(1.3);
+                -ms-transform: rotate(-10deg) scale(1.3);
+                -o-transform: rotate(-10deg) scale(1.3);
+                transform: rotate(-10deg) scale(1.3);
+            }
+            100% {
+                -webkit-transform: rotate(0deg) scale(1);
+                -moz-transform: rotate(0deg) scale(1);
+                -ms-transform: rotate(0deg) scale(1);
+                -o-transform: rotate(0deg) scale(1);
+                transform: rotate(0deg) scale(1);
+            }
+        }
+    </style>
+
+    <style>
+      /* 隐藏所有广告容器 */
+      #imaContainer,
+      #imaContainer_new,
+      #sdk__advertisement,
+      #gmLoadingText,
+      iframe[src*="imasdk"],
+      iframe[src*="doubleclick"],
+      iframe[src*="googlesyndication"],
+      iframe[title="Advertisement"],
+      div[id*="google_ads"],
+      div[id*="aswift"] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+    </style>
+    <script>
+      // 定期清除动态插入的广告元素
+      setInterval(function() {
+        var adSelectors = [
+          '#imaContainer',
+          '#imaContainer_new', 
+          '#sdk__advertisement',
+          '#gmLoadingText',
+          'iframe[src*="imasdk"]',
+          'iframe[src*="doubleclick"]',
+          'iframe[src*="googlesyndication"]',
+          'iframe[title="Advertisement"]',
+          'div[id*="google_ads"]',
+          'div[id*="aswift"]'
+        ];
+        
+        adSelectors.forEach(function(selector) {
+          var elements = document.querySelectorAll(selector);
+          elements.forEach(function(el) {
+            if (el && el.parentNode) {
+              el.parentNode.removeChild(el);
+            }
+          });
+        });
+
+        // 阻止广告SDK函数
+        if (window.sdk_init) window.sdk_init = function() {};
+        if (window.sdk) window.sdk = { showBanner: function() {}, requestAd: function() {} };
+        if (window.adBreak) window.adBreak = function() {};
+        if (window.adConfig) window.adConfig = function() {};
+      }, 500);
+    </script>
+
+  </head>
+
+<body onload="init();" style="padding:0; height:100%; width:100%; margin:0px;background-color: #f284cf;">
+    <div style="width:100%;height:100%;position:absolute;pointer-events:none;" align="center" id="gameMovie" name="gameMovie">
+        <div class="myWgLoader"></div>
+    </div>
+    <div id="animation_container" style="width:800px; height:600px">
+        <canvas id="canvas" width="800" height="600" style="position: absolute; display: none;"></canvas>
+        <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:800px; height:600px; position: absolute; left: 0px; top: 0px; display: none;"> </div>
+    </div>
+    <div id='_preload_div_' style='display: inline-block; background:url(""); height:600px; width: 800px; vertical-align=middle;position:absolute;left:0px;top:0px;text-align: center;cursor: pointer'><span style='display: inline-block; height: 100%; vertical-align: middle;'></span> <span id="preload_loading" style='vertical-align: bottom; margin-bottom: -100px; max-height: 100%; display: inline-block; position: relative'> <script type="text/javascript" style="display:none">
+//<![CDATA[
+window.__mirage2 = {petok:"8d42d5776180dbe97404f470445108be926344c3-1633317513-31536000"};
+//]]>
+</script>
+<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
+<img data-cfsrc="//www.playdora.com/load.gif" data-cfstyle="display: block" style="display:none;visibility:hidden;" /><noscript><img  src="//www.playdora.com/load.gif" style="display: block" /></noscript> <span id="progress_text">0 %</span>        </span>
+    </div>
+    <a id="rurl" href="#"></a>
+	
+	<div class="imgs">
+        <a id="links" href="" target="_blank">
+        <img  id="imgr" class="imgr" src="" alt="">
+        <img class="arrow" data-cfsrc="./imgs/arrow.png" width="45px" height="45px" alt="" style="display:none;visibility:hidden;"><noscript><img  class="arrow" src="./imgs/arrow.png" width="45px" height="45px" alt=""></noscript>
+       </a>
+
+    </div>
+    <script src="./main.js"></script>
+	
+	
+
+</body>
+<script type="text/javascript">
+    window.SDK_OPTIONS = {
+        gameId: "yqylez827wmsgmllcdlqz53i1cgwti7k",
+        onEvent: function(a) {
+            switch (a.name) {
+                case "SDK_GAME_PAUSE":
+                    // pause game logic / mute audio
+                    break;
+                case "SDK_GAME_START":
+                    // advertisement done, resume game logic and unmute audio
+                    break;
+                case "SDK_READY":
+                    // when sdk is ready
+                    break;
+            }
+        }
+    };
+    (function(a, b, c) {
+        var d = a.getElementsByTagName(b)[0];
+        a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk.js", d.parentNode.insertBefore(a, d))
+    })(document, "script", "gamemonetize-sdk");
+</script>
+<script type="text/javascript">
+    function google_analytics() {
+        if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+            sdk.showBanner();
+        }
+    };
+
+    function google_analytics_ID() {
+        if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
+            sdk.showBanner();
+        }
+    };
+    setTimeout(function() {
+        google_analytics();
+    }, 1000);
+    setInterval(function() {
+        google_analytics_ID();
+    }, 65000);
+</script>
+
+</html>

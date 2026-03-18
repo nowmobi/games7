@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_coin",
+    "texture": "1e787e1d2",
+    "rect": [
+      97,
+      247,
+      69,
+      74
+    ],
+    "offset": [
+      -2.5,
+      -5
+    ],
+    "originalSize": [
+      74,
+      84
+    ],
+    "rotated": 1,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

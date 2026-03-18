@@ -1,1 +1,0 @@
-bundle.load("main.bundle");

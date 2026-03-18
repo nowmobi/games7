@@ -1,0 +1,78 @@
+{
+  "type": "Box",
+  "props": {
+    "y": 0,
+    "x": 0,
+    "width": 154,
+    "renderType": "render",
+    "presetID": 1,
+    "name": "BoxItem",
+    "isPresetRoot": true,
+    "height": 164
+  },
+  "compId": 43,
+  "child": [
+    {
+      "type": "Image",
+      "props": {
+        "y": 0,
+        "x": 0,
+        "skin": "ui/pf_btn_wjs.png",
+        "presetID": 5,
+        "name": "Bg"
+      },
+      "compId": 47
+    },
+    {
+      "type": "Image",
+      "props": {
+        "visible": false,
+        "skin": "ui/h4_1.png",
+        "scaleY": 1,
+        "scaleX": 1,
+        "presetID": 3,
+        "name": "icon",
+        "centerY": -16,
+        "centerX": 0
+      },
+      "compId": 45
+    },
+    {
+      "type": "FontClip",
+      "props": {
+        "width": 188,
+        "var": "fcCost",
+        "value": "100",
+        "skin": "ui/sy-sz.png",
+        "sheet": "0123456789",
+        "scaleY": 0.7,
+        "scaleX": 0.7,
+        "presetID": 8,
+        "height": 50,
+        "centerX": -1,
+        "bottom": 17,
+        "align": "center"
+      },
+      "compId": 50
+    },
+    {
+      "type": "Image",
+      "props": {
+        "y": 94,
+        "x": 98.5,
+        "visible": false,
+        "skin": "ui/ty-gou.png",
+        "presetID": 9,
+        "name": "isSelect"
+      },
+      "compId": 52
+    }
+  ],
+  "loadList": [
+    "ui/pf_btn_wjs.png",
+    "ui/h4_1.png",
+    "ui/sy-sz.png",
+    "ui/ty-gou.png"
+  ],
+  "loadList3D": []
+}

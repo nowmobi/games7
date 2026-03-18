@@ -1,0 +1,58 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "pose_approval",
+      "texture": "1d1feabb0",
+      "rect": [
+        425,
+        2,
+        370,
+        528
+      ],
+      "offset": [
+        3,
+        5.5
+      ],
+      "originalSize": [
+        376,
+        557
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "pose_normal",
+      "texture": "1d1feabb0",
+      "rect": [
+        2,
+        570,
+        331,
+        556
+      ],
+      "offset": [
+        -16.5,
+        -0.5
+      ],
+      "originalSize": [
+        376,
+        557
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:ea98cf14442275e7c82b23f4f1722bbe$ -->
+<TextureAtlas imagePath="intro_texture.png">
+    <SubTexture name="introLightningLightSpriteAnim_a" x="1016" y="2" width="1" height="1" frameX="0" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="introLightningLightSpriteAnim_b" x="998" y="128" width="16" height="16"/>
+    <SubTexture name="introLightningLightSpriteAnim_c" x="1016" y="2" width="1" height="1" frameX="0" frameY="0" frameWidth="16" frameHeight="16"/>
+    <SubTexture name="introLightningLightSpriteAnim_d" x="998" y="110" width="16" height="16"/>
+    <SubTexture name="introRaysSpriteAnim_a" x="490" y="822" width="256" height="406"/>
+    <SubTexture name="introRaysSpriteAnim_b" x="2" y="726" width="256" height="406"/>
+    <SubTexture name="intro_air" x="748" y="822" width="48" height="29"/>
+    <SubTexture name="intro_black_area" x="998" y="92" width="16" height="16"/>
+    <SubTexture name="intro_black_color_1" x="998" y="74" width="16" height="16"/>
+    <SubTexture name="intro_black_color_2" x="998" y="146" width="8" height="8"/>
+    <SubTexture name="intro_bushes_1" x="2" y="484" width="512" height="240"/>
+    <SubTexture name="intro_clouds" x="516" y="2" width="480" height="256"/>
+    <SubTexture name="intro_grey_color_1" x="998" y="56" width="16" height="16"/>
+    <SubTexture name="intro_hill_1" x="2" y="2" width="512" height="480"/>
+    <SubTexture name="intro_ice_color_1" x="998" y="38" width="16" height="16"/>
+    <SubTexture name="intro_penguin_0" x="516" y="541" width="280" height="279"/>
+    <SubTexture name="intro_penguin_1" x="516" y="260" width="280" height="279"/>
+    <SubTexture name="intro_skyscrapers" x="260" y="726" width="228" height="243"/>
+    <SubTexture name="intro_white_color_1" x="998" y="20" width="16" height="16"/>
+    <SubTexture name="intro_yellow_color_1" x="998" y="2" width="16" height="16"/>
+    <SubTexture name="light_reflex_intro" x="260" y="971" width="115" height="121"/>
+    <SubTexture name="neutronizedLogo" x="798" y="528" width="182" height="266"/>
+    <SubTexture name="neutronizedLogoShadow" x="798" y="260" width="182" height="266"/>
+    <SubTexture name="rainbow_sprite" x="798" y="796" width="177" height="88"/>
+</TextureAtlas>

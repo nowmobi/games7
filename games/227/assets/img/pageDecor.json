@@ -1,0 +1,520 @@
+{
+  "frames": [
+    {
+      "filename": "pageDecor/burger1",
+      "frame": {
+        "x": 2,
+        "y": 1611,
+        "w": 298,
+        "h": 249
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 298,
+        "h": 249
+      },
+      "sourceSize": {
+        "w": 298,
+        "h": 249
+      }
+    },
+    {
+      "filename": "pageDecor/burger10",
+      "frame": {
+        "x": 645,
+        "y": 1527,
+        "w": 298,
+        "h": 263
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 298,
+        "h": 263
+      },
+      "sourceSize": {
+        "w": 298,
+        "h": 263
+      }
+    },
+    {
+      "filename": "pageDecor/burger11",
+      "frame": {
+        "x": 2,
+        "y": 1330,
+        "w": 310,
+        "h": 279
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 310,
+        "h": 279
+      },
+      "sourceSize": {
+        "w": 310,
+        "h": 279
+      }
+    },
+    {
+      "filename": "pageDecor/burger12",
+      "frame": {
+        "x": 956,
+        "y": 1242,
+        "w": 309,
+        "h": 280
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 309,
+        "h": 280
+      },
+      "sourceSize": {
+        "w": 309,
+        "h": 280
+      }
+    },
+    {
+      "filename": "pageDecor/burger13",
+      "frame": {
+        "x": 1324,
+        "y": 335,
+        "w": 298,
+        "h": 307
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 298,
+        "h": 307
+      },
+      "sourceSize": {
+        "w": 298,
+        "h": 307
+      }
+    },
+    {
+      "filename": "pageDecor/burger14",
+      "frame": {
+        "x": 1324,
+        "y": 644,
+        "w": 298,
+        "h": 296
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 298,
+        "h": 296
+      },
+      "sourceSize": {
+        "w": 298,
+        "h": 296
+      }
+    },
+    {
+      "filename": "pageDecor/burger15",
+      "frame": {
+        "x": 1324,
+        "y": 2,
+        "w": 298,
+        "h": 331
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 298,
+        "h": 331
+      },
+      "sourceSize": {
+        "w": 298,
+        "h": 331
+      }
+    },
+    {
+      "filename": "pageDecor/burger16",
+      "frame": {
+        "x": 645,
+        "y": 1247,
+        "w": 309,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 309,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 309,
+        "h": 278
+      }
+    },
+    {
+      "filename": "pageDecor/burger17",
+      "frame": {
+        "x": 1267,
+        "y": 942,
+        "w": 310,
+        "h": 323
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 310,
+        "h": 323
+      },
+      "sourceSize": {
+        "w": 310,
+        "h": 323
+      }
+    },
+    {
+      "filename": "pageDecor/burger18",
+      "frame": {
+        "x": 956,
+        "y": 867,
+        "w": 309,
+        "h": 373
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 309,
+        "h": 373
+      },
+      "sourceSize": {
+        "w": 309,
+        "h": 373
+      }
+    },
+    {
+      "filename": "pageDecor/burger19",
+      "frame": {
+        "x": 645,
+        "y": 867,
+        "w": 309,
+        "h": 378
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 309,
+        "h": 378
+      },
+      "sourceSize": {
+        "w": 309,
+        "h": 378
+      }
+    },
+    {
+      "filename": "pageDecor/burger2",
+      "frame": {
+        "x": 602,
+        "y": 1792,
+        "w": 279,
+        "h": 228
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 279,
+        "h": 228
+      },
+      "sourceSize": {
+        "w": 279,
+        "h": 228
+      }
+    },
+    {
+      "filename": "pageDecor/burger20",
+      "frame": {
+        "x": 333,
+        "y": 814,
+        "w": 310,
+        "h": 433
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 310,
+        "h": 433
+      },
+      "sourceSize": {
+        "w": 310,
+        "h": 433
+      }
+    },
+    {
+      "filename": "pageDecor/burger3",
+      "frame": {
+        "x": 302,
+        "y": 1783,
+        "w": 298,
+        "h": 232
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 298,
+        "h": 232
+      },
+      "sourceSize": {
+        "w": 298,
+        "h": 232
+      }
+    },
+    {
+      "filename": "pageDecor/burger4",
+      "frame": {
+        "x": 314,
+        "y": 1539,
+        "w": 310,
+        "h": 242
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 310,
+        "h": 242
+      },
+      "sourceSize": {
+        "w": 310,
+        "h": 242
+      }
+    },
+    {
+      "filename": "pageDecor/burger5",
+      "frame": {
+        "x": 945,
+        "y": 1783,
+        "w": 298,
+        "h": 222
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 298,
+        "h": 222
+      },
+      "sourceSize": {
+        "w": 298,
+        "h": 222
+      }
+    },
+    {
+      "filename": "pageDecor/burger6",
+      "frame": {
+        "x": 333,
+        "y": 1249,
+        "w": 310,
+        "h": 288
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 310,
+        "h": 288
+      },
+      "sourceSize": {
+        "w": 310,
+        "h": 288
+      }
+    },
+    {
+      "filename": "pageDecor/burger7",
+      "frame": {
+        "x": 956,
+        "y": 1524,
+        "w": 309,
+        "h": 257
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 309,
+        "h": 257
+      },
+      "sourceSize": {
+        "w": 309,
+        "h": 257
+      }
+    },
+    {
+      "filename": "pageDecor/burger8",
+      "frame": {
+        "x": 1267,
+        "y": 1556,
+        "w": 279,
+        "h": 263
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 279,
+        "h": 263
+      },
+      "sourceSize": {
+        "w": 279,
+        "h": 263
+      }
+    },
+    {
+      "filename": "pageDecor/burger9",
+      "frame": {
+        "x": 1267,
+        "y": 1267,
+        "w": 298,
+        "h": 287
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 298,
+        "h": 287
+      },
+      "sourceSize": {
+        "w": 298,
+        "h": 287
+      }
+    },
+    {
+      "filename": "pageDecor/cust",
+      "frame": {
+        "x": 2,
+        "y": 814,
+        "w": 329,
+        "h": 514
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 329,
+        "h": 514
+      },
+      "sourceSize": {
+        "w": 329,
+        "h": 514
+      }
+    },
+    {
+      "filename": "pageDecor/homebox",
+      "frame": {
+        "x": 701,
+        "y": 2,
+        "w": 621,
+        "h": 863
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 621,
+        "h": 863
+      },
+      "sourceSize": {
+        "w": 621,
+        "h": 863
+      }
+    },
+    {
+      "filename": "pageDecor/menubook",
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 697,
+        "h": 810
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 380,
+        "y": 0,
+        "w": 697,
+        "h": 810
+      },
+      "sourceSize": {
+        "w": 1077,
+        "h": 810
+      }
+    },
+    {
+      "filename": "pageDecor/pricetag",
+      "frame": {
+        "x": 2,
+        "y": 1862,
+        "w": 90,
+        "h": 89
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 89
+      },
+      "sourceSize": {
+        "w": 90,
+        "h": 89
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "pageDecor.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1624,
+      "h": 2022
+    },
+    "scale": "0.5",
+    "smartupdate": "$TexturePacker:SmartUpdate:f83b644228088ee2854b4a5a385d62bb:d8983af21bc1dfa8804d3f22c4f46982:de7d496e4c0527bdad0c3e9b913c4c6d$"
+  }
+}
