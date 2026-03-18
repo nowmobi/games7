@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ninja Turtles: Pizza Like A Turtle Do!</title>
+
+    <script src="js/exposesdk.js"></script>
+
+
+    <script src="jsembed.js"></script>
+    <script type="text/javascript">
+        // Parameters configure jsembed itself.
+        var params = {
+            //base: "/games/data/spongebob/spongebob-bikini-bottom-bop-em/html5/", // base url of all content. Defaults ""
+            base: "",
+            api: "flambe", // supported custom apis are defined in jsembed. Defaults none.
+            autoscale: "true", // update window.canvasScale on window resize? Defaults true.
+            indexroot: "true", // use index url as path root? If false, uses domain root instead. Defaults false (uses domain root).
+            libs: ["flambe.js"] // array of libs to embed before trying to launch app. Defaults []
+        }
+        // Attributes will be set on the embed target for use by the app. "base" will be set as well.
+        var attr = {};
+        jsembed.embed("flambe.js", "embedtarget", "960", "560", params, attr);
+    </script>
+
+    <script language="JavaScript">
+        function trackFlashEvent(gameTitle, gameEvent, playEvent) {
+            window.alert('tracking:' + gameTitle + gameEvent + playEvent);
+        }
+    </script>
+	<link rel="stylesheet" href="app.css" type="text/css">
+    <style>
+        #sg-loadscrn {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            z-index: 9999;
+        }
+
+        #sg-loadtext {
+            position: absolute;
+            font-family: sans-serif;
+            top: 50%;
+            left: 50%;
+            width: 250px;
+            margin-left: -125px;
+            margin-top: -125px;
+            text-align: center;
+            line-height: 150%;
+            font-size: 16px;
+        }
+    </style>
+
+</head>
+
+<body style="padding: 0; margin: 0; background-color: black">
+    <div id="embedtarget"></div>
+	<script type="text/javascript">
+        window.SDK_OPTIONS = {
+            gameId: "ryjvll6g3k0bwh35en4suyuu0oqj7qa6",
+            onEvent: function(a) {
+                switch (a.name) {
+                    case "SDK_GAME_PAUSE":
+                        // pause game logic / mute audio
+                        break;
+                    case "SDK_GAME_START":
+                        // advertisement done, resume game logic and unmute audio
+                        break;
+                    case "SDK_READY":
+                        // when sdk is ready
+                        break;
+                }
+            }
+        };
+        (function(a, b, c) {
+            var d = a.getElementsByTagName(b)[0];
+            a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk.js", d.parentNode.insertBefore(a, d))
+        })(document, "script", "gamemonetize-sdk");
+    </script>
+	<script>
+    (function(a, b, c) {
+        var d = a.getElementsByTagName(b)[0];
+        a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "" + Date.now(), d.parentNode.insertBefore(a, d))
+    })(document, "script", "gamemonetize-mobile-api");
+	</script>
+	<script type="text/javascript">
+        function analytics() {sdk.showBanner();};
+        function analytics_ID() {sdk.showBanner();};
+        setTimeout(function() {analytics();}, 1000);
+        setInterval(function() {analytics_ID();}, 75000);
+    </script>
+     <div class="game-footer">
+        <div class="jss31 jss39 jss51">
+            <div class="jss32" style="flex: 1 1 0%;">
+                <div class="jss31 jss39">
+                    <div class="jss32">
+                        <div style="place-content: center; align-items: center; box-sizing: border-box; display: flex; flex-flow: row nowrap;">
+                            <div class="game-footer-logo game-footer-btn">
+                                <a href="https://kizgame.com/" target="_blank">
+                                    <div class="jss125">
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="jss32">
+                <div class="jss31 jss51">
+                    <div class="jss32">
+                        <div class="game-footer-btn game-footer-more">
+                            <div style="/* place-content: center; // align-items: center; // box-sizing: border-box; // display: flex; // flex-flow: row nowrap; // height: 100%; */"><a href="https://kizgame.com/" class="game-footer-link" target="_blank">More games »</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
