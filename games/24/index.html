@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8" />
@@ -39,60 +39,7 @@
 		}
     </style>
 	
-
-
-    <style>
-      /* 隐藏所有广告容器 */
-      #imaContainer,
-      #imaContainer_new,
-      #sdk__advertisement,
-      #gmLoadingText,
-      iframe[src*="imasdk"],
-      iframe[src*="doubleclick"],
-      iframe[src*="googlesyndication"],
-      iframe[title="Advertisement"],
-      div[id*="google_ads"],
-      div[id*="aswift"] {
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        pointer-events: none !important;
-      }
-    </style>
-    <script>
-      // 定期清除动态插入的广告元素
-      setInterval(function() {
-        var adSelectors = [
-          '#imaContainer',
-          '#imaContainer_new', 
-          '#sdk__advertisement',
-          '#gmLoadingText',
-          'iframe[src*="imasdk"]',
-          'iframe[src*="doubleclick"]',
-          'iframe[src*="googlesyndication"]',
-          'iframe[title="Advertisement"]',
-          'div[id*="google_ads"]',
-          'div[id*="aswift"]'
-        ];
-        
-        adSelectors.forEach(function(selector) {
-          var elements = document.querySelectorAll(selector);
-          elements.forEach(function(el) {
-            if (el && el.parentNode) {
-              el.parentNode.removeChild(el);
-            }
-          });
-        });
-
-        // 阻止广告SDK函数
-        if (window.sdk_init) window.sdk_init = function() {};
-        if (window.sdk) window.sdk = { showBanner: function() {}, requestAd: function() {} };
-        if (window.adBreak) window.adBreak = function() {};
-        if (window.adConfig) window.adConfig = function() {};
-      }, 500);
-    </script>
-
-  </head> 
+</head> 
  
 <body> 
 	<div id="fb-root"></div>
@@ -184,12 +131,80 @@
 			}
 		};
     </script>
-<script>
-(function (a, b, c) {
-   var d = a.getElementsByTagName(b)[0];
-   a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk_preload.js?v=" + Date.now(), d.parentNode.insertBefore(a, d))
-})(document, "script", "gamemonetize-preload-api");
-</script>
+	<script>
+	// 拦截 GameMonetize SDK 广告
+	(function() {
+		// 阻止 SDK 加载
+		var originalCreateElement = document.createElement;
+		document.createElement = function(tagName) {
+			var element = originalCreateElement.call(document, tagName);
+			return element;
+		};
+		
+		// 拦截 script 标签的 src 设置
+		var originalSetAttribute = HTMLScriptElement.prototype.setAttribute;
+		HTMLScriptElement.prototype.setAttribute = function(name, value) {
+			if (name === 'src' && value && value.indexOf('gamemonetize') !== -1) {
+				console.log('Blocked GameMonetize SDK loading:', value);
+				return; // 阻止加载
+			}
+			originalSetAttribute.call(this, name, value);
+		};
+		
+		// 覆盖 gamemonetize 对象
+		window.gamemonetize = window.gamemonetize || {};
+		window.gamemonetize.InitAds = function() {
+			console.log('GameMonetize InitAds blocked');
+		};
+		
+		// 阻止 sdk 对象的方法
+		var blockSDKMethods = function() {
+			if (window.sdk) {
+				window.sdk.showBanner = function() { console.log('Ad showBanner blocked'); };
+				window.sdk.play = function() { console.log('Ad play blocked'); };
+				window.sdk.customLog = function() { console.log('Ad customLog blocked'); };
+				window.sdk.requestAd = function() { console.log('Ad requestAd blocked'); };
+			}
+		};
+		
+		// 定期检查并拦截
+		setInterval(blockSDKMethods, 100);
+		
+		// 移除广告相关元素
+		var removeAdElements = function() {
+			var adSelectors = [
+				'#imaContainer',
+				'#imaContainer_new', 
+				'#sdk__advertisement',
+				'#gmLoadingText',
+				'iframe[src*="imasdk"]',
+				'iframe[src*="doubleclick"]',
+				'iframe[src*="googlesyndication"]',
+				'iframe[title="Advertisement"]',
+				'div[id*="google_ads"]',
+				'div[id*="aswift"]',
+				'script[src*="gamemonetize"]',
+				'script[src*="sdk.js"]'
+			];
+			
+			adSelectors.forEach(function(selector) {
+				var elements = document.querySelectorAll(selector);
+				elements.forEach(function(el) {
+					if (el && el.parentNode) {
+						el.parentNode.removeChild(el);
+						console.log('Removed ad element:', selector);
+					}
+				});
+			});
+		};
+		
+		// 定期清理广告元素
+		setInterval(removeAdElements, 200);
+		
+		// 立即执行一次
+		removeAdElements();
+	})();
+	</script>
 
 
 </body> 

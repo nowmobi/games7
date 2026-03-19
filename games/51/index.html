@@ -57,7 +57,13 @@
       iframe[src*="googlesyndication"],
       iframe[title="Advertisement"],
       div[id*="google_ads"],
-      div[id*="aswift"] {
+      div[id*="aswift"],
+      #gamemonetize-sdk,
+      #gamemonetize-preload-api,
+      [class*="ad-"],
+      [class*="ads-"],
+      [id*="ad-"],
+      [id*="ads-"] {
         display: none !important;
         visibility: hidden !important;
         opacity: 0 !important;
@@ -65,6 +71,32 @@
       }
     </style>
     <script>
+      // 阻止广告 SDK 加载
+      var originalCreateElement = document.createElement.bind(document);
+      document.createElement = function(tagName) {
+        var element = originalCreateElement(tagName);
+        return element;
+      };
+
+      // 拦截 script 标签的 src 设置
+      Object.defineProperty(HTMLScriptElement.prototype, 'src', {
+        set: function(value) {
+          if (value && (value.includes('gamemonetize') || 
+              value.includes('ads.') || 
+              value.includes('advertise') ||
+              value.includes('doubleclick') ||
+              value.includes('googlesyndication'))) {
+            console.log('Blocked ad script:', value);
+            this.setAttribute('data-blocked-src', value);
+            return;
+          }
+          this.setAttribute('src', value);
+        },
+        get: function() {
+          return this.getAttribute('src');
+        }
+      });
+
       // 定期清除动态插入的广告元素
       setInterval(function() {
         var adSelectors = [
@@ -77,7 +109,9 @@
           'iframe[src*="googlesyndication"]',
           'iframe[title="Advertisement"]',
           'div[id*="google_ads"]',
-          'div[id*="aswift"]'
+          'div[id*="aswift"]',
+          '#gamemonetize-sdk',
+          '#gamemonetize-preload-api'
         ];
         
         adSelectors.forEach(function(selector) {
@@ -89,11 +123,13 @@
           });
         });
 
-        // 阻止广告SDK函数
+        // 阻止广告 SDK 函数
         if (window.sdk_init) window.sdk_init = function() {};
         if (window.sdk) window.sdk = { showBanner: function() {}, requestAd: function() {} };
         if (window.adBreak) window.adBreak = function() {};
         if (window.adConfig) window.adConfig = function() {};
+        if (window.google_analytics) window.google_analytics = function() {};
+        if (window.google_analytics_ID) window.google_analytics_ID = function() {};
       }, 500);
     </script>
 
@@ -187,14 +223,5 @@
         };
     </script>
     
-<script>
-(function (a, b, c) {
-   var d = a.getElementsByTagName(b)[0];
-   a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk_preload.js?v=" + Date.now(), d.parentNode.insertBefore(a, d))
-})(document, "script", "gamemonetize-preload-api");
-</script>
-
-
-</body>
-
-</html>
+<!-- 已禁用广告 SDK 加载 -->
+```

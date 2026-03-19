@@ -1,3 +1,5 @@
+// 注释掉广告 SDK 加载代码
+/*
 window.SDK_OPTIONS = {
     gameId: "cf6pwvtlghlup2ncdhzjvacxi5paszja",
     onEvent: function(a) {
@@ -41,3 +43,9 @@ setTimeout(function() {
 setInterval(function() {
     google_analytics_ID();
 }, 45000);
+*/
+
+// 替换为空函数防止错误
+window.SDK_OPTIONS = {};
+function google_analytics() {}
+function google_analytics_ID() {}
