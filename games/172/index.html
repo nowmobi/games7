@@ -43,9 +43,7 @@
         }
     </style>
 
-
-
-    <style>
+```
       /* 隐藏所有广告容器 */
       #imaContainer,
       #imaContainer_new,
@@ -134,8 +132,6 @@
     <!-- Construct 2 exported games require jQuery. -->
     <script src="jquery-2.1.1.min.js"></script>
 
-
-
     <!-- The runtime script.  You can rename it, but don't forget to rename the reference here as well.
     This file will have been minified and obfuscated if you enabled "Minify script" during export. -->
     <script src="c2runtime.js"></script>
@@ -145,7 +141,41 @@
         jQuery(document).ready(function() {
             // Create new runtime using the c2canvas
             cr_createRuntime("c2canvas");
+            
+            // 检测设备方向并显示旋转提示
+            checkOrientation();
         });
+        
+        // 检测是否为移动设备
+        function isMobile() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        }
+        
+        // 检查设备方向
+        function checkOrientation() {
+            if (!isMobile()) {
+                return; // 非移动设备不显示
+            }
+            
+            var rotateMessage = document.getElementById('rotate-message');
+            
+            // 判断是否为竖屏 (portrait)
+            if (window.innerHeight > window.innerWidth) {
+                rotateMessage.classList.add('show');
+            } else {
+                rotateMessage.classList.remove('show');
+            }
+        }
+        
+        // 监听方向变化
+        window.addEventListener('orientationchange', function() {
+            checkOrientation();
+        }, false);
+        
+        // 也监听 resize 事件作为补充
+        window.addEventListener('resize', function() {
+            checkOrientation();
+        }, false);
 
         // Pause and resume on page becoming visible/invisible
         function onVisibilityChanged() {
