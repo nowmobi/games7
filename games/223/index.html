@@ -88,6 +88,87 @@
         }
     </style>
     <style>
+        /* 隐藏所有可能的广告容器 */
+        #imaContainer,
+        #imaContainer_new,
+        #sdk__advertisement,
+        #gmLoadingText,
+        iframe[src*="imasdk"],
+        iframe[src*="doubleclick"],
+        iframe[src*="googlesyndication"],
+        iframe[title="Advertisement"],
+        div[id*="google_ads"],
+        div[id*="aswift"],
+        div[id*="google_image_div"],
+        div[id*="google_ads_frame"],
+        div[class*="google"],
+        div[class*="adsbygoogle"],
+        div[id^="ad-container"],
+        div[id^="google_ads"],
+        .adsbygoogle,
+        .google-ad,
+        .ad-banner,
+        .ad-container {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+            position: absolute !important;
+            left: -9999px !important;
+            top: -9999px !important;
+            width: 1px !important;
+            height: 1px !important;
+            overflow: hidden !important;
+            z-index: -9999 !important;
+        }
+    </style>
+    <script>
+        // 阻止广告加载函数
+        window.google_ad_client = undefined;
+        window.adsbygoogle = [];
+        
+        // 定期清除动态插入的广告元素
+        setInterval(function() {
+            var adSelectors = [
+                '#imaContainer',
+                '#imaContainer_new', 
+                '#sdk__advertisement',
+                '#gmLoadingText',
+                'iframe[src*="imasdk"]',
+                'iframe[src*="doubleclick"]',
+                'iframe[src*="googlesyndication"]',
+                'iframe[title="Advertisement"]',
+                'div[id*="google_ads"]',
+                'div[id*="aswift"]',
+                'div[id*="google_image_div"]',
+                'div[id*="google_ads_frame"]',
+                'div[id^="ad-container"]',
+                'div[id^="google_ads"]',
+                '.adsbygoogle',
+                '.google-ad',
+                '.ad-banner',
+                '.ad-container'
+            ];
+            
+            adSelectors.forEach(function(selector) {
+                var elements = document.querySelectorAll(selector);
+                elements.forEach(function(el) {
+                    if (el && el.parentNode) {
+                        el.parentNode.removeChild(el);
+                    }
+                });
+            });
+
+            // 阻止广告SDK函数
+            if (window.sdk_init) window.sdk_init = function() {};
+            if (window.sdk) window.sdk = { showBanner: function() {}, requestAd: function() {} };
+            if (window.adBreak) window.adBreak = function() {};
+            if (window.adConfig) window.adConfig = function() {};
+            if (window.showAd) window.showAd = function() {};
+            if (window.loadAd) window.loadAd = function() {};
+        }, 500);
+    </script>
+    <style>
         a {
             text-decoration: none;
         }
@@ -216,11 +297,13 @@
             border-radius: 7px;
             /* background: #0006; */
             transition: all 2.0s;
+            display: none !important;
         }
 
         #siteInfo.show {
             visibility: visible;
             /* left: 0px; */
+            display: none !important;
         }
 
         #siteInfo .siteInfoContainer {
@@ -243,57 +326,6 @@
         @media (hover: none) {}
     </style>
 
-    <style>
-      /* 隐藏所有广告容器 */
-      #imaContainer,
-      #imaContainer_new,
-      #sdk__advertisement,
-      #gmLoadingText,
-      iframe[src*="imasdk"],
-      iframe[src*="doubleclick"],
-      iframe[src*="googlesyndication"],
-      iframe[title="Advertisement"],
-      div[id*="google_ads"],
-      div[id*="aswift"] {
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        pointer-events: none !important;
-      }
-    </style>
-    <script>
-      // 定期清除动态插入的广告元素
-      setInterval(function() {
-        var adSelectors = [
-          '#imaContainer',
-          '#imaContainer_new', 
-          '#sdk__advertisement',
-          '#gmLoadingText',
-          'iframe[src*="imasdk"]',
-          'iframe[src*="doubleclick"]',
-          'iframe[src*="googlesyndication"]',
-          'iframe[title="Advertisement"]',
-          'div[id*="google_ads"]',
-          'div[id*="aswift"]'
-        ];
-        
-        adSelectors.forEach(function(selector) {
-          var elements = document.querySelectorAll(selector);
-          elements.forEach(function(el) {
-            if (el && el.parentNode) {
-              el.parentNode.removeChild(el);
-            }
-          });
-        });
-
-        // 阻止广告SDK函数
-        if (window.sdk_init) window.sdk_init = function() {};
-        if (window.sdk) window.sdk = { showBanner: function() {}, requestAd: function() {} };
-        if (window.adBreak) window.adBreak = function() {};
-        if (window.adConfig) window.adConfig = function() {};
-      }, 500);
-    </script>
-
   </head>
 
 <body onload="window.onresize();">
@@ -301,15 +333,9 @@
     <div id="blurBackground"></div>
     <div id="loadingBox">
         <a id="gameLogo" class="animated zoomIn  noselect" href="http://3v3.info" target="_blank">
-			<script type="text/javascript" style="display:none">
-//<![CDATA[
-window.__mirage2 = {petok:"596aeeedc8ae0c242cbf55ca8e73510a0d8b5e1b-1634500323-31536000"};
-//]]>
-</script>
-<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
-<img data-cfsrc="TemplateData/images/gamelogo.png" alt="Logo" style="display:none;visibility:hidden;"><noscript><img src="TemplateData/images/gamelogo.png" alt="Logo"></noscript>
-			<p id="gameTitle"></p>
-		</a>
+            <img src="TemplateData/images/gamelogo.png" alt="Logo">
+            <p id="gameTitle"></p>
+        </a>
 
         <div id="loadingSection">
             <div id="bgBar">
@@ -320,8 +346,8 @@ window.__mirage2 = {petok:"596aeeedc8ae0c242cbf55ca8e73510a0d8b5e1b-1634500323-3
         </div>
 
         <a id="studioLogo" class="animated fadeIn noselect" href="http://3v3.info" target="_blank">
-			<img data-cfsrc="TemplateData/images/studiologo.png" alt="Roro8" style="display:none;visibility:hidden;"><noscript><img src="TemplateData/images/studiologo.png" alt="Roro8"></noscript>
-		</a>
+            <img src="TemplateData/images/studiologo.png" alt="Roro8">
+        </a>
     </div>
 
     <div id="gameContainer" style="width: 432px; height: 768px;">
@@ -329,17 +355,9 @@ window.__mirage2 = {petok:"596aeeedc8ae0c242cbf55ca8e73510a0d8b5e1b-1634500323-3
 
     <a id="siteInfo" class="noselect" href="http://3v3.info" target="_blank">
         <div class="siteInfoContainer">
-            <img data-cfsrc="TemplateData/images/site_info.png" alt="http://3v3.info" style="display:none;visibility:hidden;"><noscript><img src="TemplateData/images/site_info.png" alt="http://3v3.info"></noscript>
+            <img src="TemplateData/images/site_info.png" alt="http://3v3.info">
         </div>
     </a>
-
-
-<script>
-(function (a, b, c) {
-   var d = a.getElementsByTagName(b)[0];
-   a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk_preload.js?v=" + Date.now(), d.parentNode.insertBefore(a, d))
-})(document, "script", "gamemonetize-preload-api");
-</script>
 
 
 </body>

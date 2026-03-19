@@ -1,10 +1,10 @@
 var currentProgress = 0;
 
 function ShowSiteInfo() {
-    // $("#siteInfo").style = $("#gameContainer").style;
-    $("#gameContainer").append($("#siteInfo"));
-    $("#siteInfo").addClass("show");
-    $("#siteInfo").fadeIn(400);
+    // 不显示广告区域
+    // $("#gameContainer").append($("#siteInfo"));
+    // $("#siteInfo").addClass("show");
+    // $("#siteInfo").fadeIn(400);
     // console.log();
 }
 

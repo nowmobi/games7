@@ -81,6 +81,64 @@
 			},		
 		});
     </script>
+  
+    <style>
+		/* Hide ad containers */
+		#imaContainer, #imaContainer_new, #sdk__advertisement, #gmLoadingText {
+			display: none !important;
+		}
+		
+		iframe[src*="googleads"], iframe[id*="google"], div[id*="google_ads"], div[id*="div-gpt"] {
+			display: none !important;
+		}
+		
+		#warningMobileBlock, #warningBrowserBlock {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.8);
+			display: none;
+			text-align: center;
+			padding-top: 20%;
+		}
+		
+		#warningContent {
+			background: linear-gradient(to bottom, #3a4054, #2f3444);
+			padding: 30px;
+			border-radius: 10px;
+			display: inline-block;
+			min-width: 400px;
+		}
+		
+		#warningMobileText, #warningBrowserText {
+			color: white;
+			font-family: Arial, sans-serif;
+			font-size: 18px;
+			margin-bottom: 20px;
+			line-height: 1.5;
+		}
+		
+		#warningMobileBlock button, #warningBrowserBlock button {
+			background: linear-gradient(to bottom, #4CAF50, #45a049);
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-top: 15px;
+		}
+		
+		#warningMobileBlock button:hover, #warningBrowserBlock button:hover {
+			background: linear-gradient(to bottom, #45a049, #3d8b40);
+		}
+    </style>
+
   </head>
   <body>
   
@@ -122,17 +180,29 @@ window.__mirage2 = {petok:"aCj.QNwGUOfLrCmu67eagpL0xPleX_OUL2kyVMsyHGk-31536000-
 				</div>
 			</div>
 		</div>
+		<div id="warningMobileBlock" style="display:none;">
+			<img class="logo" data-cfsrc="TemplateData/img/Logo.png" style="display:none;visibility:hidden;"><noscript><img class="logo" src="TemplateData/img/Logo.png"></noscript></img>
+			<div id="warningContent">
+				<div id="warningMobileText">
+					This game is optimized for desktop devices. You can still play, but the experience may be better on a desktop computer.
+				</div>
+				<button onclick="document.getElementById('warningMobileBlock').style.display='none'">Play Anyway</button>
+			</div>
+		</div>
+		<div id="warningBrowserBlock" style="display:none;">
+			<img class="logo" data-cfsrc="TemplateData/img/Logo.png" style="display:none;visibility:hidden;"><noscript><img class="logo" src="TemplateData/img/Logo.png"></noscript></img>
+			<div id="warningContent">
+				<div id="warningBrowserText">
+					This game is optimized for Chrome and Firefox browsers. You can still play, but you may experience issues.
+				</div>
+				<button onclick="document.getElementById('warningBrowserBlock').style.display='none'">Play Anyway</button>
+			</div>
+		</div>
 		
 		
 	</div>
 	<div class="simmer">Game by: <a href="https://tophat-games.com" target="_blank">tophat-games.com</a></div>
 	<script src="TemplateData/js/app.js"></script>
-  <script>
-(function (a, b, c) {
-   var d = a.getElementsByTagName(b)[0];
-   a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk_preload.js?v=" + Date.now(), d.parentNode.insertBefore(a, d))
-})(document, "script", "gamemonetize-preload-api");
-</script>
 
 
 </body>
