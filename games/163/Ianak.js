@@ -1,45 +1,8 @@
 
 
-window.SDK_OPTIONS = {
-    gameId: "a4mtm6wfnhnovnvltxc6ushpllh2hlww",
-    onEvent: function (a) {
-        switch (a.name) {
-            case "SDK_GAME_PAUSE":
-                // pause game logic / mute audio
-                break;
-            case "SDK_GAME_START":
-                // advertisement done, resume game logic and unmute audio
-                break;
-            case "SDK_READY":
-                // when sdk is ready
-                break;
-        }
-    }
-};
-(function (a, b, c) {
-    var d = a.getElementsByTagName(b)[0];
-    a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/sdk.js", d.parentNode.insertBefore(a, d))
-})(document, "script", "gamemonetize-sdk");
+// 禁用广告 SDK
+window.SDK_OPTIONS = null;
 
-
-
-
-function google_analytics() {
-    if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
-        sdk.showBanner();
-    }
-};
-
-function google_analytics_ID() {
-    if (typeof sdk !== 'undefined' && sdk.showBanner !== 'undefined') {
-        sdk.showBanner();
-    }
-};
-
-
-setTimeout(function () {
-    google_analytics();
-}, 5000);
-setInterval(function () {
-    google_analytics_ID();
-}, 65000);
+// 禁用所有广告相关函数
+window.google_analytics = function() {};
+window.google_analytics_ID = function() {};
